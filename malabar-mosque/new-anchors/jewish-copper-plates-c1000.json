@@ -1,0 +1,27 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "jewish-copper-plates-c1000",
+ "indian_entity": "Joseph Rabban and the Jewish guild (Anjuvannam) of Kodungallur",
+ "aliases": [
+  "Jewish copper plates of Cochin",
+  "Cochin plates of Bhaskara Ravi"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Jewish copper plates of Cochin — Old Malayalam (Vattezhuthu with Grantha) royal charter of Bhaskara Ravi Varma (local epigraphy)",
+ "source_type": "inscription",
+ "event": "Bhaskara Ravi grants Joseph Rabban the rights of the Anjuvannam merchant guild and aristocratic privileges at Muyirikkottu (Kodungallur) — a chartered Jewish merchant lordship at the old Chera capital",
+ "date_raw": "38th regnal year of Bhaskara Ravi Varma",
+ "date_ce": [
+  1000,
+  1001
+ ],
+ "constraint_type": "floruit",
+ "firmness": "probable",
+ "firmness_reason": "Epigraphic consensus (Narayanan 1972 and successors) dates the plates c. 1000 CE via Bhaskara Ravi's accession c. 962; the community's traditional date is 379 CE",
+ "notes": "Web anchor for the Kodungallur node: the plates are genuine, their traditional date overshoots the epigraphic date by ~620 years — the same tradition-vs-attestation gap shape as the Cheraman mosque claim (629 vs 11th-12th-c. fabric). Jewish presence on the coast is independently firm by 849 (Hebrew signatures on the Quilon plates).",
+ "references": [
+  "Narayanan, M. G. S., Cultural Symbiosis in Kerala (1972); Perumals of Kerala (1996/2013)"
+ ]
+}

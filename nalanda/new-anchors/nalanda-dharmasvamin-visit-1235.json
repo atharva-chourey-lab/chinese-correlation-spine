@@ -1,0 +1,29 @@
+{
+ "id": "nalanda-dharmasvamin-visit-1235",
+ "indian_entity": "Nalanda mahavihara (Dharmasvamin's visit)",
+ "aliases": [
+  "Dharmasvamin",
+  "Chag lo-tsa-ba",
+  "Rahulasribhadra"
+ ],
+ "entity_type": "event",
+ "chinese_source": "EXTERNAL pilgrim anchor (Tibetan, non-Chinese): Biography of Dharmasvamin (Chag lo-tsa-ba Chos-rje-dpal), dictated by the pilgrim, tr. Roerich (1959)",
+ "source_type": "pilgrim",
+ "event": "Dharmasvamin studies at Nalanda in 1235 for about six months: the site is damaged and largely deserted after the Turushka raids, but two viharas remain serviceable and the aged abbot Rahulasribhadra (over 90) is still teaching a class of about 70 students",
+ "date_raw": "Visit dated by the biography's itinerary to 1235 (in India 1234-1236)",
+ "date_ce": [
+  1234,
+  1236
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Near-eyewitness (dictated by the pilgrim to his biographer); the small numbers are non-round and circumstantial (70 students, a named teacher, a dated raid scare) — the most credible population data point in the whole series, at the series' end",
+ "notes": "His hearsay memory of Nalanda's former extent — 7 temples, 14 large and 84 small monasteries — is graded rhetoric in the stats file (84 is a canonical number), but the 70 students is a count, not a trope. Refutes the textbook claim of total destruction c. 1193-1200: the institution was wounded, not annihilated, and teaching continued four decades on.",
+ "references": [
+  "George Roerich (tr.), Biography of Dharmasvamin (1959), with A. S. Altekar's introduction",
+  "Biography of Dharmasvamin, Tibetan text ed. Roerich"
+ ]
+}

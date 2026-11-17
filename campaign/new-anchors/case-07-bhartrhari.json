@@ -1,0 +1,30 @@
+[
+  {
+    "aliases": [
+      "Bhartrhari",
+      "Vakyapadiya author"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "bhartrhari-death-yijing-691",
+    "indian_entity": "Bhartrhari (grammarian)",
+    "entity_type": "author",
+    "chinese_source": "Yijing, Nanhai jigui neifa zhuan, grammar chapter (sent to China 691)",
+    "source_type": "pilgrim",
+    "event": "Yijing names Bhartrhari's works, makes him a contemporary of Dharmapala, and states 'it is forty years since his death' - implying death c. 651-652 CE",
+    "date_raw": "Written 691 (Tianhou era)",
+    "date_ce": [
+      691,
+      691
+    ],
+    "constraint_type": "floruit",
+    "firmness": "probable",
+    "firmness_reason": "Firm as a record of what Yijing reports; Probable as history (Frauwallner-line pushback and the two-Bhartrhari escape hatch are documented in the spine)",
+    "notes": "Campaign case 7 (calibration): verdict CORRECTED. Muller: 'a new sheet-anchor in the chronology of Sanskrit literature.' Cf. spine C26.",
+    "references": [
+      "Yijing, Nanhai jigui (trans. Takakusu 1896)",
+      "Campaign CORRECTIONS.md case 7"
+    ]
+  }
+]

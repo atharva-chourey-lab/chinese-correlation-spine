@@ -1,0 +1,27 @@
+{
+  "id": "baolin-zhuan-patriarch-list-801",
+  "indian_entity": "28 Indian patriarchs list (Chan)",
+  "aliases": [
+    "Baolin Zhuan"
+  ],
+  "entity_type": "event",
+  "chinese_source": "Baolin Zhuan (801), lost; known through quotation and the list it standardised",
+  "source_type": "catalogue",
+  "event": "The Baolin Zhuan fixes the canonical list of 28 Indian patriarchs ending Prajnatara (27) - Bodhidharma (28), reopening the line the Fu Fazang Yinyuan Zhuan (472) had closed at Simha's beheading by inserting Basiasita, Punyamitra and Prajnatara",
+  "date_raw": "Tang, Zhenyuan 17 (801)",
+  "date_ce": [
+    801,
+    801
+  ],
+  "constraint_type": "TAQ",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "probable",
+  "firmness_reason": "The fixing of the list at 801 is the standard scholarly account, but the text is lost and the list is known through later quotation",
+  "notes": "First attestation of Prajnatara in any source. The names between Simha and Bodhidharma are the least stable segment across competing Tang lists (Lidai Fabao Ji c. 775 differs).",
+  "references": [
+    "Encyclopedia of Buddhism, 'Lineage' entry",
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 4"
+  ]
+}

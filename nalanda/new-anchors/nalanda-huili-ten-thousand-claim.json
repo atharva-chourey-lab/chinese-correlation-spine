@@ -1,0 +1,28 @@
+{
+ "id": "nalanda-huili-ten-thousand-claim",
+ "indian_entity": "Nalanda mahavihara (the 10,000-residents tradition)",
+ "aliases": [
+  "10000 monks of Nalanda",
+  "Huili Life of Xuanzang Nalanda"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Huili (completed by Yancong), Life of Xuanzang (Da Ci'en Si Sanzang Fashi Zhuan), presented c. 688",
+ "source_type": "pilgrim",
+ "event": "Huili's biography states that Nalanda's residents and visitors together 'always reach 10,000', with about 100 lecture pulpits daily, 1,000 men able to explain twenty collections, 500 able to explain thirty, and Harsa's endowment of about 100 villages with 200 supplying householders each",
+ "date_raw": "Tang, Chuigong era (composition completed c. 688)",
+ "date_ce": [
+  665,
+  688
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "contested",
+ "firmness_reason": "This record anchors the CLAIM's first carrier, not the population: the figure is a disciple's panegyric, is ~3x both Xuanzang's own text and Yijing's eyewitness count, and exceeds the excavated residential plant's capacity by 5-15x (see nalanda/NALANDA-STATS.md capacity test)",
+ "notes": "Modern '1,500 faculty' is a sum of Huili's 1,000 + 500 mastery tiers; '2,000 teachers' has no pre-modern carrier at all. Huili's architectural data (eight halls) agree with Yijing exactly — the inflation is specific to crowds, not buildings.",
+ "references": [
+  "Beal, The Life of Hiuen-Tsiang (1911), Nalanda description",
+  "Li Rongxi, The Life of Xuanzang (1995)"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "cheraman-legend-barbosa-1516",
+ "indian_entity": "Cheraman Perumal conversion legend",
+ "aliases": [
+  "Legend of Cheraman Perumal",
+  "Chirimay Perumal"
+ ],
+ "entity_type": "text",
+ "chinese_source": "Duarte Barbosa, The Book of Duarte Barbosa (composed c. 1516-1518) — first written record of the legend",
+ "source_type": "pilgrim",
+ "event": "Barbosa records that a Malabar king ('Chirimay Perumal') was converted by Moorish traders, sailed to Mecca and died there or en route, his kingdom partitioned — and dates the event 'more than 600 years before our time', i.e. c. 900 CE. No Prophet, no moon-splitting, no Malik ibn Dinar",
+ "date_raw": "Composed c. 1516-1518 CE",
+ "date_ce": [
+  1516,
+  1518
+ ],
+ "constraint_type": "TAQ",
+ "firmness": "probable",
+ "firmness_reason": "The legend existed in oral circulation by c. 1516 (firm); the composition window of Barbosa's book is approximate, hence probable for the record as dated",
+ "notes": "TAQ for the LEGEND, and a synchronism against its modern form: the earliest witness dates the conversion to c. 900 and knows nothing of the 629 CE / Prophet's-lifetime synchronism, which is a later layer.",
+ "references": [
+  "Barbosa, The Book of Duarte Barbosa (c. 1516-1518)",
+  "More, J. B. P., on the Portuguese notices of the legend"
+ ]
+}

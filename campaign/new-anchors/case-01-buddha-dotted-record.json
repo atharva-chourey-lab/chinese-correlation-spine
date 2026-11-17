@@ -1,0 +1,34 @@
+[
+  {
+    "aliases": [
+      "dotted record",
+      "zhusheng dianji",
+      "Canton dotted record"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "buddha-parinirvana-dotted-record-489",
+    "indian_entity": "Buddha's parinirvana (dotted record)",
+    "entity_type": "event",
+    "chinese_source": "Lidai Sanbao Ji (Fei Changfang, 597 CE); Da Tang Neidian Lu (Daoxuan, 664)",
+    "source_type": "catalogue",
+    "event": "Sanghabhadra, translator of the Samantapasadika, places the 975th dot of the vinaya dotted record at Canton; the count, begun by Upali at the first pavarana after the parinirvana and handed down the Theravada vinaya lineage, implies parinirvana in 486 BCE",
+    "date_raw": "Yongming 7 (Southern Qi)",
+    "date_ce": [
+      489,
+      489
+    ],
+    "constraint_type": "synchronism",
+    "firmness": "contested",
+    "firmness_reason": "The record is real but NOT independent: its custodian chain is the Theravada vinaya lineage itself, so its 486 BCE agrees with the Ceylon 218-year chronology because both are the same tradition's arithmetic (Pachow: the count needs a 3-dot adjustment to land on 483)",
+    "notes": "Campaign case 1 verdict: NO BITE as an independent correction. Carried so the tool refuses to count it as a second witness for the long chronology.",
+    "references": [
+      "Fei Changfang, Lidai Sanbao Ji (597)",
+      "Daoxuan, Da Tang Neidian Lu, T.2149",
+      "Pachow, A Study of the Dotted Record",
+      "Bechert (ed.), Die Datierung des historischen Buddha",
+      "Campaign CORRECTIONS.md case 1"
+    ]
+  }
+]

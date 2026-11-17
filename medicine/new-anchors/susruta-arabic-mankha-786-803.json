@@ -1,0 +1,30 @@
+{
+ "id": "susruta-arabic-mankha-786-803",
+ "indian_entity": "Susruta Samhita (Arabic translation, Kitab-i-Susrud)",
+ "aliases": [
+  "Susrud",
+  "Mankha translation",
+  "Manka the Indian"
+ ],
+ "entity_type": "text",
+ "chinese_source": "EXTERNAL Arabic anchor: Ibn al-Nadim, Fihrist (987), on the Barmakid translation movement",
+ "source_type": "colophon",
+ "event": "The Fihrist records that Mankha (Manka), an Indian physician at the Abbasid court, translated Susruta from Sanskrit into Arabic for the vizier Yahya ibn Khalid al-Barmaki",
+ "date_raw": "Yahya ibn Khalid's vizierate under Harun al-Rashid, ended by the Barmakid fall",
+ "date_ce": [
+  786,
+  803
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "The translation is recorded in a dated catalogue two centuries later; Mankha's presence at Harun's court is independently remembered (he is said to have cured the caliph), but no colophon of the translation itself survives",
+ "notes": "Susruta existed, complete enough to translate whole, by 803 at the latest — three centuries after the internal evidence closes its present form. A confirmation anchor, not a tightening one.",
+ "references": [
+  "Ibn al-Nadim, Fihrist, tr. Dodge (1970), chapter on Indian medicine",
+  "Ibn Abi Usaybi'a, Uyun al-anba",
+  "Ullmann, Islamic Medicine (1978)"
+ ]
+}

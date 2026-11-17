@@ -1,0 +1,28 @@
+{
+ "id": "liu-yuxi-brahmin-eye-doctor-837",
+ "indian_entity": "Indian oculist practising in China (golden-scalpel cataract couching)",
+ "aliases": [
+  "Zeng yanyi poluomen seng",
+  "Liu Yuxi eye poem"
+ ],
+ "entity_type": "person",
+ "chinese_source": "Liu Yuxi (772-842), poem 'Presented to the Brahmin Monk Eye-Doctor' (Zeng yanyi poluomen seng), with the companion reply poem of winter 837",
+ "source_type": "catalogue",
+ "event": "Liu Yuxi, himself medically literate, addresses the Indian Brahmin monk whose golden-scalpel art is to lift his three years of blindness; a dated companion poem of winter 837 celebrates the cure — 'the golden scalpel is no longer needed'",
+ "date_raw": "Tang, Kaicheng 2 winter (837) for the cure poem",
+ "date_ce": [
+  836,
+  837
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "The poems are datable only through Liu Yuxi's biography and Pei Du's Luoyang tenure; the 837 companion poem anchors the cure, the address poem itself may be slightly earlier",
+ "notes": "The signature operation of the Susruta tradition, performed on a named, datable Chinese patient in the 830s — the transmission at the level of the individual practitioner's hands.",
+ "references": [
+  "Quan Tang Shi, Liu Yuxi poems",
+  "Religions 14:880 (2023), on Tang Buddhist ophthalmology"
+ ]
+}

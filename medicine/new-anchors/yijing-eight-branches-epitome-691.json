@@ -1,0 +1,29 @@
+{
+ "id": "yijing-eight-branches-epitome-691",
+ "indian_entity": "Vagbhata's Astanga synthesis (the eight branches epitomised in one work)",
+ "aliases": [
+  "Yijing medicine chapter",
+  "Astangahrdaya Yijing",
+  "Jin ri you ren lue wei yi jia"
+ ],
+ "entity_type": "text",
+ "chinese_source": "Yijing, Nanhai Jigui Neifa Zhuan (written 691), vol. 3, sections 27-29 (on the origin of disease, on medicine, on harmful drugs)",
+ "source_type": "pilgrim",
+ "event": "Yijing, resident in India 673-685, names the eight branches of Indian medicine and reports that they 'formerly existed in eight books, but lately a man has compiled them into one fascicle' — the standard scholarly identification of the unnamed epitome is Vagbhata's Astanga synthesis",
+ "date_raw": "Tang, Tianshou 2 (691)",
+ "date_ce": [
+  691,
+  691
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Yijing's text and date are firm and he is a resident eyewitness; the one inferential step is identifying his anonymous 'one fascicle' epitome with Vagbhata's Astanga works (the reading standard since Takakusu)",
+ "notes": "The sharpest foreign bracket on Vagbhata anywhere: the synthesis existed by 691 and was recent enough to remark on — pressing the c. 600-650 window from above. Yijing's sections 27-29 are also the fullest dated foreign description of Indian medicine as practised.",
+ "references": [
+  "Yijing, Nanhai Jigui Neifa Zhuan, tr. Takakusu (1896), chs. 27-29 and note",
+  "J. Ethnobiology and Ethnomedicine 20:92 (2024), analysis of the medical chapters"
+ ]
+}

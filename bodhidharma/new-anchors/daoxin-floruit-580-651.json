@@ -1,0 +1,26 @@
+{
+  "id": "daoxin-floruit-580-651",
+  "indian_entity": "Daoxin",
+  "aliases": [
+    "Daoxin"
+  ],
+  "entity_type": "person",
+  "chinese_source": "Near-contemporary biographical records; East Mountain community tradition",
+  "source_type": "catalogue",
+  "event": "Floruit of Daoxin (580-651), fourth Chinese node of the Lengjia chart",
+  "date_raw": "Sui-Tang, 580-651",
+  "date_ce": [
+    580,
+    651
+  ],
+  "constraint_type": "floruit",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "probable",
+  "firmness_reason": "Attested in near-contemporary records; dates conventional in the biographical tradition and consistent with the Hongren succession",
+  "notes": "Daoxin (b. 580) to Hongren (b. 601) is the first normal generational interval (~21 years) in the chart.",
+  "references": [
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 2"
+  ]
+}

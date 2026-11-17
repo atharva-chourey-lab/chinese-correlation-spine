@@ -1,0 +1,27 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "madayi-mosque-foundation-ah518-1124",
+ "indian_entity": "Madayi Mosque, Malabar Coast",
+ "aliases": [
+  "Madayi Palli",
+  "Madayi mosque foundation inscription"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Arabic foundation inscription (copper slab) preserved in the Madayi Mosque (local epigraphy as reported in the Kerala survey literature)",
+ "source_type": "inscription",
+ "event": "Foundation inscription dates the Madayi Mosque to Hijra 518 — the earliest dated mosque-foundation inscription in Kerala",
+ "date_raw": "Hijra 518",
+ "date_ce": [
+  1124,
+  1124
+ ],
+ "constraint_type": "floruit",
+ "firmness": "probable",
+ "firmness_reason": "Reported consistently across the survey literature; no modern epigraphic edition was available to the build",
+ "notes": "Mosque foundations on the Malabar coast become epigraphically visible in the 12th century. The date 1124 is sometimes misattributed in polemical literature to the Kodungallur (Cheraman) mosque, which has no dated foundation inscription.",
+ "references": [
+  "Malabar Muslims / Mappila survey literature on the Madayi inscription"
+ ]
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "aliases": [
+      "Narendradeva",
+      "Naling Deva"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "narendradeva-restoration-641",
+    "indian_entity": "Narendradeva of Nepal (restoration)",
+    "entity_type": "person",
+    "chinese_source": "Jiu Tang shu (Old Book of Tang), Nepal (Nipoluo) account; Old Tibetan Annals frame",
+    "source_type": "annals",
+    "event": "After the usurpation by his uncle Visnugupta, Narendradeva flees to Tibet; the Tibetans re-establish him on the Nepalese throne (641), making Nepal a Tibetan client; Nepal supplies 7,000 troops to Wang Xuance's 648 campaign and the Tangshu describes Narendradeva as reigning king in information current to c. 648",
+    "date_raw": "Restoration pegged to 641 (Zhenguan 15 era frame; Tibetan annals place the Nepal intervention in the early 640s)",
+    "date_ce": [
+      641,
+      643
+    ],
+    "constraint_type": "synchronism",
+    "firmness": "probable",
+    "firmness_reason": "Event sequence is annalistic and the Tibetan record concurs; the exact year 641 is the standard scholarly peg within 641-643 rather than a year stated in so many words, and the Tangshu narrative compresses the inscriptional Jishnugupta/Dhruvadeva tangle",
+    "notes": "Campaign case 10 verdict CORRECTED: the vaimsavali chronology supplies no absolute date for this segment; the Tang/Tibetan peg is the only one.",
+    "references": [
+      "Jiu Tang shu, Nepal account",
+      "Old Tibetan Annals",
+      "Campaign CORRECTIONS.md case 10"
+    ]
+  }
+]

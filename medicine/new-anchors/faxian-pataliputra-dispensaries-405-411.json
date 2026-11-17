@@ -1,0 +1,28 @@
+{
+ "id": "faxian-pataliputra-dispensaries-405-411",
+ "indian_entity": "Organised charitable medicine in India (Pataliputra dispensaries)",
+ "aliases": [
+  "Faxian hospitals",
+  "Foguo Ji medicine houses"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Faxian, Foguo Ji (Record of Buddhist Kingdoms), Pataliputra chapter",
+ "source_type": "pilgrim",
+ "event": "Faxian, resident in Pataliputra, describes houses established by Vaisya elders for dispensing charity and medicine: the destitute and diseased attend, physicians examine them, and food and medicine are provided free",
+ "date_raw": "Faxian's Indian sojourn; three years resident in Pataliputra",
+ "date_ce": [
+  405,
+  411
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "A dated eyewitness describing what he saw in the city he lived in; the spine's standard pilgrim grade at its strongest",
+ "notes": "An infrastructure anchor: dates no text, but proves institutional, physician-staffed charitable medicine in a major Indian city within Drdhabala's floruit window (300-500).",
+ "references": [
+  "Faxian, Foguo Ji, tr. Legge (1886), ch. on Pataliputra",
+  "Campaign anchor faxian-gupta frame (Case 12)"
+ ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "aliases": [
+      "Kanishka",
+      "Kaniska era"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "hou-hanshu-kushan-horizon-125",
+    "indian_entity": "Kaniska's accession (Hou Hanshu silence)",
+    "entity_type": "person",
+    "chinese_source": "Hou Hanshu, ch. 88 (Western Regions)",
+    "source_type": "annals",
+    "event": "The Hou Hanshu Kushan account, based on reports current to c. 125 CE, names Kujula Kadphises and his son (Vima Takto) but not Kanishka, and gives no Kushan regnal date",
+    "date_raw": "Report horizon c. Jianwu to Yongning era reports, compiled in Hou Hanshu",
+    "date_ce": [
+      125,
+      125
+    ],
+    "constraint_type": "TPQ",
+    "firmness": "contested",
+    "firmness_reason": "Argument from silence/report horizon: suggests Kanishka had not risen (or was unknown at court) by c. 125, but the account's India coverage is thin",
+    "notes": "Campaign case 2: soft lower bound on the era epoch; combined with the Bodiao entry it confines the epoch to c. 125-165 and excludes 78 CE.",
+    "references": [
+      "Hou Hanshu 88 (trans. Hill)",
+      "Campaign CORRECTIONS.md case 2"
+    ]
+  },
+  {
+    "aliases": [
+      "Bodiao",
+      "Vasudeva I"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "vasudeva-bodiao-embassy-229",
+    "indian_entity": "Vasudeva I (Bodiao), Kushan king",
+    "entity_type": "person",
+    "chinese_source": "Sanguozhi, ch. 3 (annals of Emperor Ming of Wei)",
+    "source_type": "annals",
+    "event": "The king of the Da Yuezhi, Bodiao (Vasudeva I), sends tribute; the Wei emperor grants him the title King of the Da Yuezhi Intimate with Wei",
+    "date_raw": "Taihe 3 (Cao Wei)",
+    "date_ce": [
+      229,
+      229
+    ],
+    "constraint_type": "floruit",
+    "firmness": "probable",
+    "firmness_reason": "Annalistic entry with reign-era date; the bound it generates depends on the Bodiao = Vasudeva I identification (a Vasudeva II has been proposed)",
+    "notes": "Vasudeva I's era-dated inscriptions run years 64-98; his being on the throne in 229 excludes a 78 CE era epoch (which would put 229 in era year 151) and is consistent with 127 or 144.",
+    "references": [
+      "Sanguozhi ch. 3",
+      "Campaign CORRECTIONS.md case 2"
+    ]
+  }
+]

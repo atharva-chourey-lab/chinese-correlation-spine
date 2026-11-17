@@ -1,0 +1,87 @@
+[
+  {
+    "aliases": [
+      "Rajaraja",
+      "Lo-ts'a-lo-ts'a"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "chola-embassy-song-1015",
+    "indian_entity": "Rajaraja I, Chola (embassy to Song)",
+    "entity_type": "person",
+    "chinese_source": "Song annals (Song Shi / Song Huiyao), Zhulian (Chola) file",
+    "source_type": "annals",
+    "event": "First Chola mission reaches the Song court; the sending king is named Lo-ts'a-lo-ts'a (Rajaraja). Dispatched in Rajaraja's name one to two sailing seasons earlier; he died in 1014, months before the arrival",
+    "date_raw": "Dazhong Xiangfu 8 (Northern Song)",
+    "date_ce": [
+      1015,
+      1015
+    ],
+    "constraint_type": "floruit",
+    "firmness": "firm",
+    "firmness_reason": "Annalistic entry with reign-era date; name equation phonetically transparent",
+    "notes": "Campaign case 13 verdict CORROBORATED. The Song file also preserves Srivijaya's earlier misrepresentation of Chola as its dependency, which this mission corrected at court.",
+    "references": [
+      "Song Shi, Zhulian account",
+      "Campaign CORRECTIONS.md case 13"
+    ]
+  },
+  {
+    "aliases": [
+      "Rajendra Chola",
+      "Shi-lo-cha Yin-to-lo Chu-lo"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "chola-embassy-song-1033",
+    "indian_entity": "Rajendra I, Chola (embassy to Song)",
+    "entity_type": "person",
+    "chinese_source": "Song annals, Zhulian (Chola) file",
+    "source_type": "annals",
+    "event": "Chola mission from Shi-lo-cha Yin-to-lo Chu-lo (Sri Raja Indra Chola = Rajendra I) reaches the Song court",
+    "date_raw": "Mingdao 2 (Northern Song)",
+    "date_ce": [
+      1033,
+      1033
+    ],
+    "constraint_type": "floruit",
+    "firmness": "firm",
+    "firmness_reason": "Annalistic entry with reign-era date; name equation transparent",
+    "notes": "Falls inside Rajendra's inscriptionally dated sole reign (1014-1044): exact corroboration.",
+    "references": [
+      "Song Shi, Zhulian account",
+      "Campaign CORRECTIONS.md case 13"
+    ]
+  },
+  {
+    "aliases": [
+      "Kulottunga I",
+      "Ti-hua-kia-lo",
+      "Deva Kulottunga"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "chola-embassy-song-1077",
+    "indian_entity": "Kulottunga I, Chola (embassy to Song)",
+    "entity_type": "person",
+    "chinese_source": "Song annals, Zhulian (Chola) file",
+    "source_type": "annals",
+    "event": "Mission of seventy merchants from Ti-hua-kia-lo (Deva Kulottunga = Kulottunga I) received at the Song court; 81,800 strings of copper cash given for its tribute goods",
+    "date_raw": "Xining 10 (Northern Song)",
+    "date_ce": [
+      1077,
+      1077
+    ],
+    "constraint_type": "floruit",
+    "firmness": "firm",
+    "firmness_reason": "Annalistic entry with reign-era date; name equation standard",
+    "notes": "Independently confirms Kulottunga I (accession 1070 by the inscriptional computation) on the throne in 1077.",
+    "references": [
+      "Song Shi, Zhulian account",
+      "Campaign CORRECTIONS.md case 13"
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+{
+ "id": "nalanda-founding-kumaragupta-sealings",
+ "indian_entity": "Nalanda mahavihara (foundation)",
+ "aliases": [
+  "Nalanda",
+  "Nalanda University",
+  "Shakraditya foundation"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Xuanzang, Da Tang Xiyu Ji (646) and Huili, Life of Xuanzang — attribution of the founding vihara to King Shakraditya; corroborated on the ground by Gupta royal clay sealings excavated in Monastery 1, Nalanda (EXTERNAL epigraphic anchor, non-Chinese)",
+ "source_type": "inscription",
+ "event": "Nalanda's first royal vihara is founded under Kumaragupta I (Xuanzang's Shakraditya); clay sealings of the Gupta royal line and of the Nalanda sangha were excavated in Monastery 1, physically anchoring the foundation tradition in the Gupta period",
+ "date_raw": "Reign of Kumaragupta I",
+ "date_ce": [
+  414,
+  455
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Shakraditya = Kumaragupta I is an identification, not a naming in any inscription; but the excavated Gupta sealings put royal Gupta patronage on the site in exactly this window",
+ "notes": "Xuanzang's own chronology for Shakraditya ('not long after the Buddha's nirvana') is worthless; the identification rests on the sealings and the six-king building sequence in Huili. Conventional founding date c. 427 CE falls inside this reign window. Faxian (c. 410) saw only a village and stupa at Nalanda — a negative attestation just before the window opens.",
+ "references": [
+  "Beal, Buddhist Records of the Western World (1884), Nalanda chapter",
+  "Hirananda Sastri, Nalanda and its Epigraphic Material (1942)",
+  "ASI excavation record, Monastery 1 sealings"
+ ]
+}

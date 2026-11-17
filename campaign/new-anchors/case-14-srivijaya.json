@@ -1,0 +1,59 @@
+[
+  {
+    "aliases": [
+      "Srivijaya",
+      "Fo-shih",
+      "Shili Foshi"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "yijing-srivijaya-671",
+    "indian_entity": "Srivijaya (Fo-shih) as a Buddhist learning centre",
+    "entity_type": "event",
+    "chinese_source": "Yijing, travel memoir and Nanhai jigui neifa zhuan",
+    "source_type": "pilgrim",
+    "event": "Yijing spends six months in Fo-shih (Srivijaya) in 671: a fortified royal city with more than a thousand monks, learning ranked with Madhyadesa's; he studies Sanskrit grammar there and recommends it to Chinese students",
+    "date_raw": "Xianheng 2 (Tang), 671",
+    "date_ce": [
+      671,
+      671
+    ],
+    "constraint_type": "floruit",
+    "firmness": "firm",
+    "firmness_reason": "Dated eyewitness observation - the spine's zero-lag class",
+    "notes": "Campaign case 14 verdict BOUNDED: a mature Srivijaya existed in 671, eleven years before its first surviving inscription (Kedukan Bukit, 682); the rise is bounded to the 660s at the latest.",
+    "references": [
+      "Yijing, Nanhai jigui / memoir (trans. Takakusu)",
+      "Campaign CORRECTIONS.md case 14"
+    ]
+  },
+  {
+    "aliases": [
+      "Malayu",
+      "Mo-lo-yu"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "yijing-malayu-absorbed-685-689",
+    "indian_entity": "Malayu absorbed by Srivijaya",
+    "entity_type": "event",
+    "chinese_source": "Yijing, travel memoir",
+    "source_type": "pilgrim",
+    "event": "Yijing passed Mo-lo-yu (Malayu) as a separate country in 673; by his return stay in Srivijaya (685-689) he records that Mo-lo-yu 'has become Fo-shih'",
+    "date_raw": "Observations 673 and 685-689",
+    "date_ce": [
+      685,
+      689
+    ],
+    "constraint_type": "synchronism",
+    "firmness": "firm",
+    "firmness_reason": "Two dated eyewitness observations bracketing the event",
+    "notes": "Annexation of Malayu bracketed to (673, 689] - Srivijaya's first datable act of expansion.",
+    "references": [
+      "Yijing, memoir",
+      "Campaign CORRECTIONS.md case 14"
+    ]
+  }
+]

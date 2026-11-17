@@ -1,0 +1,30 @@
+{
+ "id": "waitai-miyao-indian-eye-treatise-752",
+ "indian_entity": "Indian ophthalmology and Jivaka formulary in China (Tianzhu eye treatise; golden-scalpel couching)",
+ "aliases": [
+  "Waitai Miyao Indian prescriptions",
+  "Tianzhu jing lunyan",
+  "Jinbi shu 752"
+ ],
+ "entity_type": "text",
+ "chinese_source": "Wang Tao, Waitai Miyao (Secret Essentials of an Official), completed 752, juan 21 (eye diseases) and passim",
+ "source_type": "catalogue",
+ "event": "Wang Tao's dated formulary (6,900 prescriptions, sources named) carries Jivaka-attributed remedies throughout, and its eye section opens with the Preface to the Indian (Tianzhu) Treatise on Eyes by Master Xie of Longshang, who received the doctrine from a Western monk — followed by the first detailed Chinese account of golden-scalpel cataract couching",
+ "date_raw": "Tang, Tianbao 11 (752)",
+ "date_ce": [
+  752,
+  752
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "A dated, extant compilation that names its sources; the Indian provenance of the eye treatise is stated by its Chinese transmitter himself",
+ "notes": "Indian ophthalmology existed as a TEXT in China by 752. A large share of all Indian-derived prescriptions preserved in Chinese literature is concentrated in this one book (Fan's count).",
+ "references": [
+  "Waitai Miyao, juan 21",
+  "Fan Ka Wai, and Deshpande, Indian J. Hist. Sci. 43.2 (2008)",
+  "Religions 14:880 (2023), on Tang Buddhist ophthalmology"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "narayanasvamin-tang-court-648",
+ "indian_entity": "Indian physician at the Tang court (Narayanasvamin's longevity drug)",
+ "aliases": [
+  "Naluoersuopomei",
+  "Wang Xuance Indian physician"
+ ],
+ "entity_type": "person",
+ "chinese_source": "Jiu Tang Shu (Tianzhu account) and Zizhi Tongjian, s.a. 648-649",
+ "source_type": "annals",
+ "event": "Wang Xuance's returning mission brings the Magadhan brahmin Narayanasvamin to Chang'an; under Taizong's patronage he compounds a longevity drug — the emperor dies in 649, and the annalists leave the elixir beside the death",
+ "date_raw": "Tang, Zhenguan 22-23 (648-649)",
+ "date_ce": [
+  648,
+  649
+ ],
+ "constraint_type": "synchronism",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Annalistic record of a named foreign specialist at court; the elixir episode is told with a moralising edge, so the fact of the commission is firmer than its pharmacology",
+ "notes": "Dates Indian medicine's prestige at the Tang throne, not any text. Gaozong's reign adds the East Indian monk-physician Lokaditya, sent to gather drugs from the southern seas.",
+ "references": [
+  "Jiu Tang Shu, juan 198 (Tianzhu)",
+  "Zizhi Tongjian, juan 199"
+ ]
+}

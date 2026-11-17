@@ -1,0 +1,29 @@
+{
+  "id": "prajnatara-first-attestation-801",
+  "indian_entity": "Prajnatara",
+  "aliases": [
+    "Prajnatara",
+    "Prajnadhara (proposed reading)",
+    "Boruoduoluo",
+    "Hannyatara"
+  ],
+  "entity_type": "person",
+  "chinese_source": "Baolin Zhuan (801) patriarch list; first extant narratives Zutang Ji (952) and Jingde Chuandeng Lu (1004)",
+  "source_type": "catalogue",
+  "event": "First attestation of Prajnatara, Bodhidharma's putative teacher and 27th Indian patriarch: an ATTESTATION record, not a date for a life. No attestation exists in Tanlin, Daoxuan, the Lengjia Shizi Ji, the Fu Fazang list (472), or any Indian, Tibetan, Central Asian or non-Chan Chinese source",
+  "date_raw": "Tang, Zhenyuan 17 (801) — first attestation",
+  "date_ce": [
+    801,
+    801
+  ],
+  "constraint_type": "TAQ",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "contested",
+  "firmness_reason": "The figure is attested only inside Chan lineage literature and only from 801, ~270 years after Bodhidharma's death; graded contested as a person, firm as an attestation date",
+  "notes": "Default verdict of the Case 16 build: a lineage construction at the seam where the Fu Fazang list had declared the transmission extinct. A mid-9th-c. Nalanda namesake (folios preserved in Japan via Enchin) is unconnected. The female identification is a modern conjecture (Benson 2008).",
+  "references": [
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 4"
+  ]
+}

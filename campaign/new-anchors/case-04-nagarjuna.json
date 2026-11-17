@@ -1,0 +1,34 @@
+[
+  {
+    "aliases": [
+      "Nagarjuna",
+      "Zhong lun",
+      "T.1564"
+    ],
+    "lag": [
+      160,
+      260
+    ],
+    "lag_basis": "Standard composition range c. 150-250 CE (spine lag table); range is scholarly convention, carried but the TAQ itself is the load-bearing datum",
+    "lag_solid": false,
+    "id": "nagarjuna-zhonglun-kumarajiva-409",
+    "indian_entity": "Nagarjuna, Mulamadhyamakarika",
+    "entity_type": "text",
+    "chinese_source": "Kumarajiva bureau colophon, Chang'an (Zhong lun, T.1564)",
+    "source_type": "colophon",
+    "event": "Kumarajiva translates the Mulamadhyamakarika with Pingala's commentary in 409 CE",
+    "date_raw": "Hongshi 11 (Later Qin)",
+    "date_ce": [
+      409,
+      409
+    ],
+    "constraint_type": "TAQ",
+    "firmness": "firm",
+    "firmness_reason": "Court-documented translation bureau output with reign-era date",
+    "notes": "Campaign case 4 verdict CORRECTED: closes the hagiographic 400-600-year lifespan placements; working floruit c. 150-250. Cf. spine C8.",
+    "references": [
+      "Zhong lun colophon tradition, T.1564",
+      "Campaign CORRECTIONS.md case 4"
+    ]
+  }
+]

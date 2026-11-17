@@ -1,0 +1,31 @@
+[
+  {
+    "aliases": [
+      "Faxian",
+      "Foguo ji",
+      "Candragupta II (unnamed in the text)"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "faxian-madhyadesa-399-414",
+    "indian_entity": "Gupta paramountcy at Pataliputra (Faxian's Madhyadesa)",
+    "entity_type": "event",
+    "chinese_source": "Faxian, Foguo ji (Record of Buddhist Kingdoms)",
+    "source_type": "pilgrim",
+    "event": "Faxian in India 399-414 (three years at Pataliputra): a prosperous, lightly governed paramount kingdom centred at Pataliputra; the king is never named",
+    "date_raw": "Journey 399-414 (left Chang'an Hongshi 1, Later Qin)",
+    "date_ce": [
+      399,
+      414
+    ],
+    "constraint_type": "synchronism",
+    "firmness": "probable",
+    "firmness_reason": "Itinerary is internally dated and firm; the identification of the unnamed king's frame with Candragupta II (r. c. 375-415, inscriptions to Gupta year 93 = 412) is inferential",
+    "notes": "Campaign case 12 (corroboration test) verdict CORROBORATED: the frame holds; graded Probable because an unnamed king's prosperity would corroborate a wrong reign almost as smoothly. Cf. spine C11.",
+    "references": [
+      "Faxian, Foguo ji (trans. Legge 1886)",
+      "Campaign CORRECTIONS.md case 12"
+    ]
+  }
+]

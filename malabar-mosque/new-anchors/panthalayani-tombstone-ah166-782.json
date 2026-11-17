@@ -1,0 +1,28 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "panthalayani-tombstone-ah166-782",
+ "indian_entity": "Muslim burial at Panthalayani Kollam, Malabar Coast",
+ "aliases": [
+  "Panthalayani Kollam tombstone",
+  "ibn Udthorman tombstone"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Arabic tombstone inscription outside the Juma mosque, Panthalayani Kollam (local epigraphy as reported in the Kerala survey literature)",
+ "source_type": "inscription",
+ "event": "Tombstone records the death of a Muslim (ibn Udthorman) in Hijra 166 — a Muslim buried on the Malabar coast, implying a burying community",
+ "date_raw": "Hijra 166",
+ "date_ce": [
+  782,
+  783
+ ],
+ "constraint_type": "floruit",
+ "firmness": "probable",
+ "firmness_reason": "Reading circulates through secondary survey literature, not a modern epigraphic edition; AH 166 = 782-783 CE (repeatedly misprinted as '752 CE' in the secondary literature — a conversion error)",
+ "notes": "If the reading holds, this is the earliest dated Muslim presence on the coast, two-thirds of a century before the Quilon plates. Grade is explicitly hostage to a critical re-edition of the stone.",
+ "references": [
+  "Malabar Muslims / Mappila survey literature on the Panthalayani tombstone",
+  "Heritage: Journal of Multidisciplinary Studies in Archaeology 8.1 (2020) — prints the erroneous '752 CE' conversion"
+ ]
+}

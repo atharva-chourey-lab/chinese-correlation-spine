@@ -1,0 +1,28 @@
+{
+ "id": "nalanda-devapala-plate-year-39",
+ "indian_entity": "Nalanda mahavihara (Balaputradeva's vihara endowment)",
+ "aliases": [
+  "Nalanda copper plate of Devapaladeva",
+  "Balaputradeva monastery"
+ ],
+ "entity_type": "event",
+ "chinese_source": "EXTERNAL epigraphic anchor (non-Chinese): Nalanda copper plate of Devapala, regnal year 39, found 1921 in the antechamber of Monastery 1, Nalanda (Epigraphia Indica XVII)",
+ "source_type": "inscription",
+ "event": "At the request of Balaputradeva, Sailendra king of Suvarnadvipa (Srivijaya), who has built a monastery at Nalanda, Devapala grants five named villages for its monks' requisites, the copying of texts, and the upkeep of the vihara",
+ "date_raw": "Devapala regnal year 39, Karttika",
+ "date_ce": [
+  849,
+  861
+ ],
+ "constraint_type": "synchronism",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "A dated royal charter excavated in situ at Nalanda itself; the only uncertainty is Devapala's accession year (c. 810-821 in competing chronologies), which sets the 849-861 window",
+ "notes": "Endowment rate: five villages for ONE vihara (~30-60 residents) implies roughly 6-12 monks supported per village — the same order as Yijing's implied 15 per village, and a cross-check against Huili's implied 100 per village. Also a Srivijaya synchronism: Balaputradeva's reign must intersect this window.",
+ "references": [
+  "N. G. Majumdar, Epigraphia Indica XVII, The Nalanda Copper-plate of Devapaladeva",
+  "Varendra Research Society Monograph no. 1 (1926)"
+ ]
+}

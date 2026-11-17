@@ -1,0 +1,28 @@
+{
+ "id": "nalanda-ghosrawa-viradeva-abbot",
+ "indian_entity": "Nalanda mahavihara (Viradeva appointed abbot)",
+ "aliases": [
+  "Ghosrawa inscription",
+  "Viradeva"
+ ],
+ "entity_type": "event",
+ "chinese_source": "EXTERNAL epigraphic anchor (non-Chinese): Ghosrawa (Ghosrawan) stone inscription, time of Devapala (Indian Antiquary XVII, 1888)",
+ "source_type": "inscription",
+ "event": "Viradeva of Nagarahara — trained at the Kaniska vihara near Peshawar, resident at Yasovarmanapura vihara — is elected by the sangha, under Devapala's patronage, to preside over the monasteries of Nalanda, and builds a vihara and chaityas at Ghosrawa",
+ "date_raw": "Undated; reign of Devapala, palaeography late 9th century (Fleet)",
+ "date_ce": [
+  810,
+  900
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Undated inscription; the window is Devapala's reign widened by Fleet's palaeographic judgement (latter half of the 9th century). Content — a royally backed abbatial appointment — is not in doubt",
+ "notes": "Governance anchor: in the later 9th century Nalanda still has a sangha that elects its head and a Pala king who backs the appointment. No population figure.",
+ "references": [
+  "J. F. Fleet, Indian Antiquary XVII (1888), Ghosrawa Buddhist Inscription",
+  "Bhagwant Sahai, The Inscriptions of Bihar (1983)"
+ ]
+}

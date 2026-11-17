@@ -1,0 +1,89 @@
+[
+  {
+    "aliases": [
+      "Chandrapida",
+      "Zhentuoluobili"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "candrapida-embassy-tang-713",
+    "indian_entity": "Candrapida of Kashmir",
+    "entity_type": "person",
+    "chinese_source": "Xin Tang shu, Western Regions (Kashmir entry)",
+    "source_type": "annals",
+    "event": "Embassy from Candrapida of Kashmir reaches Xuanzong's court requesting aid against the Arabs and Tibet",
+    "date_raw": "Kaiyuan 1 (Tang)",
+    "date_ce": [
+      713,
+      713
+    ],
+    "constraint_type": "floruit",
+    "firmness": "firm",
+    "firmness_reason": "Annalistic record of a received embassy; the name equation Zhentuoluobili = Candrapida is standard",
+    "notes": "Campaign case 9: Kalhana's received chronology has Candrapida dead by 688 - the annals put him on the throne in 713.",
+    "references": [
+      "Xin Tang shu, Kashmir entry",
+      "Stein, Rajatarangini introduction",
+      "Campaign CORRECTIONS.md case 9"
+    ]
+  },
+  {
+    "aliases": [
+      "Chandrapida"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "candrapida-investiture-tang-720",
+    "indian_entity": "Candrapida of Kashmir (investiture)",
+    "entity_type": "person",
+    "chinese_source": "Xin Tang shu / Tang edicts (Kashmir entry)",
+    "source_type": "annals",
+    "event": "Tang court invests Candrapida by edict as King of Kashmir (720); a further edict (722) praises Kashmir for provisioning Tang troops in Gilgit",
+    "date_raw": "Kaiyuan 8 (720) and Kaiyuan 10 (722)",
+    "date_ce": [
+      720,
+      722
+    ],
+    "constraint_type": "floruit",
+    "firmness": "firm",
+    "firmness_reason": "Court edicts recorded in the annals with reign-era dates",
+    "notes": "Cunningham's computation: by this investiture Kalhana's chronology is in error by exactly 31 years for Candrapida.",
+    "references": [
+      "Xin Tang shu, Kashmir entry",
+      "Cunningham, Ancient Geography / Rajatarangini chronology discussions",
+      "Campaign CORRECTIONS.md case 9"
+    ]
+  },
+  {
+    "aliases": [
+      "Muktapida",
+      "Muduobi",
+      "Lalitaditya"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "muktapida-embassy-investiture-tang",
+    "indian_entity": "Lalitaditya Muktapida of Kashmir",
+    "entity_type": "person",
+    "chinese_source": "Xin Tang shu, Western Regions (Kashmir entry)",
+    "source_type": "annals",
+    "event": "Muduobi (Muktapida), Candrapida's younger brother, sends the envoy Wuliduo requesting investiture, offering troops and a temple by the Mahapadma lake; invested by the Tang court",
+    "date_raw": "Xuanzong reign; Stein dates the embassy after the Baltistan operations of 736-747",
+    "date_ce": [
+      736,
+      755
+    ],
+    "constraint_type": "floruit",
+    "firmness": "probable",
+    "firmness_reason": "The annalistic entry is firm; its exact year is Stein's inference from the Baltistan-expedition context, and Muduobi = Muktapida is Stein's identification ('beyond doubt' in his judgement)",
+    "notes": "Campaign case 9: corrected placement Lalitaditya c. 724/725-760/761, against Kalhana-derived 699-736.",
+    "references": [
+      "Xin Tang shu, Kashmir entry",
+      "Stein, Rajatarangini introduction",
+      "Campaign CORRECTIONS.md case 9"
+    ]
+  }
+]

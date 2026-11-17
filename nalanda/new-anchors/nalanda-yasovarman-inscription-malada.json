@@ -1,0 +1,28 @@
+{
+ "id": "nalanda-yasovarman-inscription-malada",
+ "indian_entity": "Nalanda mahavihara (Malada's endowment)",
+ "aliases": [
+  "Nalanda stone inscription of Yasovarmadeva",
+  "Malada gift"
+ ],
+ "entity_type": "event",
+ "chinese_source": "EXTERNAL epigraphic anchor (non-Chinese): Nalanda stone inscription of the reign of Yasovarman of Kanauj, found in the southern verandah debris of Monastery 1 (Epigraphia Indica XX, no. 2)",
+ "source_type": "inscription",
+ "event": "Malada, son of Yasovarman's minister Tikina ('Lord of the North'), makes a permanent endowment (aksaya-nivi) to Baladitya's temple at Nalanda funding daily distribution of rice, curds and ghee to the monks — the mahavihara is endowed and feeding a resident sangha under Kanauj's king",
+ "date_raw": "Reign of Yasovarman of Kanauj; the date as read ('731' of an unspecified era) does not convert cleanly",
+ "date_ce": [
+  725,
+  752
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "The inscription is physically in situ at Nalanda and its content is unambiguous; only its era attribution is disputed, so the window is Yasovarman's reign rather than a single year",
+ "notes": "No head-count is given — a provisions anchor, not a population one. The donor's father bears the Turkic title Tikina (tegin), a nice datum for Nalanda's Central Asian connections in the 8th century.",
+ "references": [
+  "Hirananda Sastri, Epigraphia Indica XX (1929-30), pp. 37-46",
+  "Bhagwant Sahai, The Inscriptions of Bihar (1983)"
+ ]
+}

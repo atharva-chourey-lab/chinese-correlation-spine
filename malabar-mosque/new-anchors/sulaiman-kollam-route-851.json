@@ -1,0 +1,27 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "sulaiman-kollam-route-851",
+ "indian_entity": "Kollam (Kulam Mali) in the Arab-Chinese sea trade",
+ "aliases": [
+  "Akhbar al-Sin wa'l-Hind",
+  "Sulaiman the Merchant"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Akhbar al-Sin wa'l-Hind (Accounts of China and India), compiled 851, attributed to the merchant Sulaiman — an Arabic witness to the China run, held in the spine as the traveller-record class",
+ "source_type": "pilgrim",
+ "event": "Describes the working route Siraf-Muscat-Kulam Mali (Kollam), with Chinese ships paying heavy port dues at Kollam — Arab shipping serves Malabar as a mature entrepot system",
+ "date_raw": "Compiled 851 CE",
+ "date_ce": [
+  851,
+  851
+ ],
+ "constraint_type": "floruit",
+ "firmness": "firm",
+ "firmness_reason": "Dated compilation; the itinerary is first-hand merchant reporting",
+ "notes": "Attests Arab TRADE presence and Kollam's role. It does NOT mention a Muslim community, a mosque, or a convert king in Malabar — a registered negative for the Cheraman claim.",
+ "references": [
+  "Akhbar al-Sin wa'l-Hind (851), Ferrand (1922) / Mackintosh-Smith (2014) editions"
+ ]
+}

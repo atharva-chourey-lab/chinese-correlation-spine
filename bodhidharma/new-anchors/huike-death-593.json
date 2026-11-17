@@ -1,0 +1,29 @@
+{
+  "id": "huike-death-593",
+  "indian_entity": "Huike",
+  "aliases": [
+    "Huike",
+    "Dazu Huike",
+    "Shenguang"
+  ],
+  "entity_type": "person",
+  "chinese_source": "Xu Gaoseng Zhuan biography of Huike; later biographical tradition",
+  "source_type": "catalogue",
+  "event": "Death of Huike (487-593), Bodhidharma's disciple and recipient of the 4-fascicle Lankavatara per Daoxuan",
+  "date_raw": "Sui, Kaihuang 13 (593)",
+  "date_ce": [
+    593,
+    593
+  ],
+  "constraint_type": "floruit",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "probable",
+  "firmness_reason": "Death era consistent across the biographical tradition; the implied 107-year lifespan (487-593) is longevity inflation and is not load-bearing",
+  "notes": "Chart node 2 of the Lengjia line. Daoxuan has his arm lost to bandits; the self-severing version is first epigraphically attested on a stele of 798.",
+  "references": [
+    "Daoxuan, Xu Gaoseng Zhuan, T.2060",
+    "Shahar, The Shaolin Monastery (2008)"
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "aliases": [
+      "Dignaga",
+      "Nyayamukha",
+      "Yinming zhengli men lun",
+      "T.1628"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "dignaga-nyayamukha-xuanzang-649",
+    "indian_entity": "Dignaga, Nyayamukha",
+    "entity_type": "text",
+    "chinese_source": "Xuanzang translation record (T.1628)",
+    "source_type": "colophon",
+    "event": "Xuanzang translates Dignaga's Nyayamukha in 649 CE; Dignaga's corpus was already curriculum material during Xuanzang's Indian study years (630s-640s)",
+    "date_raw": "Zhenguan 23 (Tang)",
+    "date_ce": [
+      649,
+      649
+    ],
+    "constraint_type": "TAQ",
+    "firmness": "firm",
+    "firmness_reason": "Dated output of Xuanzang's court translation bureau",
+    "notes": "Campaign case 6. Note: the spine catalogue's shorthand 'Alambanapariksa translated by Xuanzang 632' should read as his in-India study period; his translations are 645-664 (Alambanapariksa bureau translation 657).",
+    "references": [
+      "Catalogue records for T.1628",
+      "Campaign CORRECTIONS.md case 6"
+    ]
+  },
+  {
+    "aliases": [
+      "Dharmakirti"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "dharmakirti-yijing-recent-691",
+    "indian_entity": "Dharmakirti (Yijing's 'recent masters')",
+    "entity_type": "author",
+    "chinese_source": "Yijing, Nanhai jigui neifa zhuan (sent to China 691)",
+    "source_type": "pilgrim",
+    "event": "Yijing lists Dharmakirti among the 'recent' masters and reports his works taught near Nalanda c. 665-670; Xuanzang (in India 629-645) never mentions him; no work of Dharmakirti was translated into Chinese in the Tang",
+    "date_raw": "Written 691 (Tianhou era)",
+    "date_ce": [
+      691,
+      691
+    ],
+    "constraint_type": "floruit",
+    "firmness": "probable",
+    "firmness_reason": "Positive mention is a dated eyewitness-generation report; the bracket's lower half rests on Xuanzang's silence, an argumentum ex silentio graded accordingly",
+    "notes": "Campaign case 6 verdict BOUNDED: fame by 691 firm; floruit c. 550-660 all compatible with the Chinese frame once the silence is priced. Cf. spine C28.",
+    "references": [
+      "Yijing, Nanhai jigui neifa zhuan",
+      "Frauwallner, Landmarks in the History of Indian Logic",
+      "Campaign CORRECTIONS.md case 6"
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "aliases": [
+      "Mihirakula (attributed)",
+      "Hephthalite king of Gandhara"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "songyun-gandhara-huna-king-520",
+    "indian_entity": "Huna king of Gandhara (Song Yun's audience)",
+    "entity_type": "person",
+    "chinese_source": "Song Yun's itinerary, preserved in Luoyang qielan ji (c. 547)",
+    "source_type": "pilgrim",
+    "event": "Song Yun (embassy 518-522) meets the Huna king ruling Gandhara - cruel, unbelieving, on campaign - whose people conquered Gandhara two generations earlier; the Kaniska stupa still stands",
+    "date_raw": "Northern Wei, Shengui 1 to Zhengguang 3 (518-522); audience c. 520",
+    "date_ce": [
+      520,
+      520
+    ],
+    "constraint_type": "floruit",
+    "firmness": "probable",
+    "firmness_reason": "Dated eyewitness observation; the king is unnamed and the Mihirakula identification, though standard, is an inference",
+    "notes": "Campaign case 11 verdict CORROBORATED: 520 falls inside Mihirakula's epigraphic floruit (c. 515-542); 'two generations since the conquest' gives a conquest horizon c. 460-490. Cf. spine C14.",
+    "references": [
+      "Luoyang qielan ji (Song Yun itinerary)",
+      "Campaign CORRECTIONS.md case 11"
+    ]
+  },
+  {
+    "aliases": [
+      "Mihirakula"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "xuanzang-mihirakula-account-630s",
+    "indian_entity": "Mihirakula (Xuanzang's narrative)",
+    "entity_type": "person",
+    "chinese_source": "Xuanzang, Da Tang Xiyu ji (646)",
+    "source_type": "pilgrim",
+    "event": "Xuanzang narrates Mihirakula's persecution and his defeat/capture by the Gupta king Baladitya, but places him 'several hundred years' before his own time - the actual gap is c. 100 years",
+    "date_raw": "Record presented 646 (Zhenguan 20)",
+    "date_ce": [
+      629,
+      645
+    ],
+    "constraint_type": "floruit",
+    "firmness": "contested",
+    "firmness_reason": "The narrative corroborates the Baladitya-defeat tradition, but the stated interval is a demonstrable Chinese-side error (c. 100 years reported as several hundred); carried as a reliability flag, not a bound",
+    "notes": "Campaign case 11: the campaign's clearest proof that pilgrim-reported intervals are tradition, while pilgrim observation is record.",
+    "references": [
+      "Xuanzang, Da Tang Xiyu ji",
+      "Campaign CORRECTIONS.md case 11"
+    ]
+  }
+]

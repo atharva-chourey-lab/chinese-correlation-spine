@@ -1,0 +1,27 @@
+{
+  "id": "faru-epitaph-lineage-689",
+  "indian_entity": "Chan lineage chart (first attestation)",
+  "aliases": [
+    "Faru epitaph"
+  ],
+  "entity_type": "event",
+  "chinese_source": "Epitaph for Faru (638-689), dated inscription",
+  "source_type": "catalogue",
+  "event": "The epitaph for Faru gives the first lineage succession of any kind: Bodhidharma - Huike - Sengcan - Daoxin - Hongren - Faru. Before 689 no source arranges these men as a succession",
+  "date_raw": "Tang, Chuigong era (689)",
+  "date_ce": [
+    689,
+    689
+  ],
+  "constraint_type": "TAQ",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "firm",
+  "firmness_reason": "A dated inscription; the lineage claim's first appearance is fixed by the stone's own date",
+  "notes": "TAQ on the lineage idea itself: the chart is a late-7th-century artefact, ~160 years after Bodhidharma's death.",
+  "references": [
+    "Faru epitaph (689)",
+    "McRae, Seeing Through Zen (2003)"
+  ]
+}

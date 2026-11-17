@@ -1,0 +1,29 @@
+{
+ "id": "nalanda-hyecho-visit-723-728",
+ "indian_entity": "Nalanda mahavihara (Hyecho's attestation)",
+ "aliases": [
+  "Hyecho",
+  "Hui Chao",
+  "Wang Ocheonchukguk Jeon"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Hyecho (Silla), Wang Ocheonchukguk Jeon (Memoir of the Pilgrimage to the Five Kingdoms of India), Dunhuang manuscript",
+ "source_type": "pilgrim",
+ "event": "The Korean pilgrim Hyecho passes through Magadha in 723-728 and names Nalanda among its living monasteries; he gives no population figure — a dated presence attestation between Yijing and the Yasovarman inscription",
+ "date_raw": "Tang, Kaiyuan era; travel 723-727/728",
+ "date_ce": [
+  723,
+  728
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Eyewitness itinerary, but the surviving Dunhuang scroll is fragmentary (first volume and end of third lost) and his Nalanda notice is brief; value is chronological, not statistical",
+ "notes": "Negative-statistical value: the one 8th-century pilgrim who might have updated the population series gives no number, so the series jumps from Yijing (685) to epigraphy.",
+ "references": [
+  "Yang Han-sung et al., The Hye Ch'o Diary (1984)",
+  "Dunhuang manuscript P.3532, Bibliotheque nationale de France"
+ ]
+}

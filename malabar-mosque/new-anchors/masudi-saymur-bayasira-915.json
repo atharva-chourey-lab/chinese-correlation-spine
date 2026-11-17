@@ -1,0 +1,27 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "masudi-saymur-bayasira-915",
+ "indian_entity": "Settled Muslim community on India's west coast (Saymur/Chaul)",
+ "aliases": [
+  "Masudi bayasira",
+  "Saymur Muslims"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Al-Masudi, Muruj al-Dhahab (completed 943, revised 956), reporting his Indian sojourn of c. 915-916",
+ "source_type": "pilgrim",
+ "event": "Masudi reports some 10,000 bayasira (locally born Muslims) at Saymur (Chaul, Konkan coast) with ordinary and Friday mosques, protected by the Hindu king — a settled, second-generation, mosque-building Muslim community under Hindu rule",
+ "date_raw": "Sojourn c. 915-916 CE; text 943/956 CE",
+ "date_ce": [
+  915,
+  916
+ ],
+ "constraint_type": "floruit",
+ "firmness": "probable",
+ "firmness_reason": "Eyewitness-grade traveller report, but the named town is Saymur on the Konkan coast, NOT Malabar proper; the figure of 10,000 is a traveller's round number",
+ "notes": "Bounds the regional pattern: by c. 915 mosque-building Muslim settlement under Hindu kings is normal on the west coast north of Malabar. It does not attest Malabar itself, and Masudi tells no convert-king story.",
+ "references": [
+  "Al-Masudi, Muruj al-Dhahab wa Ma'adin al-Jawahir (943/956)"
+ ]
+}

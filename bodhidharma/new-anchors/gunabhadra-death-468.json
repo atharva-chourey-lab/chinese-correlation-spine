@@ -1,0 +1,28 @@
+{
+  "id": "gunabhadra-death-468",
+  "indian_entity": "Gunabhadra",
+  "aliases": [
+    "Gunabhadra",
+    "Qiunabatuoluo"
+  ],
+  "entity_type": "person",
+  "chinese_source": "Gaoseng Zhuan / Xu Gaoseng Zhuan biographical tradition and translation catalogues",
+  "source_type": "catalogue",
+  "event": "Death of Gunabhadra (394-468), the Lankavatara translator — the terminus that constrains the Lengjia Shizi Ji chart: any personal discipleship of Bodhidharma under Gunabhadra must end by 468",
+  "date_raw": "Liu Song, Shengming era (468)",
+  "date_ce": [
+    468,
+    468
+  ],
+  "constraint_type": "TAQ",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "probable",
+  "firmness_reason": "Death year from the dated biographical tradition for a translator whose activity (435 arrival, 443 Lankavatara) is catalogue-anchored; not itself a dated colophon",
+  "notes": "Chart constraint, not a text TAQ: with the 527-arrival tradition it forces a >=59-year gap between discipleship and arrival; with the Liu Song arrival (<=479) it forces arrival by the 460s.",
+  "references": [
+    "Xu Gaoseng Zhuan biography of Gunabhadra",
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 2"
+  ]
+}

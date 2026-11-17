@@ -1,0 +1,28 @@
+{
+ "id": "firdaws-al-hikma-indian-canon-850",
+ "indian_entity": "The Ayurvedic canon in Arabic (Caraka, Susruta, Madhavanidana, Astangahrdaya)",
+ "aliases": [
+  "Firdaws al-Hikma Indian medicine",
+  "Jarak Susrud Niddin Ashtanqahrada"
+ ],
+ "entity_type": "text",
+ "chinese_source": "EXTERNAL Arabic anchor: Ali ibn Rabban al-Tabari, Firdaws al-Hikma (Paradise of Wisdom), completed c. 850, part VII",
+ "source_type": "catalogue",
+ "event": "Al-Tabari closes his medical encyclopedia with a 36-chapter summary of Indian medicine drawn from four named books: Charaka (Jarak), Susruta (Susrud), the Nidana (Niddin = Madhavakara's Rugviniscaya) and the Astangahrdaya (Ashtanqahrada)",
+ "date_raw": "Composed at the court of al-Mutawakil, c. 849-850",
+ "date_ce": [
+  849,
+  850
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "A dated, extant work; Meyerhof's identification of the four Arabic titles with the four Sanskrit works is the standard reading (Isis 16, 1931; Siggel's 1951 edition of the Indian chapters)",
+ "notes": "One dated page brackets four canon texts at once: Caraka, Susruta, Madhava (c. 700) and Vagbhata's Hrdaya all existed in Arabic-accessible form by 850. The earliest datable Arabic attestation of Caraka's content.",
+ "references": [
+  "Meyerhof, Isis 16.1 (1931)",
+  "Siggel, Die indischen Bucher aus dem Paradies der Weisheit (1951)"
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "astangahrdaya-tibetan-translation-1055",
+ "indian_entity": "Astangahrdaya Samhita (Tibetan translation)",
+ "aliases": [
+  "Yan lag brgyad pa'i snying po",
+  "Toh 4310"
+ ],
+ "entity_type": "text",
+ "chinese_source": "EXTERNAL Tibetan anchor: Tengyur, Toh 4310 (with Candranandana's commentary), translation of the later-diffusion (phyi dar) period",
+ "source_type": "colophon",
+ "event": "Vagbhata's Astangahrdaya — the one great medical samhita the Tibetan canon took — is translated into Tibetan in the translation enterprise associated with Rinchen Zangpo (958-1055)",
+ "date_raw": "Later diffusion period, Rinchen Zangpo's lifetime",
+ "date_ce": [
+  1000,
+  1055
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "The Tengyur inclusion is certain; the precise translation date and team rest on the colophon tradition of the phyi dar period",
+ "notes": "The loosest of Vagbhata's three foreign brackets (Yijing 691 and the Firdaws 850 both bite earlier) — but the socially largest: this translation is why the Hrdaya, not Caraka or Susruta, became Tibet's Ayurveda.",
+ "references": [
+  "Vogel, Vagbhata's Astangahrdayasamhita: the First Five Chapters of its Tibetan Version (1965)",
+  "Bu ston, History of Buddhism (chos 'byung)"
+ ]
+}

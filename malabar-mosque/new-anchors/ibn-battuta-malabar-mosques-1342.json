@@ -1,0 +1,26 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "ibn-battuta-malabar-mosques-1342",
+ "indian_entity": "Mosques of the Malabar ports",
+ "aliases": [
+  "Ibn Battuta Rihla Malabar"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Ibn Battuta, Rihla — eyewitness account of his Malabar sojourn, 1342-1347",
+ "source_type": "pilgrim",
+ "event": "Describes mosques in every Malabar port town, named qadis at Calicut and Kollam, the cathedral mosque at Hili (Ezhimala) enriched by sailors' vows, and a Muslim shah bandar governing Calicut's port — Malabar Islam as a long-established institution",
+ "date_raw": "Sojourn 1342-1347 CE",
+ "date_ce": [
+  1342,
+  1347
+ ],
+ "constraint_type": "floruit",
+ "firmness": "firm",
+ "firmness_reason": "Dated eyewitness travel account, internally consistent with the 14th-century mosque epigraphy of Kozhikode (Kuttichira)",
+ "notes": "Terminus: Malabar mosques are FIRM by the 1340s. Battuta records no foundation legend for Kodungallur and no 629 tradition.",
+ "references": [
+  "Ibn Battuta, Rihla, Gibb translation, Malabar chapters"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "qianjin-yaofang-jivaka-material-652",
+ "indian_entity": "Indian formulary material in China (Jivaka prescriptions; Brahmin massage method)",
+ "aliases": [
+  "Sun Simiao Indian formulas",
+  "Tianzhu anmo fa",
+  "Jipo wanbing wan"
+ ],
+ "entity_type": "text",
+ "chinese_source": "Sun Simiao, Beiji Qianjin Yaofang (Prescriptions Worth a Thousand Gold), completed 652",
+ "source_type": "catalogue",
+ "event": "Sun Simiao's dated formulary incorporates Indian material under Indian names: formulas attributed to Jivaka (incl. the Jivaka myriad-disease pill), a Jivaka saying traced to Caraka Samhita Sutrasthana 26.12 ('nothing in the world is not a medicine'), and the 'Brahmin method' of massage with the eighteen postures of Tianzhu",
+ "date_raw": "Tang, Yonghui 3 (652)",
+ "date_ce": [
+  652,
+  652
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "A dated, extant Chinese compilation citing its Indian material by name; the Caraka line arrives under Jivaka's attribution, which is why the record is firm for Indian formulary circulation and only indirect for Caraka's text",
+ "notes": "The eastward channel in one record: Ayurveda reached China as attributed formulas and body practices inside Chinese books, not as translated samhitas.",
+ "references": [
+  "Deshpande, Indian J. Hist. Sci. 43.2 (2008)",
+  "Unschuld, Medicine in China: A History of Pharmaceutics (1986)"
+ ]
+}

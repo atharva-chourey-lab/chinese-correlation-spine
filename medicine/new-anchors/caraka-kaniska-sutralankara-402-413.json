@@ -1,0 +1,30 @@
+{
+ "id": "caraka-kaniska-sutralankara-402-413",
+ "indian_entity": "Caraka (the Kaniṣka court-physician tradition)",
+ "aliases": [
+  "Charaka",
+  "Zheluojia",
+  "Sutralankara Kanishka court"
+ ],
+ "entity_type": "person",
+ "chinese_source": "Da zhuangyan lun jing (Sutralankara, T.201), Chinese translation attributed to Kumarajiva's bureau, Chang'an",
+ "source_type": "colophon",
+ "event": "The Chinese Sutralankara tells of Kaniska's court attended by the minister Mathara, the bodhisattva Asvaghosa, the minister Devadharma and the physician Caraka — the earliest datable carrier of the tradition that Caraka was Kaniska's physician (identified by Sylvain Levi, 1896)",
+ "date_raw": "Later Qin, Hongshi era (Kumarajiva's Chang'an translation activity)",
+ "date_ce": [
+  402,
+  413
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "T.201's attribution to Kumarajiva is traditional catalogue evidence, and the passage dates the TRADITION, not the redactor: the story is attested ~250 years after the event it claims",
+ "notes": "Combined with the Kaniska epoch bound (c. 125-165, Campaign Case 2), the tradition if granted puts the Caraka redaction layer in the mid-2nd c. CE. 'Caraka' may name a school or professional type; the identification is unprovable from this carrier alone.",
+ "references": [
+  "Sylvain Levi, Journal Asiatique (1896), on the Sutralankara's Kaniska court",
+  "Encyclopaedia Iranica, s.v. Caraka",
+  "Meulenbeld, History of Indian Medical Literature IA (1999)"
+ ]
+}

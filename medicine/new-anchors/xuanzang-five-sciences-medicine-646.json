@@ -1,0 +1,28 @@
+{
+ "id": "xuanzang-five-sciences-medicine-646",
+ "indian_entity": "Cikitsavidya (medicine) as a formal Indian science",
+ "aliases": [
+  "Yifang ming",
+  "Pancavidya medicine"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Xuanzang, Da Tang Xiyu Ji (646), juan 2, on Indian education",
+ "source_type": "pilgrim",
+ "event": "Xuanzang lists the five sciences of the standard Indian curriculum — grammar, crafts, cikitsavidya (the science of medicine), logic and inner science — taught to students across India",
+ "date_raw": "Tang, Zhenguan 20 (646)",
+ "date_ce": [
+  646,
+  646
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "Dated eyewitness synthesis by the pilgrim who had just spent over a decade studying in India",
+ "notes": "Attests medicine's institutional status — a named, teachable sastra — in mid-7th-century India, independent of any single text's date.",
+ "references": [
+  "Xuanzang, Da Tang Xiyu Ji, juan 2",
+  "tr. Beal, Buddhist Records of the Western World (1884)"
+ ]
+}

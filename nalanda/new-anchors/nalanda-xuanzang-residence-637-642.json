@@ -1,0 +1,28 @@
+{
+ "id": "nalanda-xuanzang-residence-637-642",
+ "indian_entity": "Nalanda mahavihara (Xuanzang's residence)",
+ "aliases": [
+  "Xuanzang at Nalanda",
+  "Silabhadra"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Xuanzang, Da Tang Xiyu Ji (compiled 646), Nalanda chapter",
+ "source_type": "pilgrim",
+ "event": "Xuanzang resides at Nalanda under abbot Silabhadra; his own Records put the resident priests at 'several thousand', describe eight halls inside one brick wall, and give the gatekeeper's failure rate for would-be debaters as seven or eight in ten",
+ "date_raw": "Tang, Zhenguan era; residence 637-642",
+ "date_ce": [
+  637,
+  642
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Eyewitness resident, but his population figure is an uncounted round phrase ('several thousand'); his architectural count (eight halls) is corroborated independently by Yijing",
+ "notes": "The famous 10,000 figure is NOT in this text — it is in Huili's biography (see nalanda-huili-ten-thousand-claim). Xuanzang's own number is consistent with Yijing's 3,000+ a generation later.",
+ "references": [
+  "Beal, Buddhist Records of the Western World (1884), vol. II, Nalanda chapter",
+  "Da Tang Xiyu Ji, fascicle IX"
+ ]
+}

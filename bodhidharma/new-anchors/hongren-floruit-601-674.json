@@ -1,0 +1,28 @@
+{
+  "id": "hongren-floruit-601-674",
+  "indian_entity": "Hongren",
+  "aliases": [
+    "Hongren",
+    "Daman Hongren"
+  ],
+  "entity_type": "person",
+  "chinese_source": "Multiple biographical notices; Faru epitaph (689) from inside his community",
+  "source_type": "catalogue",
+  "event": "Floruit of Hongren (601-674; some sources 602-675), fifth Chinese node of the Lengjia chart",
+  "date_raw": "Tang, 601-674",
+  "date_ce": [
+    601,
+    674
+  ],
+  "constraint_type": "floruit",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "probable",
+  "firmness_reason": "Multiple independent attestations plus a dated inscription (689) by his disciple's circle; the first node after Gunabhadra where cross-dating fully works",
+  "notes": "Some sources give 602-675; the one-year variance is recorded rather than resolved.",
+  "references": [
+    "Faru epitaph (689)",
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 2"
+  ]
+}

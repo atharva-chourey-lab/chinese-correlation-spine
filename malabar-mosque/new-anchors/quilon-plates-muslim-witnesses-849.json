@@ -1,0 +1,29 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "quilon-plates-muslim-witnesses-849",
+ "indian_entity": "Muslim community of Kollam (Quilon), Malabar Coast",
+ "aliases": [
+  "Tarisapalli copper plates",
+  "Quilon Syrian copper plates",
+  "Tharisapalli sasanam"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Quilon (Tarisapalli) copper plates — Chera royal charter of Ayyan Adikal under Sthanu Ravi Kulasekhara, witness plate (local epigraphy; the correlation source here is epigraphic, not Chinese)",
+ "source_type": "inscription",
+ "event": "Eleven Muslim witnesses sign, in Kufic Arabic, a royal charter granting privileges to the Christian Tarisapalli church at Kollam, alongside witnesses signing in Pahlavi and Hebrew — a settled Muslim community of charter-witnessing standing exists at Kollam",
+ "date_raw": "5th regnal year of Sthanu Ravi Kulasekhara (Kollam era 24/25)",
+ "date_ce": [
+  849,
+  850
+ ],
+ "constraint_type": "floruit",
+ "firmness": "firm",
+ "firmness_reason": "Dated royal charter, extant plates; the standard epigraphic dating of the Tarisapalli grant",
+ "notes": "Earliest FIRM attestation of a Muslim community on the Malabar coast. The signatures attest a community, not a mosque building; no mosque at Kollam or Kodungallur is dated by this document.",
+ "references": [
+  "Quilon Syrian copper plates (849 CE), plate 5 witness signatures",
+  "Narayanan, M. G. S., Perumals of Kerala (1996/2013)"
+ ]
+}

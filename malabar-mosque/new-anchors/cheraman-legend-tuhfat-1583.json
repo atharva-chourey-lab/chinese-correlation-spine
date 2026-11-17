@@ -1,0 +1,28 @@
+{
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "id": "cheraman-legend-tuhfat-1583",
+ "indian_entity": "Cheraman Perumal conversion legend (full Malik ibn Dinar cycle)",
+ "aliases": [
+  "Tuhfat al-Mujahidin",
+  "Zainuddin Makhdum II"
+ ],
+ "entity_type": "text",
+ "chinese_source": "Zainuddin Makhdum II, Tuhfat al-Mujahidin (Arabic, completed c. 1583) — first full devotional telling",
+ "source_type": "catalogue",
+ "event": "The full cycle exists in writing: the pilgrims en route to Adam's Foot, the moon-splitting narration, the king's secret departure and death abroad, his letters, and Malik ibn Dinar's party founding mosques at Kodungallur and the named ports. Zainuddin himself dates the conversion to two hundred years after the Prophet (c. 820s), NOT to the Prophet's lifetime",
+ "date_raw": "Completed c. 1583 CE",
+ "date_ce": [
+  1583,
+  1583
+ ],
+ "constraint_type": "TAQ",
+ "firmness": "firm",
+ "firmness_reason": "Dated, extant, authored text — the standard first history of Kerala by a Keralite",
+ "notes": "TAQ for the developed legend. Its internal dating (c. 820s) is the legend's own earliest full-text chronology and contradicts the 629 CE date now displayed at the mosque.",
+ "references": [
+  "Zainuddin Makhdum II, Tuhfat al-Mujahidin (c. 1583), trans. Nainar (1942)",
+  "More, J. B. P., on the Tuhfat's dating of the conversion"
+ ]
+}

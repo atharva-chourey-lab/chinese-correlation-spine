@@ -1,0 +1,3835 @@
+{
+ "meta": {
+  "title": "Chinese Correlation Spine — anchor database",
+  "version": "0.1.0",
+  "built": "2026-11-17",
+  "method": "Each record is one Chinese-dated anchor. date_ce is the Chinese event (translation, catalogue, sojourn, embassy). For a TAQ the hard bound is date_ce[1]. Lag is measured, never assumed zero; see spine.py lag.",
+  "merge_note": "Records from the BU project's CHINESE-SPINE.md catalogue are to be merged via `spine.py add` (schema-validated) — same field names by design."
+ },
+ "anchors": [
+  {
+   "id": "an-shigao-corpus-148-170",
+   "indian_entity": "Early Agama/Nikaya sutra corpus (An Shigao translations)",
+   "aliases": [
+    "An Shigao",
+    "An Shih-kao",
+    "Anban shouyi jing"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Chu Sanzang Ji Ji (Sengyou, c. 515) and Gaoseng Zhuan biographies",
+   "source_type": "catalogue",
+   "event": "An Shigao, a Parthian monk, translates early sutras at Luoyang — the first dated translation activity in China",
+   "date_raw": "Later Han, Jianning to Guanghe eras",
+   "date_ce": [
+    148,
+    170
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Translator's activity window is from later catalogues/biographies, not dated colophons",
+   "notes": "Every text in his attributed corpus existed in India/Central Asia by the late 2nd c. CE at the latest. Individual attributions within the corpus are debated.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145",
+    "Zurcher, The Buddhist Conquest of China (1972)"
+   ]
+  },
+  {
+   "id": "tianzhu-embassy-houhanshu-159-161",
+   "indian_entity": "Indian (Tianzhu) embassy to the Han court",
+   "aliases": [
+    "Tianzhu embassy",
+    "Indian embassy 159"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Hou Han Shu (Book of the Later Han), Xiyu zhuan and imperial annals",
+   "source_type": "annals",
+   "event": "Embassies from Tianzhu (India) reach the Han court by the sea route via Rinan in 159 and 161 CE",
+   "date_raw": "Yanxi 2 (159) and Yanxi 4 (161)",
+   "date_ce": [
+    159,
+    161
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Dynastic annals record the arrivals; the sending Indian ruler is unnamed and unidentifiable",
+   "notes": "Dates Indo-Chinese maritime contact, not any text. Useful as a floor for the transmission channel the later colophons presuppose.",
+   "references": [
+    "Hou Han Shu, ch. 88 (Xiyu zhuan) and annals of Huan Di"
+   ]
+  },
+  {
+   "id": "astasahasrika-lokaksema-179",
+   "indian_entity": "Astasahasrika Prajnaparamita",
+   "aliases": [
+    "Astasahasrika",
+    "Daoxing jing",
+    "T.224"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Colophon preserved in Chu Sanzang Ji Ji (Sengyou, c. 515)",
+   "source_type": "colophon",
+   "event": "Lokaksema (Zhi Loujiachen) completes his translation (Daoxing Bore Jing, T.224) at Luoyang",
+   "date_raw": "Later Han, Guanghe 2, 10th month (26 Oct 179 CE)",
+   "date_ce": [
+    179,
+    179
+   ],
+   "constraint_type": "TAQ",
+   "lag": [
+    79,
+    229
+   ],
+   "lag_basis": "Composition conventionally placed c. 100 BCE-100 CE; the window is scholarly convention, not an independent anchor",
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Colophon gives an exact day; corroborated by a C14-dated Gandhari Astasahasrika fragment (47-147 CE)",
+   "notes": "Tier 1 anchor of the BU benchmark panel. The lag is carried for the record but excluded from the lag model (composition window not independently anchored).",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145",
+    "Falk & Karashima on the Bajaur Gandhari fragment",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 1"
+   ]
+  },
+  {
+   "id": "pratyutpanna-lokaksema-179",
+   "indian_entity": "Pratyutpanna-samadhi-sutra",
+   "aliases": [
+    "Pratyutpanna",
+    "Banzhou sanmei jing",
+    "T.418"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Chu Sanzang Ji Ji catalogue attribution to Lokaksema",
+   "source_type": "catalogue",
+   "event": "Chinese translation (Banzhou Sanmei Jing, T.418) attributed to Lokaksema, dated 179 CE",
+   "date_raw": "Later Han, Guanghe 2 (179)",
+   "date_ce": [
+    179,
+    179
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Catalogue attribution and date are standard but the attribution has been questioned in modern scholarship",
+   "notes": "One of the earliest Mahayana sutras attested anywhere, via China.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145",
+    "Harrison, The Samadhi of Direct Encounter (1990)"
+   ]
+  },
+  {
+   "id": "vimalakirti-zhi-qian-222-253",
+   "indian_entity": "Vimalakirtinirdesa-sutra",
+   "aliases": [
+    "Vimalakirti Sutra",
+    "Weimojie jing"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Chu Sanzang Ji Ji catalogue record of Zhi Qian's translation",
+   "source_type": "catalogue",
+   "event": "Zhi Qian translates the Vimalakirti at the Wu court — the first Chinese version",
+   "date_raw": "Cao Wei / Wu, Huangchu to Jiaping era",
+   "date_ce": [
+    222,
+    253
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": "Composition estimates (c. 100 BCE-100 CE) are too soft to bound a lag honestly",
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Translator's floruit (220s-250s) is biographically dated; no dated colophon for this version",
+   "notes": "Kumarajiva's famous version (406) is a re-translation; the Zhi Qian version proves the text circulated two centuries earlier.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145"
+   ]
+  },
+  {
+   "id": "avadanasataka-zhi-qian-c253",
+   "indian_entity": "Avadanasataka",
+   "aliases": [
+    "Avadanasataka",
+    "Zhuanji baiyuan jing"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Chu Sanzang Ji Ji attribution (partial translation, Zhi Qian era)",
+   "source_type": "catalogue",
+   "event": "A partial Chinese translation attributed to the Zhi Qian circle is recorded by Sengyou",
+   "date_raw": "Cao Wei / Wu, c. 223-253",
+   "date_ce": [
+    223,
+    253
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "contested",
+   "firmness_reason": "Attribution in a catalogue compiled 260+ years later; no colophon date — a soft TAQ only",
+   "notes": "Tier 2 (flagged) member of the BU benchmark panel; carried here with its softness explicit.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 2"
+   ]
+  },
+  {
+   "id": "saddharmapundarika-dharmaraksa-286",
+   "indian_entity": "Saddharmapundarika-sutra (Lotus Sutra)",
+   "aliases": [
+    "Lotus Sutra",
+    "Saddharmapundarika",
+    "Zheng fahua jing",
+    "T.265"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Colophon preserved in Chu Sanzang Ji Ji",
+   "source_type": "colophon",
+   "event": "Dharmaraksa (Zhu Fahu) completes his translation (Zheng Fahua Jing, T.265); review finished 288",
+   "date_raw": "Western Jin, Taikang 7, autumn (Sep-Oct 286 CE)",
+   "date_ce": [
+    286,
+    286
+   ],
+   "constraint_type": "TAQ",
+   "lag": [
+    136,
+    236
+   ],
+   "lag_basis": "Composition of the sutra's core conventionally placed c. 50-150 CE on convergent scholarly estimates",
+   "lag_solid": true,
+   "firmness": "firm",
+   "firmness_reason": "Colophon dated to the month; translation event is not in dispute",
+   "notes": "Tier 1 anchor of the BU benchmark panel.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 1"
+   ]
+  },
+  {
+   "id": "lalitavistara-dharmaraksa-308",
+   "indian_entity": "Lalitavistara",
+   "aliases": [
+    "Lalitavistara",
+    "Puyao jing",
+    "T.186"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Chu Sanzang Ji Ji record of Dharmaraksa's translation (Puyao Jing, T.186)",
+   "source_type": "catalogue",
+   "event": "Dharmaraksa translates the Lalitavistara — his last reliably recorded work",
+   "date_raw": "Western Jin, Yongjia 2 (308)",
+   "date_ce": [
+    308,
+    308
+   ],
+   "constraint_type": "TAQ",
+   "lag": [
+    8,
+    208
+   ],
+   "lag_basis": "The Sanskrit text is layered (core c. 100 CE, expansions to c. 300); a single lag for a layered text is not meaningful",
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Translation year is catalogue-secure; what it dates is the core the translation knew, not every verse of the extant Sanskrit",
+   "notes": "Tier 1 anchor of the BU benchmark panel, with the layering caveat carried in the panel itself.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 1"
+   ]
+  },
+  {
+   "id": "daoan-catalogue-374",
+   "indian_entity": "Chinese Buddhist canon as catalogued by Dao'an",
+   "aliases": [
+    "Dao'an catalogue",
+    "Zongli zhongjing mulu"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Dao'an's Zongli Zhongjing Mulu (lost; quoted extensively by Sengyou)",
+   "source_type": "catalogue",
+   "event": "Dao'an compiles the first catalogue of Chinese Buddhist translations, fixing which Indian texts had arrived by his day",
+   "date_raw": "Eastern Jin, Ning'kang 2 (374)",
+   "date_ce": [
+    374,
+    374
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The catalogue itself is lost; its contents and date are known through Sengyou's quotations",
+   "notes": "A master TAQ: every translation Dao'an lists existed by 374. Also the first Chinese source to voice doubts about anonymous 'sutras' — an early Chinese quality filter on the Indian material.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145 (quoting Dao'an)"
+   ]
+  },
+  {
+   "id": "kumarajiva-arrival-401",
+   "indian_entity": "Kumarajiva",
+   "aliases": [
+    "Kumarajiva",
+    "Jiumoluoshi"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Gaoseng Zhuan biography; Jin Shu annals",
+   "source_type": "annals",
+   "event": "Kumarajiva, brought from Kucha, arrives at the Later Qin capital Chang'an and begins the imperially sponsored translation bureau",
+   "date_raw": "Later Qin, Hongshi 3 (401)",
+   "date_ce": [
+    401,
+    401
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Arrival and bureau activity (401-413) are dated in Chinese court and biographical records",
+   "notes": "The bureau's dated output (402-413) is the densest cluster of exact TAQs in the whole spine.",
+   "references": [
+    "Huijiao, Gaoseng Zhuan, T.2059",
+    "Jin Shu annals"
+   ]
+  },
+  {
+   "id": "nagarjuna-biography-kumarajiva-c405",
+   "indian_entity": "Nagarjuna",
+   "aliases": [
+    "Nagarjuna",
+    "Longshu"
+   ],
+   "entity_type": "author",
+   "chinese_source": "Longshu Pusa Zhuan (Biography of Nagarjuna), translated in Kumarajiva's circle",
+   "source_type": "colophon",
+   "event": "A full legendary biography of Nagarjuna is translated at Chang'an — he is already a figure of the distant, storied past",
+   "date_raw": "Later Qin, Hongshi era (c. 405)",
+   "date_ce": [
+    402,
+    413
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": "A biography's translation dates the biography, not the life; no composition lag is computed from it",
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Attribution to Kumarajiva himself is traditional; the bureau window 402-413 is secure",
+   "notes": "Qualitative but real: by c. 405 Nagarjuna's life was already legend in the material reaching China — consistent with, though not proof of, a 2nd-3rd c. floruit.",
+   "references": [
+    "Longshu Pusa Zhuan, T.2047"
+   ]
+  },
+  {
+   "id": "saddharmapundarika-kumarajiva-406",
+   "indian_entity": "Saddharmapundarika-sutra (Lotus Sutra)",
+   "aliases": [
+    "Lotus Sutra",
+    "Miaofa lianhua jing",
+    "T.262"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Colophon of Kumarajiva's Miaofa Lianhua Jing (T.262)",
+   "source_type": "colophon",
+   "event": "Kumarajiva's re-translation of the Lotus Sutra at Chang'an",
+   "date_raw": "Later Qin, Hongshi 8 (406)",
+   "date_ce": [
+    406,
+    406
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": "Lag is counted on the first-translation record (Dharmaraksa, 286), not on re-translations",
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Dated colophon from the Chang'an bureau",
+   "notes": "A re-translation TAQ is weaker evidence than a first translation (the text was already in China) but confirms the Sanskrit exemplar tradition was still live in the 400s.",
+   "references": [
+    "Miaofa Lianhua Jing, T.262, colophon"
+   ]
+  },
+  {
+   "id": "mulamadhyamakakarika-kumarajiva-409",
+   "indian_entity": "Mulamadhyamakakarika (Nagarjuna)",
+   "aliases": [
+    "Mulamadhyamakakarika",
+    "MMK",
+    "Zhong Lun",
+    "T.1564",
+    "Nagarjuna"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Colophon of Kumarajiva's Zhong Lun (T.1564), Chang'an",
+   "source_type": "colophon",
+   "event": "Kumarajiva translates the Mulamadhyamakakarika with Pingala's commentary (Zhong Lun)",
+   "date_raw": "Later Qin, Hongshi 11 (409)",
+   "date_ce": [
+    409,
+    409
+   ],
+   "constraint_type": "TAQ",
+   "lag": [
+    159,
+    259
+   ],
+   "lag_basis": "Nagarjuna's floruit c. 150-250 CE (Satavahana-era synchronisms and convergent scholarly placement)",
+   "lag_solid": true,
+   "firmness": "firm",
+   "firmness_reason": "Bureau translation dated to the year in Chinese records",
+   "notes": "The canonical lag case: Nagarjuna (fl. c. 150-250) to Kumarajiva (409) = roughly two centuries between an Indian master and his Chinese translation. Tier 1 anchor of the BU panel.",
+   "references": [
+    "Zhong Lun, T.1564, colophon",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 1"
+   ]
+  },
+  {
+   "id": "ashvaghosha-biography-kumarajiva-c410",
+   "indian_entity": "Ashvaghosha",
+   "aliases": [
+    "Ashvaghosha",
+    "Asvaghosa",
+    "Maming"
+   ],
+   "entity_type": "author",
+   "chinese_source": "Maming Pusa Zhuan (Biography of Ashvaghosha), attributed to Kumarajiva",
+   "source_type": "catalogue",
+   "event": "Ashvaghosha's biography is translated at Chang'an — like Nagarjuna, he is already a legendary figure of the past",
+   "date_raw": "Later Qin, Hongshi era (c. 402-413)",
+   "date_ce": [
+    402,
+    413
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "contested",
+   "firmness_reason": "Attribution of the translation to Kumarajiva is traditional and has been doubted",
+   "notes": "Pairs with the Buddhacarita translation (421) to bracket Ashvaghosha's Chinese reception in the early 5th c.",
+   "references": [
+    "Maming Pusa Zhuan, T.2046"
+   ]
+  },
+  {
+   "id": "faxian-sojourn-399-414",
+   "indian_entity": "Candragupta II's India (Faxian's sojourn)",
+   "aliases": [
+    "Faxian",
+    "Fa-hien",
+    "Foguo Ji sojourn"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Faxian, Foguo Ji (Record of Buddhist Kingdoms), with Chinese reign-era dating",
+   "source_type": "pilgrim",
+   "event": "Faxian travels India 399-414, spending c. 405-407 at Pataliputra in the Gupta realm of Candragupta II, copying Sanskrit manuscripts",
+   "date_raw": "Eastern Jin, Long'an 3 (399) to Yixi 10 (414)",
+   "date_ce": [
+    399,
+    414
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Itinerary is internally dated by Chinese era names; the Gupta synchronism is the standard reading of his Madhyadesa description",
+   "notes": "Faxian never names the Gupta king — the synchronism is by date and place, which is exactly why it is strong: it is not a tradition, it is a timestamped eyewitness window onto c. 400 CE India.",
+   "references": [
+    "Faxian, Foguo Ji, T.2085",
+    "Legge (tr.), A Record of Buddhistic Kingdoms (1886)"
+   ]
+  },
+  {
+   "id": "mahasamghika-vinaya-faxian-416",
+   "indian_entity": "Mahasamghika Vinaya",
+   "aliases": [
+    "Mahasamghika Vinaya",
+    "Mohe sengqi lu"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Colophons of the Jiankang translation (Faxian with Buddhabhadra)",
+   "source_type": "colophon",
+   "event": "The Mahasamghika Vinaya manuscript Faxian obtained at Pataliputra is translated at Jiankang",
+   "date_raw": "Eastern Jin, Yixi 12-14 (416-418)",
+   "date_ce": [
+    416,
+    418
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": "Vinaya redaction history is stratified; no single composition window is defensible",
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Translation window from colophons and Sengyou; year-level, not day-level",
+   "notes": "Shows a complete Sanskrit Vinaya of an early school physically present in Gupta Pataliputra and in China by 418.",
+   "references": [
+    "Mohe Sengqi Lu, T.1425, colophons",
+    "Sengyou, Chu Sanzang Ji Ji, T.2145"
+   ]
+  },
+  {
+   "id": "buddhacarita-baoyun-421",
+   "indian_entity": "Buddhacarita (Ashvaghosha)",
+   "aliases": [
+    "Buddhacarita",
+    "Fo suoxing zan",
+    "T.192"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Sengyou's catalogue (attribution to Baoyun); rival attribution to Dharmaksema in the Taisho preface",
+   "source_type": "colophon",
+   "event": "Fo Suoxing Zan, the Chinese Buddhacarita, is produced at Jiankang (Liu Song) by Baoyun (per Sengyou); the Taisho preface instead credits Dharmaksema",
+   "date_raw": "Liu Song, Yongchu 2 (421)",
+   "date_ce": [
+    421,
+    421
+   ],
+   "constraint_type": "TAQ",
+   "lag": [
+    271,
+    343
+   ],
+   "lag_basis": "Ashvaghosha's floruit c. 78-150 CE, from the Kaniska court synchronism (TPQ = Kaniska era epoch, debated 78/127/144) and convergent placement c. 100 CE",
+   "lag_solid": true,
+   "firmness": "probable",
+   "firmness_reason": "Year 421 is catalogue-supported (Willemen), but the translator attribution is genuinely debated (Baoyun vs Dharmaksema)",
+   "notes": "Tier 1 anchor of the BU benchmark panel ([78, 421]). The lag's lower end inherits the Kaniska-era debate: on the 127 or 144 epoch the lag shrinks by ~50-65 years.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145",
+    "Willemen (tr.), Buddhacarita: In Praise of Buddha's Acts (2009)",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 1"
+   ]
+  },
+  {
+   "id": "samyuktagama-gunabhadra-435-443",
+   "indian_entity": "Samyuktagama",
+   "aliases": [
+    "Samyuktagama",
+    "Za ahan jing",
+    "T.99"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Biographical and catalogue records of Gunabhadra's Jiankang bureau",
+   "source_type": "catalogue",
+   "event": "Gunabhadra (394-468) translates the Samyuktagama (Za Ahan Jing, T.99) at Jiankang",
+   "date_raw": "Liu Song, Yuanjia era (435-443)",
+   "date_ce": [
+    435,
+    443
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": "Agama redaction history is stratified; no single composition window is defensible",
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Window from the translator's dated biography rather than a dated colophon",
+   "notes": "A complete early-school Agama in Chinese by the 440s — a hard floor under the antiquity of the Agama tradition.",
+   "references": [
+    "Xu Gaoseng Zhuan biography of Gunabhadra",
+    "Za Ahan Jing, T.99"
+   ]
+  },
+  {
+   "id": "lankavatara-gunabhadra-443",
+   "indian_entity": "Lankavatara-sutra",
+   "aliases": [
+    "Lankavatara",
+    "Lengqie jing",
+    "T.670"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Catalogue record of Gunabhadra's translation (T.670)",
+   "source_type": "catalogue",
+   "event": "Gunabhadra translates the Lankavatara at Jiankang (an earlier lost Dharmaraksa version, c. 420-430, is also recorded)",
+   "date_raw": "Liu Song, Yuanjia 20 (443)",
+   "date_ce": [
+    443,
+    443
+   ],
+   "constraint_type": "TAQ",
+   "lag": [
+    43,
+    93
+   ],
+   "lag_basis": "Composition conventionally placed c. 350-400 CE",
+   "lag_solid": true,
+   "firmness": "firm",
+   "firmness_reason": "Year given in the catalogue tradition and consistent with the translator's dated activity",
+   "notes": "The shortest solid lag in the set: a late Mahayana sutra reaching China within roughly a lifetime of composition — proof the lag is a distribution, not a constant. Tier 1 anchor of the BU panel.",
+   "references": [
+    "Lengqie Abaduoluo Baojing, T.670",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 1"
+   ]
+  },
+  {
+   "id": "sengyou-catalogue-515",
+   "indian_entity": "Chinese Buddhist canon as catalogued by Sengyou",
+   "aliases": [
+    "Chu Sanzang Ji Ji",
+    "Sengyou catalogue"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Sengyou, Chu Sanzang Ji Ji (T.2145)",
+   "source_type": "catalogue",
+   "event": "Sengyou compiles the Chu Sanzang Ji Ji at Jiankang — the master bibliography of translations, preserving the early colophons this spine rests on",
+   "date_raw": "Liang, Tianjian era (c. 515)",
+   "date_ce": [
+    515,
+    515
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Compilation year is approximate (c. 515, late Tianjian era), not colophon-exact",
+   "notes": "A master TAQ for every translation it records — and the reason the 2nd-5th c. colophons survive at all.",
+   "references": [
+    "Sengyou, Chu Sanzang Ji Ji, T.2145"
+   ]
+  },
+  {
+   "id": "song-yun-mission-518-522",
+   "indian_entity": "Uddiyana and Gandhara (Song Yun's mission)",
+   "aliases": [
+    "Song Yun",
+    "Huisheng",
+    "Wei mission to India"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Luoyang Qielan Ji (quoting Song Yun's itinerary) and Wei Shu",
+   "source_type": "pilgrim",
+   "event": "The Northern Wei court mission of Song Yun and Huisheng travels to Uddiyana and Gandhara and returns with 170 Sanskrit texts",
+   "date_raw": "Northern Wei, Shengui 1 (518) to Zhengguang 3 (522)",
+   "date_ce": [
+    518,
+    522
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Court mission dated by era names; the itinerary survives quoted in a later work, not as an autograph",
+   "notes": "A dated eyewitness window on Hephthalite-era Gandhara — political and monastic conditions c. 520.",
+   "references": [
+    "Yang Xuanzhi, Luoyang Qielan Ji",
+    "Wei Shu, Xiyu zhuan"
+   ]
+  },
+  {
+   "id": "bodhidharma-arrival-c520",
+   "indian_entity": "Bodhidharma",
+   "aliases": [
+    "Bodhidharma",
+    "Damo"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Xu Gaoseng Zhuan biography; Luoyang Qielan Ji notice",
+   "source_type": "catalogue",
+   "event": "Bodhidharma arrives in south China by sea and later appears at Luoyang",
+   "date_raw": "Liang / Northern Wei, c. 520s (no era date in the earliest sources)",
+   "date_ce": [
+    520,
+    527
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "contested",
+   "firmness_reason": "Earliest sources give no year; 520/527 are later traditional assignments and the biography is heavily legendary",
+   "notes": "Carried deliberately as a contested record: the tool grades, it does not launder legend into fact.",
+   "references": [
+    "Daoxuan, Xu Gaoseng Zhuan, T.2060",
+    "Yang Xuanzhi, Luoyang Qielan Ji"
+   ]
+  },
+  {
+   "id": "paramartha-arrival-546",
+   "indian_entity": "Paramartha",
+   "aliases": [
+    "Paramartha",
+    "Zhendi"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Xu Gaoseng Zhuan biography",
+   "source_type": "catalogue",
+   "event": "Paramartha arrives at Guangzhou by sea with a cargo of Sanskrit manuscripts, summoned by the Liang emperor",
+   "date_raw": "Liang, Datong 12 (546)",
+   "date_ce": [
+    546,
+    546
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Year from his dated biography; biography is near-contemporary (Daoxuan, 7th c.)",
+   "notes": "His translation bureau (546-569) and his Vasubandhu biography are two of the spine's most consequential Indian-chronology sources.",
+   "references": [
+    "Daoxuan, Xu Gaoseng Zhuan, T.2060"
+   ]
+  },
+  {
+   "id": "samkhyakarika-paramartha-557-569",
+   "indian_entity": "Samkhyakarika (Ishvarakrishna)",
+   "aliases": [
+    "Samkhyakarika",
+    "Suvarnasaptati",
+    "Jin qishi lun"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Paramartha's Suvarnasaptati translation (Jin Qishi Lun, T.2137) and his biography",
+   "source_type": "colophon",
+   "event": "Paramartha translates the Samkhyakarika with its commentary (Suvarnasaptati) in China; the Sanskrit exemplar had reached China in 546",
+   "date_raw": "Liang / Chen, c. 557-569",
+   "date_ce": [
+    557,
+    569
+   ],
+   "constraint_type": "TAQ",
+   "lag": [
+    107,
+    219
+   ],
+   "lag_basis": "Ishvarakrishna conventionally placed c. 350-450 CE; lag = translation window (557-569) minus composition window (350-450)",
+   "lag_solid": true,
+   "firmness": "probable",
+   "firmness_reason": "The panel's TAQ 569 is the end of Paramartha's dated lifetime; the translation's exact year inside 557-569 is not colophon-fixed",
+   "notes": "A Brahmanical (non-Buddhist) text anchored purely by a Buddhist translator's dated Chinese activity — the spine working across traditions. Tier 1 anchor of the BU panel.",
+   "references": [
+    "Jin Qishi Lun, T.2137",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 1"
+   ]
+  },
+  {
+   "id": "vasubandhu-paramartha-biography-c560",
+   "indian_entity": "Vasubandhu",
+   "aliases": [
+    "Vasubandhu",
+    "Shiqin"
+   ],
+   "entity_type": "author",
+   "chinese_source": "Paramartha, Life of Vasubandhu (Posoupandou Fashi Zhuan, T.2049)",
+   "source_type": "catalogue",
+   "event": "Paramartha composes/translates the earliest biography of Vasubandhu in China, placing him some generations in the past, brother of Asanga, under a king Vikramaditya of Ayodhya",
+   "date_raw": "Chen, c. 551-569 (Paramartha's China years)",
+   "date_ce": [
+    551,
+    569
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": "The biography constrains Vasubandhu's era only through its internal synchronisms (a Vikramaditya, a king Baladitya) — identifications are the debate, so no lag is computed",
+   "lag_solid": false,
+   "firmness": "contested",
+   "firmness_reason": "The main external evidence in the Vasubandhu dating debate (Frauwallner's 4th-c. reading vs the traditional 5th-c. one) is this single biographical tradition",
+   "notes": "The classic case of Chinese evidence being load-bearing AND contested at once: the tool records the constraint and its contest, not a verdict.",
+   "references": [
+    "Posoupandou Fashi Zhuan, T.2049",
+    "Takakusu (tr.), 'The Life of Vasu-bandhu by Paramartha' (1904)"
+   ]
+  },
+  {
+   "id": "xuanzang-sojourn-629-645",
+   "indian_entity": "Harsa-era India (Xuanzang's sojourn)",
+   "aliases": [
+    "Xuanzang",
+    "Hiuen Tsang",
+    "Tripitaka Master"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Da Tang Xiyu Ji (646) and Huili's biography of Xuanzang",
+   "source_type": "pilgrim",
+   "event": "Xuanzang travels India 629-645: studies at Nalanda under Shilabhadra, tours the kingdoms, attends Harsa's assemblies, returns to Chang'an with 657 Sanskrit texts",
+   "date_raw": "Tang, Zhenguan 3 (629) to Zhenguan 19 (645)",
+   "date_ce": [
+    629,
+    645
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Departure, itinerary and return (645) are dated in court records and his biography to the year",
+   "notes": "The single richest dated eyewitness source for 7th-c. India. Zhenguan 19 = 645 is one of the converter's test cases.",
+   "references": [
+    "Xuanzang, Da Tang Xiyu Ji, T.2087",
+    "Huili, Da Ci'en Si Sanzang Fashi Zhuan, T.2053"
+   ]
+  },
+  {
+   "id": "silabhadra-xuanzang-630s",
+   "indian_entity": "Shilabhadra",
+   "aliases": [
+    "Shilabhadra",
+    "Silabhadra"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Da Tang Xiyu Ji and Xuanzang's biography",
+   "source_type": "pilgrim",
+   "event": "Xuanzang studies under Shilabhadra, the aged head of Nalanda, in the 630s; Shilabhadra was the pupil of Dharmapala",
+   "date_raw": "Tang, Zhenguan era, c. 630-637",
+   "date_ce": [
+    630,
+    637
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The sojourn is dated; the biography's age for Shilabhadra (106) is hagiographic and is NOT used",
+   "notes": "Anchors the Nalanda teacher-lineage (Dharmapala -> Shilabhadra -> Xuanzang) that Indian logic/epistemology chronology hangs from.",
+   "references": [
+    "Xuanzang, Da Tang Xiyu Ji, T.2087",
+    "Huili, Da Ci'en Si Sanzang Fashi Zhuan, T.2053"
+   ]
+  },
+  {
+   "id": "harsa-xuanzang-643",
+   "indian_entity": "Harsavardhana (Shiladitya)",
+   "aliases": [
+    "Harsa",
+    "Harsha",
+    "Shiladitya",
+    "Jieri wang"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Da Tang Xiyu Ji; Xuanzang biography; Tang annals",
+   "source_type": "pilgrim",
+   "event": "Xuanzang at Harsa's court: the Kanyakubja assembly and Prayaga festival, and his meeting with Bhaskaravarman of Kamarupa, Harsa's ally",
+   "date_raw": "Tang, Zhenguan 17 (643)",
+   "date_ce": [
+    643,
+    643
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated eyewitness meeting, cross-checked by Harsa's own era-dated inscriptions (epoch 606)",
+   "notes": "With the annals record of his death (647) this gives the [606, 647] bracket that anchors Bana's Harsacarita — the BU panel's tightest early two-sided interval.",
+   "references": [
+    "Xuanzang, Da Tang Xiyu Ji, T.2087",
+    "BU project: BENCHMARK-V2-PANEL.md Tier 1 (Harsacarita)"
+   ]
+  },
+  {
+   "id": "wang-xuance-first-embassy-643",
+   "indian_entity": "Wang Xuance's first embassy to Magadha",
+   "aliases": [
+    "Wang Xuance",
+    "Wang Hsuan-ts'e"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Jiu Tang Shu and Xin Tang Shu, Tianzhu zhuan",
+   "source_type": "annals",
+   "event": "Wang Xuance leads the Tang embassy to Harsa's Magadha and returns with an Indian ambassador's return mission",
+   "date_raw": "Tang, Zhenguan 17 (643)",
+   "date_ce": [
+    643,
+    643
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Court annals record the embassy by reign year",
+   "notes": "Diplomatic synchronism independent of the pilgrim record — two Chinese genres agreeing on Harsa's floruit.",
+   "references": [
+    "Jiu Tang Shu, ch. 198",
+    "Xin Tang Shu, ch. 221"
+   ]
+  },
+  {
+   "id": "xiyu-ji-presentation-646",
+   "indian_entity": "Indian kingdoms as described in the Da Tang Xiyu Ji",
+   "aliases": [
+    "Da Tang Xiyu Ji",
+    "Xiyu Ji"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Tang court record of the work's presentation",
+   "source_type": "annals",
+   "event": "Xuanzang's Da Tang Xiyu Ji, his gazetteer of the 110+ Indian and Central Asian states he saw or heard of, is presented to Emperor Taizong",
+   "date_raw": "Tang, Zhenguan 20 (646)",
+   "date_ce": [
+    646,
+    646
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Presentation year is court-dated",
+   "notes": "Everything the Xiyu Ji describes as existing — kingdoms, monasteries, stupas, living teachers — is thereby dated to no later than 646, and its past-tense notices are TPQ-grade evidence for decline by then.",
+   "references": [
+    "Xuanzang, Da Tang Xiyu Ji, T.2087 (presented 646)"
+   ]
+  },
+  {
+   "id": "harsa-death-wang-xuance-647-648",
+   "indian_entity": "Harsavardhana (Shiladitya)",
+   "aliases": [
+    "Harsa death",
+    "Arunasha",
+    "Aluonashun"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Jiu Tang Shu and Xin Tang Shu, Tianzhu zhuan",
+   "source_type": "annals",
+   "event": "Harsa dies without an heir (647); his usurping minister Arunasha attacks Wang Xuance's 648 embassy, which retaliates with Tibetan and Nepalese troops and captures him",
+   "date_raw": "Tang, Zhenguan 21-22 (647-648)",
+   "date_ce": [
+    647,
+    648
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The 648 battle is annal-dated; the death year 647 is the standard inference (alive for the 643 embassy, dead before the 648 attack)",
+   "notes": "Closes the [606, 647] Harsa bracket from the Chinese side. An Indian emperor's death year known only because a Chinese envoy was attacked — the spine in one anecdote.",
+   "references": [
+    "Jiu Tang Shu, ch. 198",
+    "Xin Tang Shu, ch. 221"
+   ]
+  },
+  {
+   "id": "trimsika-xuanzang-659",
+   "indian_entity": "Trimsika (Vasubandhu)",
+   "aliases": [
+    "Trimsika",
+    "Vimsika",
+    "Cheng weishi lun",
+    "T.1585"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Colophon of Xuanzang's Cheng Weishi Lun (T.1585)",
+   "source_type": "colophon",
+   "event": "Xuanzang compiles/translates the Cheng Weishi Lun at Chang'an, incorporating Vasubandhu's Trimsika and Vimsika with ten commentaries",
+   "date_raw": "Tang, Xianqing 4 (659)",
+   "date_ce": [
+    659,
+    659
+   ],
+   "constraint_type": "TAQ",
+   "lag": [
+    263,
+    343
+   ],
+   "lag_basis": "Frauwallner dating of Vasubandhu (c. 316-396) from Paramartha's biography; the rival traditional dating (c. 400-480) would give lag [179, 259] instead",
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Translation year is colophon-firm; the lag is excluded from the model because Vasubandhu's own window is the contested quantity",
+   "notes": "A deliberately circularity-safe record: the TAQ is hard, the lag is flagged unusable precisely because it would assume the Vasubandhu date the spine is meant to test.",
+   "references": [
+    "Cheng Weishi Lun, T.1585, colophon",
+    "Posoupandou Fashi Zhuan, T.2049"
+   ]
+  },
+  {
+   "id": "yijing-sojourn-671-695",
+   "indian_entity": "Nalanda and Tamralipti (Yijing's sojourn)",
+   "aliases": [
+    "Yijing",
+    "I-tsing",
+    "I-ching"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Yijing, Nanhai Jigui Neifa Zhuan (Record, sent home 691) and his pilgrim biographies",
+   "source_type": "pilgrim",
+   "event": "Yijing sails from Guangzhou (671), studies at Nalanda c. 675-685, returns to China 695 with some 400 Sanskrit texts",
+   "date_raw": "Tang, Xianheng 2 (671) to Zhengsheng 1 (695)",
+   "date_ce": [
+    671,
+    695
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Departure, sojourn and return are dated in his own works and court records",
+   "notes": "His Record (written 691) is a dated snapshot of Indian Buddhism and Sanskrit learning in the generation after Xuanzang.",
+   "references": [
+    "Yijing, Nanhai Jigui Neifa Zhuan, T.2125",
+    "Takakusu (tr.), A Record of the Buddhist Religion (1896)"
+   ]
+  },
+  {
+   "id": "bhartrihari-yijing-651",
+   "indian_entity": "Bhartrihari",
+   "aliases": [
+    "Bhartrihari",
+    "Bhartrhari",
+    "Vakyapadiya author"
+   ],
+   "entity_type": "author",
+   "chinese_source": "Yijing, Nanhai Jigui Neifa Zhuan (Record of Buddhist Practices), chapter on Sanskrit grammar",
+   "source_type": "pilgrim",
+   "event": "Yijing reports that Bhartrihari — author of the Vakyapadiya and the Bhartrihari-shastra — died forty years before his Record (691), i.e. 651-652 CE, after seven times alternating between monk and lay life; he also calls him a contemporary of Dharmapala",
+   "date_raw": "Record dated Tang, Tianshou 2 (691); death = 691 minus 'forty years'",
+   "date_ce": [
+    651,
+    652
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "'Forty years' is a round figure, and the Dharmapala-contemporaneity sits awkwardly with it (Dharmapala is usually placed c. 530-561) — yet this remains the sheet-anchor of Bhartrihari chronology",
+   "notes": "Max Muller called Yijing's notice 'a new sheet-anchor in the chronology of Sanskrit literature'. It flatly contradicts the Indian tradition making Bhartrihari the brother of a 1st-c. BCE Vikramaditya — the canonical case of the Chinese record correcting an Indian traditional date. Some modern scholars argue for a 5th-c. Bhartrihari, which is why this is graded probable, not firm.",
+   "references": [
+    "Takakusu (tr.), A Record of the Buddhist Religion (1896), pp. lvii, 181",
+    "Yijing, Nanhai Jigui Neifa Zhuan, T.2125"
+   ]
+  },
+  {
+   "id": "jayaditya-yijing-c661",
+   "indian_entity": "Jayaditya (Kashikavrtti co-author)",
+   "aliases": [
+    "Jayaditya",
+    "Kashika",
+    "Kasikavrtti"
+   ],
+   "entity_type": "author",
+   "chinese_source": "Yijing, Nanhai Jigui Neifa Zhuan, chapter on Sanskrit grammar",
+   "source_type": "pilgrim",
+   "event": "Yijing reports Jayaditya, co-author (with Vamana) of the Kashikavrtti on Panini, died nearly thirty years before his Record",
+   "date_raw": "Record dated 691; death = 691 minus 'nearly thirty years'",
+   "date_ce": [
+    660,
+    662
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Same round-number caveat as the Bhartrihari notice; the two notices corroborate each other's milieu",
+   "notes": "Anchors the Kashikavrtti (and so a terminus for the whole Paninian commentarial tradition) to the mid-7th c. — from a Chinese pilgrim's grammar chapter, not from any Indian source.",
+   "references": [
+    "Takakusu (tr.), A Record of the Buddhist Religion (1896), p. lvii"
+   ]
+  },
+  {
+   "id": "dharmakirti-yijing-691",
+   "indian_entity": "Dharmakirti",
+   "aliases": [
+    "Dharmakirti"
+   ],
+   "entity_type": "author",
+   "chinese_source": "Yijing, Nanhai Jigui Neifa Zhuan",
+   "source_type": "pilgrim",
+   "event": "Yijing names Dharmakirti among the recent masters who improved the science of logic (hetu) after Dinnaga and Jina",
+   "date_raw": "Record dated Tang, Tianshou 2 (691)",
+   "date_ce": [
+    691,
+    691
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "A mention as an established authority by 691 is a real TAQ for his works, but says nothing tighter about his floruit",
+   "notes": "Consistent with the standard c. 600-660 placement; the Chinese mention is one of the few non-Tibetan external checks on it.",
+   "references": [
+    "Takakusu (tr.), A Record of the Buddhist Religion (1896)"
+   ]
+  },
+  {
+   "id": "dharmapala-lineage-xuanzang-yijing",
+   "indian_entity": "Dharmapala",
+   "aliases": [
+    "Dharmapala of Nalanda"
+   ],
+   "entity_type": "author",
+   "chinese_source": "Xuanzang's and Yijing's lineage statements (teacher of Shilabhadra; contemporary of Bhartrihari)",
+   "source_type": "pilgrim",
+   "event": "Xuanzang (630s) reports Dharmapala as his teacher Shilabhadra's teacher, already of the previous generation; Yijing calls him Bhartrihari's contemporary",
+   "date_raw": "Reported 646 (Xiyu Ji) and 691 (Yijing's Record)",
+   "date_ce": [
+    530,
+    600
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "contested",
+   "firmness_reason": "Generation-counting from dated pupils; the two Chinese notices (previous generation in the 630s; contemporary of a man who died 651) do not sit comfortably together",
+   "notes": "The conventional c. 530-561 floruit is a construction from these Chinese lineage data plus Tibetan tradition — flagged here as generation-counting, the weakest link type in the spine.",
+   "references": [
+    "Xuanzang, Da Tang Xiyu Ji, T.2087",
+    "Takakusu (tr.), A Record of the Buddhist Religion (1896)"
+   ]
+  },
+  {
+   "id": "kaiyuan-catalogue-730",
+   "indian_entity": "Chinese Buddhist canon as catalogued in the Kaiyuan era",
+   "aliases": [
+    "Kaiyuan Shijiao Lu",
+    "Zhisheng catalogue"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Zhisheng, Kaiyuan Shijiao Lu (T.2154)",
+   "source_type": "catalogue",
+   "event": "Zhisheng compiles the Kaiyuan Shijiao Lu, the definitive Tang catalogue of the canon (2,487 works in 7,302 fascicles recorded as extant or known)",
+   "date_raw": "Tang, Kaiyuan 18 (730)",
+   "date_ce": [
+    730,
+    730
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Catalogue dated by its own preface to Kaiyuan 18 = 730 CE",
+   "notes": "Master TAQ for the entire pre-730 translation corpus; also the source that retrospectively fixes many earlier translators' dates. Kaiyuan 18 = 730 is a converter test case.",
+   "references": [
+    "Zhisheng, Kaiyuan Shijiao Lu, T.2154"
+   ]
+  },
+  {
+   "id": "mahavairocana-subhakarasimha-724",
+   "indian_entity": "Mahavairocana-sutra",
+   "aliases": [
+    "Mahavairocana",
+    "Dari jing",
+    "T.848"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Catalogue record of Shubhakarasimha's translation (with Yixing's commentary)",
+   "source_type": "catalogue",
+   "event": "Shubhakarasimha, newly arrived from India, translates the Mahavairocana-sutra at Chang'an with Yixing",
+   "date_raw": "Tang, Kaiyuan 12 (724)",
+   "date_ce": [
+    724,
+    724
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": "Tantric composition windows are too contested to bound a lag",
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Year from the Tang catalogues and Yixing's biography; not a surviving dated colophon",
+   "notes": "Marks the dated arrival of mature tantric Buddhism in China — a TAQ the Indian-side tantric chronology debate must respect.",
+   "references": [
+    "Kaiyuan Shijiao Lu, T.2154",
+    "Dari Jing, T.848"
+   ]
+  },
+  {
+   "id": "huichao-journey-723-729",
+   "indian_entity": "Indian kingdoms of the 720s (Huichao's itinerary)",
+   "aliases": [
+    "Huichao",
+    "Hyecho",
+    "Wang ocheonchukguk jeon"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Huichao, Wang Ocheonchukguk Jeon (Memoir of the Pilgrimage to the Five Kingdoms of India)",
+   "source_type": "pilgrim",
+   "event": "The Korean monk Huichao (Hyecho) travels India by sea and returns overland through Central Asia, describing the post-Harsa political map",
+   "date_raw": "Tang, Kaiyuan era (c. 723-729)",
+   "date_ce": [
+    723,
+    729
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Dates reconstructed from the itinerary and era references; the manuscript (found at Dunhuang) is fragmentary",
+   "notes": "A dated snapshot of India between Harsa and the Palas, from outside both the Indian and the Chinese-court traditions.",
+   "references": [
+    "Huichao, Wang Ocheonchukguk Jeon (Dunhuang ms., P.3532)"
+   ]
+  },
+  {
+   "id": "amoghavajra-bureau-746-774",
+   "indian_entity": "Tantric texts translated by Amoghavajra",
+   "aliases": [
+    "Amoghavajra",
+    "Bukong"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Tang catalogues and Amoghavajra's memorials/lists of translations",
+   "source_type": "catalogue",
+   "event": "Amoghavajra's court translation bureau produces its dated output of tantric texts (his own submitted lists survive)",
+   "date_raw": "Tang, Tianbao 5 (746) to Dali 9 (774)",
+   "date_ce": [
+    746,
+    774
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The bureau's activity window is court-dated; individual titles' years vary inside it",
+   "notes": "Every tantric work in his lists existed in India (or its diaspora) by the mid-8th c. — a bulk TAQ for early tantric literature.",
+   "references": [
+    "Kaiyuan Shijiao Lu (continued records)",
+    "Amoghavajra's translation lists (biaozhi)"
+   ]
+  },
+  {
+   "id": "wukong-sojourn-751-790",
+   "indian_entity": "Kashmir and Gandhara (Wukong's sojourn)",
+   "aliases": [
+    "Wukong",
+    "Wu-k'ung"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Catalogue prefaces and the record of Wukong's return (Yuanshao's preface)",
+   "source_type": "pilgrim",
+   "event": "Wukong goes to India with a Tang embassy (751), stays nearly forty years in Kashmir and Gandhara, is ordained, and returns to Chang'an (790) with Sanskrit texts",
+   "date_raw": "Tang, Tianbao 10 (751) to Zhenyuan 6 (790)",
+   "date_ce": [
+    751,
+    790
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Endpoints are recorded; the long sojourn's internal chronology is thin",
+   "notes": "The last great dated Chinese eyewitness window on pre-Islamic Kashmir/Gandhara Buddhism.",
+   "references": [
+    "Yuanshao, preface to Wukong's translations (in Kaiyuan-line catalogues)"
+   ]
+  },
+  {
+   "id": "song-bureau-dharmadeva-982-1001",
+   "indian_entity": "Late Indian tantric texts (Song translation bureau)",
+   "aliases": [
+    "Dharmadeva",
+    "Faxian II",
+    "Tianxizai",
+    "Song translation bureau"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Song catalogues and court records of the refounded translation bureau",
+   "source_type": "catalogue",
+   "event": "The Northern Song refounds the imperial translation bureau (982); Indian and Central Asian monks (Dharmadeva/Faxian II, Tianxizai/Devashantika, Danapala) translate newly arrived Sanskrit manuscripts",
+   "date_raw": "Northern Song, Taiping Xingguo 7 (982) onward",
+   "date_ce": [
+    982,
+    1001
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Bureau refounding is court-dated; the window covers the first translators' activity, individual titles vary",
+   "notes": "The spine's far end: Sanskrit manuscripts were still physically travelling from India to China at the turn of the 11th c., dating the last stratum of Indian Buddhist literature by arrival.",
+   "references": [
+    "Song dynasty translation-bureau records",
+    "Xu Zizhi Tongjian Changbian (court annals)"
+   ]
+  },
+  {
+   "aliases": [
+    "dotted record",
+    "zhusheng dianji",
+    "Canton dotted record"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "buddha-parinirvana-dotted-record-489",
+   "indian_entity": "Buddha's parinirvana (dotted record)",
+   "entity_type": "event",
+   "chinese_source": "Lidai Sanbao Ji (Fei Changfang, 597 CE); Da Tang Neidian Lu (Daoxuan, 664)",
+   "source_type": "catalogue",
+   "event": "Sanghabhadra, translator of the Samantapasadika, places the 975th dot of the vinaya dotted record at Canton; the count, begun by Upali at the first pavarana after the parinirvana and handed down the Theravada vinaya lineage, implies parinirvana in 486 BCE",
+   "date_raw": "Yongming 7 (Southern Qi)",
+   "date_ce": [
+    489,
+    489
+   ],
+   "constraint_type": "synchronism",
+   "firmness": "contested",
+   "firmness_reason": "The record is real but NOT independent: its custodian chain is the Theravada vinaya lineage itself, so its 486 BCE agrees with the Ceylon 218-year chronology because both are the same tradition's arithmetic (Pachow: the count needs a 3-dot adjustment to land on 483)",
+   "notes": "Campaign case 1 verdict: NO BITE as an independent correction. Carried so the tool refuses to count it as a second witness for the long chronology.",
+   "references": [
+    "Fei Changfang, Lidai Sanbao Ji (597)",
+    "Daoxuan, Da Tang Neidian Lu, T.2149",
+    "Pachow, A Study of the Dotted Record",
+    "Bechert (ed.), Die Datierung des historischen Buddha",
+    "Campaign CORRECTIONS.md case 1"
+   ]
+  },
+  {
+   "aliases": [
+    "Kanishka",
+    "Kaniska era"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "hou-hanshu-kushan-horizon-125",
+   "indian_entity": "Kaniska's accession (Hou Hanshu silence)",
+   "entity_type": "person",
+   "chinese_source": "Hou Hanshu, ch. 88 (Western Regions)",
+   "source_type": "annals",
+   "event": "The Hou Hanshu Kushan account, based on reports current to c. 125 CE, names Kujula Kadphises and his son (Vima Takto) but not Kanishka, and gives no Kushan regnal date",
+   "date_raw": "Report horizon c. Jianwu to Yongning era reports, compiled in Hou Hanshu",
+   "date_ce": [
+    125,
+    125
+   ],
+   "constraint_type": "TPQ",
+   "firmness": "contested",
+   "firmness_reason": "Argument from silence/report horizon: suggests Kanishka had not risen (or was unknown at court) by c. 125, but the account's India coverage is thin",
+   "notes": "Campaign case 2: soft lower bound on the era epoch; combined with the Bodiao entry it confines the epoch to c. 125-165 and excludes 78 CE.",
+   "references": [
+    "Hou Hanshu 88 (trans. Hill)",
+    "Campaign CORRECTIONS.md case 2"
+   ]
+  },
+  {
+   "aliases": [
+    "Bodiao",
+    "Vasudeva I"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "vasudeva-bodiao-embassy-229",
+   "indian_entity": "Vasudeva I (Bodiao), Kushan king",
+   "entity_type": "person",
+   "chinese_source": "Sanguozhi, ch. 3 (annals of Emperor Ming of Wei)",
+   "source_type": "annals",
+   "event": "The king of the Da Yuezhi, Bodiao (Vasudeva I), sends tribute; the Wei emperor grants him the title King of the Da Yuezhi Intimate with Wei",
+   "date_raw": "Taihe 3 (Cao Wei)",
+   "date_ce": [
+    229,
+    229
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Annalistic entry with reign-era date; the bound it generates depends on the Bodiao = Vasudeva I identification (a Vasudeva II has been proposed)",
+   "notes": "Vasudeva I's era-dated inscriptions run years 64-98; his being on the throne in 229 excludes a 78 CE era epoch (which would put 229 in era year 151) and is consistent with 127 or 144.",
+   "references": [
+    "Sanguozhi ch. 3",
+    "Campaign CORRECTIONS.md case 2"
+   ]
+  },
+  {
+   "aliases": [
+    "Ashvaghosha",
+    "Maming"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "asvaghosa-biography-translation-405",
+   "indian_entity": "Asvaghosa (biographical tradition)",
+   "entity_type": "author",
+   "chinese_source": "Kumarajiva bureau translation records (Biography of Asvaghosa, T.2046)",
+   "source_type": "colophon",
+   "event": "Kumarajiva's Chang'an bureau translates the Biography of Asvaghosa, c. 405 CE - by then he is a legendary, biographised figure",
+   "date_raw": "Hongshi era (Later Qin), c. 405",
+   "date_ce": [
+    405,
+    405
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "probable",
+   "firmness_reason": "Bureau attribution and period are standard; the biography's legendary maturity is an inference about floruit, not a date",
+   "notes": "Campaign case 3: supports a floruit well before 400; working floruit c. 100-200 with the Kaniska relation (era-dependent).",
+   "references": [
+    "Chu Sanzang Ji Ji / Kaiyuan Shijiao Lu records for T.2046",
+    "Campaign CORRECTIONS.md case 3"
+   ]
+  },
+  {
+   "aliases": [
+    "Buddhacarita",
+    "Fo suoxing zan",
+    "T.192"
+   ],
+   "lag": [
+    212,
+    321
+   ],
+   "lag_basis": "Composition c. 100-200 CE on the Kanishka-relation placement; the window is era-dependent, not independent of the synchronism tradition",
+   "lag_solid": false,
+   "id": "buddhacarita-translation-dharmaksema-421",
+   "indian_entity": "Buddhacarita (Asvaghosa)",
+   "entity_type": "text",
+   "chinese_source": "Dharmaksema translation record (Fo suoxing zan, T.192)",
+   "source_type": "colophon",
+   "event": "Dharmaksema translates the Buddhacarita into Chinese, c. 412-421 CE (Northern Liang)",
+   "date_raw": "Northern Liang, c. 412-421",
+   "date_ce": [
+    412,
+    421
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "probable",
+   "firmness_reason": "Translation window is the standard catalogue dating for Dharmaksema's Northern Liang activity",
+   "notes": "Hard late bound for Asvaghosa; cf. spine C10.",
+   "references": [
+    "Catalogue records for T.192",
+    "Campaign CORRECTIONS.md case 3"
+   ]
+  },
+  {
+   "aliases": [
+    "Nagarjuna",
+    "Zhong lun",
+    "T.1564"
+   ],
+   "lag": [
+    160,
+    260
+   ],
+   "lag_basis": "Standard composition range c. 150-250 CE (spine lag table); range is scholarly convention, carried but the TAQ itself is the load-bearing datum",
+   "lag_solid": false,
+   "id": "nagarjuna-zhonglun-kumarajiva-409",
+   "indian_entity": "Nagarjuna, Mulamadhyamakarika",
+   "entity_type": "text",
+   "chinese_source": "Kumarajiva bureau colophon, Chang'an (Zhong lun, T.1564)",
+   "source_type": "colophon",
+   "event": "Kumarajiva translates the Mulamadhyamakarika with Pingala's commentary in 409 CE",
+   "date_raw": "Hongshi 11 (Later Qin)",
+   "date_ce": [
+    409,
+    409
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "firm",
+   "firmness_reason": "Court-documented translation bureau output with reign-era date",
+   "notes": "Campaign case 4 verdict CORRECTED: closes the hagiographic 400-600-year lifespan placements; working floruit c. 150-250. Cf. spine C8.",
+   "references": [
+    "Zhong lun colophon tradition, T.1564",
+    "Campaign CORRECTIONS.md case 4"
+   ]
+  },
+  {
+   "aliases": [
+    "Life of Vasubandhu",
+    "Posoupandou fashi zhuan",
+    "T.2049"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "vasubandhu-life-paramartha-563",
+   "indian_entity": "Vasubandhu (Paramartha's Life)",
+   "entity_type": "author",
+   "chinese_source": "Paramartha, Life of Vasubandhu (T.2049), composed c. 563-569, preserved only in Chinese",
+   "source_type": "catalogue",
+   "event": "Paramartha composes/transmits the Life of Vasubandhu: Purusapura origin, brother Asanga, death at Ayodhya aged 80; its internal nirvana-interval figures are tradition arithmetic, not record",
+   "date_raw": "Chen dynasty, c. 563-569",
+   "date_ce": [
+    563,
+    569
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Author's own dates are Chinese-recorded and the text survives only in Chinese; its factual content is one inferential step from record and its interval numbers are demonstrably unreliable",
+   "notes": "Campaign case 5: primary biographical source for the pair; use its facts, refuse its numbers.",
+   "references": [
+    "Paramartha, T.2049",
+    "Takakusu, JRAS 1905",
+    "Campaign CORRECTIONS.md case 5"
+   ]
+  },
+  {
+   "aliases": [
+    "Dasabhumikasutra-sastra",
+    "T.1522"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "vasubandhu-dasabhumika-bodhiruci-510",
+   "indian_entity": "Vasubandhu, Dasabhumika commentary",
+   "entity_type": "text",
+   "chinese_source": "Bodhiruci translation record, Luoyang (T.1522)",
+   "source_type": "colophon",
+   "event": "Bodhiruci translates Vasubandhu's Dasabhumika commentary, c. 508-512 CE",
+   "date_raw": "Northern Wei, c. 508-512",
+   "date_ce": [
+    508,
+    512
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "probable",
+   "firmness_reason": "Standard catalogue dating for Bodhiruci's Luoyang activity",
+   "notes": "Earliest firm TAQ in the Vasubandhu stack; pushes his floruit no later than the later 5th century on any plausible lag. Cf. spine C18.",
+   "references": [
+    "Catalogue records for T.1522",
+    "Campaign CORRECTIONS.md case 5"
+   ]
+  },
+  {
+   "aliases": [
+    "Abhidharmakosa",
+    "T.1559"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "vasubandhu-kosha-paramartha-563-567",
+   "indian_entity": "Vasubandhu, Abhidharmakosa-bhasya",
+   "entity_type": "text",
+   "chinese_source": "Paramartha translation record (T.1559)",
+   "source_type": "colophon",
+   "event": "Paramartha translates the Abhidharmakosa-bhasya, 563-567 CE",
+   "date_raw": "Chen dynasty, 563-567",
+   "date_ce": [
+    563,
+    567
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "firm",
+   "firmness_reason": "Translator's activity is independently dated (Paramartha 499-569, in China from 546)",
+   "notes": "Cf. spine C16. Xuanzang's retranslation 651-654 (T.1558) is a catalogue cross-check, not a tighter bound.",
+   "references": [
+    "Catalogue records for T.1559",
+    "Campaign CORRECTIONS.md case 5"
+   ]
+  },
+  {
+   "aliases": [
+    "Dignaga",
+    "Nyayamukha",
+    "Yinming zhengli men lun",
+    "T.1628"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "dignaga-nyayamukha-xuanzang-649",
+   "indian_entity": "Dignaga, Nyayamukha",
+   "entity_type": "text",
+   "chinese_source": "Xuanzang translation record (T.1628)",
+   "source_type": "colophon",
+   "event": "Xuanzang translates Dignaga's Nyayamukha in 649 CE; Dignaga's corpus was already curriculum material during Xuanzang's Indian study years (630s-640s)",
+   "date_raw": "Zhenguan 23 (Tang)",
+   "date_ce": [
+    649,
+    649
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "firm",
+   "firmness_reason": "Dated output of Xuanzang's court translation bureau",
+   "notes": "Campaign case 6. Note: the spine catalogue's shorthand 'Alambanapariksa translated by Xuanzang 632' should read as his in-India study period; his translations are 645-664 (Alambanapariksa bureau translation 657).",
+   "references": [
+    "Catalogue records for T.1628",
+    "Campaign CORRECTIONS.md case 6"
+   ]
+  },
+  {
+   "aliases": [
+    "Dharmakirti"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "dharmakirti-yijing-recent-691",
+   "indian_entity": "Dharmakirti (Yijing's 'recent masters')",
+   "entity_type": "author",
+   "chinese_source": "Yijing, Nanhai jigui neifa zhuan (sent to China 691)",
+   "source_type": "pilgrim",
+   "event": "Yijing lists Dharmakirti among the 'recent' masters and reports his works taught near Nalanda c. 665-670; Xuanzang (in India 629-645) never mentions him; no work of Dharmakirti was translated into Chinese in the Tang",
+   "date_raw": "Written 691 (Tianhou era)",
+   "date_ce": [
+    691,
+    691
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Positive mention is a dated eyewitness-generation report; the bracket's lower half rests on Xuanzang's silence, an argumentum ex silentio graded accordingly",
+   "notes": "Campaign case 6 verdict BOUNDED: fame by 691 firm; floruit c. 550-660 all compatible with the Chinese frame once the silence is priced. Cf. spine C28.",
+   "references": [
+    "Yijing, Nanhai jigui neifa zhuan",
+    "Frauwallner, Landmarks in the History of Indian Logic",
+    "Campaign CORRECTIONS.md case 6"
+   ]
+  },
+  {
+   "aliases": [
+    "Bhartrhari",
+    "Vakyapadiya author"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "bhartrhari-death-yijing-691",
+   "indian_entity": "Bhartrhari (grammarian)",
+   "entity_type": "author",
+   "chinese_source": "Yijing, Nanhai jigui neifa zhuan, grammar chapter (sent to China 691)",
+   "source_type": "pilgrim",
+   "event": "Yijing names Bhartrhari's works, makes him a contemporary of Dharmapala, and states 'it is forty years since his death' - implying death c. 651-652 CE",
+   "date_raw": "Written 691 (Tianhou era)",
+   "date_ce": [
+    691,
+    691
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Firm as a record of what Yijing reports; Probable as history (Frauwallner-line pushback and the two-Bhartrhari escape hatch are documented in the spine)",
+   "notes": "Campaign case 7 (calibration): verdict CORRECTED. Muller: 'a new sheet-anchor in the chronology of Sanskrit literature.' Cf. spine C26.",
+   "references": [
+    "Yijing, Nanhai jigui (trans. Takakusu 1896)",
+    "Campaign CORRECTIONS.md case 7"
+   ]
+  },
+  {
+   "aliases": [
+    "Harsha",
+    "Harsavardhana"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "harsa-embassy-tang-641",
+   "indian_entity": "Harsavardhana (embassy to Tang)",
+   "entity_type": "person",
+   "chinese_source": "Jiu Tang shu / Xin Tang shu, Tianzhu accounts",
+   "source_type": "annals",
+   "event": "Harsha ('king of Magadha') sends an embassy to Taizong; the Tang reply mission under Li Yibiao with Wang Xuance is in India 643-645; Xuanzang received at Harsha's court, Kannauj assembly 643",
+   "date_raw": "Zhenguan 15 (641); reply mission Zhenguan 17-19",
+   "date_ce": [
+    641,
+    645
+   ],
+   "constraint_type": "synchronism",
+   "firmness": "firm",
+   "firmness_reason": "Court annal record of received embassies, reign-era dated at every step",
+   "notes": "Cf. spine C19/C21.",
+   "references": [
+    "Jiu Tang shu / Xin Tang shu, Tianzhu zhuan",
+    "Campaign CORRECTIONS.md case 8"
+   ]
+  },
+  {
+   "aliases": [
+    "Harsha's death"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "harsa-death-wang-xuance-647",
+   "indian_entity": "Harsavardhana (death)",
+   "entity_type": "person",
+   "chinese_source": "Tang annals and the excerpted remains of Wang Xuance's account",
+   "source_type": "annals",
+   "event": "Wang Xuance's second mission (dispatched 647) finds Harsha dead and a usurper (Arunasva) enthroned; Wang defeats and captures the usurper in 648 with Tibetan and Nepalese troops",
+   "date_raw": "Zhenguan 21-22 (647-648)",
+   "date_ce": [
+    647,
+    648
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "firm",
+   "firmness_reason": "Annalistic sequence; only the usurper's name/identity is Probable. No Indian source dates Harsha's death at all",
+   "notes": "Campaign case 8 (calibration) verdict CORRECTED: death 647; with the Indian accession (606) gives the two-sided reign bracket [606, 647]. Cf. spine C22.",
+   "references": [
+    "Tang annals, Tianzhu zhuan",
+    "Levi, Les missions de Wang Hiuan-ts'e",
+    "Campaign CORRECTIONS.md case 8"
+   ]
+  },
+  {
+   "aliases": [
+    "Chandrapida",
+    "Zhentuoluobili"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "candrapida-embassy-tang-713",
+   "indian_entity": "Candrapida of Kashmir",
+   "entity_type": "person",
+   "chinese_source": "Xin Tang shu, Western Regions (Kashmir entry)",
+   "source_type": "annals",
+   "event": "Embassy from Candrapida of Kashmir reaches Xuanzong's court requesting aid against the Arabs and Tibet",
+   "date_raw": "Kaiyuan 1 (Tang)",
+   "date_ce": [
+    713,
+    713
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Annalistic record of a received embassy; the name equation Zhentuoluobili = Candrapida is standard",
+   "notes": "Campaign case 9: Kalhana's received chronology has Candrapida dead by 688 - the annals put him on the throne in 713.",
+   "references": [
+    "Xin Tang shu, Kashmir entry",
+    "Stein, Rajatarangini introduction",
+    "Campaign CORRECTIONS.md case 9"
+   ]
+  },
+  {
+   "aliases": [
+    "Chandrapida"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "candrapida-investiture-tang-720",
+   "indian_entity": "Candrapida of Kashmir (investiture)",
+   "entity_type": "person",
+   "chinese_source": "Xin Tang shu / Tang edicts (Kashmir entry)",
+   "source_type": "annals",
+   "event": "Tang court invests Candrapida by edict as King of Kashmir (720); a further edict (722) praises Kashmir for provisioning Tang troops in Gilgit",
+   "date_raw": "Kaiyuan 8 (720) and Kaiyuan 10 (722)",
+   "date_ce": [
+    720,
+    722
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Court edicts recorded in the annals with reign-era dates",
+   "notes": "Cunningham's computation: by this investiture Kalhana's chronology is in error by exactly 31 years for Candrapida.",
+   "references": [
+    "Xin Tang shu, Kashmir entry",
+    "Cunningham, Ancient Geography / Rajatarangini chronology discussions",
+    "Campaign CORRECTIONS.md case 9"
+   ]
+  },
+  {
+   "aliases": [
+    "Muktapida",
+    "Muduobi",
+    "Lalitaditya"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "muktapida-embassy-investiture-tang",
+   "indian_entity": "Lalitaditya Muktapida of Kashmir",
+   "entity_type": "person",
+   "chinese_source": "Xin Tang shu, Western Regions (Kashmir entry)",
+   "source_type": "annals",
+   "event": "Muduobi (Muktapida), Candrapida's younger brother, sends the envoy Wuliduo requesting investiture, offering troops and a temple by the Mahapadma lake; invested by the Tang court",
+   "date_raw": "Xuanzong reign; Stein dates the embassy after the Baltistan operations of 736-747",
+   "date_ce": [
+    736,
+    755
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "The annalistic entry is firm; its exact year is Stein's inference from the Baltistan-expedition context, and Muduobi = Muktapida is Stein's identification ('beyond doubt' in his judgement)",
+   "notes": "Campaign case 9: corrected placement Lalitaditya c. 724/725-760/761, against Kalhana-derived 699-736.",
+   "references": [
+    "Xin Tang shu, Kashmir entry",
+    "Stein, Rajatarangini introduction",
+    "Campaign CORRECTIONS.md case 9"
+   ]
+  },
+  {
+   "aliases": [
+    "Narendradeva",
+    "Naling Deva"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "narendradeva-restoration-641",
+   "indian_entity": "Narendradeva of Nepal (restoration)",
+   "entity_type": "person",
+   "chinese_source": "Jiu Tang shu (Old Book of Tang), Nepal (Nipoluo) account; Old Tibetan Annals frame",
+   "source_type": "annals",
+   "event": "After the usurpation by his uncle Visnugupta, Narendradeva flees to Tibet; the Tibetans re-establish him on the Nepalese throne (641), making Nepal a Tibetan client; Nepal supplies 7,000 troops to Wang Xuance's 648 campaign and the Tangshu describes Narendradeva as reigning king in information current to c. 648",
+   "date_raw": "Restoration pegged to 641 (Zhenguan 15 era frame; Tibetan annals place the Nepal intervention in the early 640s)",
+   "date_ce": [
+    641,
+    643
+   ],
+   "constraint_type": "synchronism",
+   "firmness": "probable",
+   "firmness_reason": "Event sequence is annalistic and the Tibetan record concurs; the exact year 641 is the standard scholarly peg within 641-643 rather than a year stated in so many words, and the Tangshu narrative compresses the inscriptional Jishnugupta/Dhruvadeva tangle",
+   "notes": "Campaign case 10 verdict CORRECTED: the vaimsavali chronology supplies no absolute date for this segment; the Tang/Tibetan peg is the only one.",
+   "references": [
+    "Jiu Tang shu, Nepal account",
+    "Old Tibetan Annals",
+    "Campaign CORRECTIONS.md case 10"
+   ]
+  },
+  {
+   "aliases": [
+    "Mihirakula (attributed)",
+    "Hephthalite king of Gandhara"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "songyun-gandhara-huna-king-520",
+   "indian_entity": "Huna king of Gandhara (Song Yun's audience)",
+   "entity_type": "person",
+   "chinese_source": "Song Yun's itinerary, preserved in Luoyang qielan ji (c. 547)",
+   "source_type": "pilgrim",
+   "event": "Song Yun (embassy 518-522) meets the Huna king ruling Gandhara - cruel, unbelieving, on campaign - whose people conquered Gandhara two generations earlier; the Kaniska stupa still stands",
+   "date_raw": "Northern Wei, Shengui 1 to Zhengguang 3 (518-522); audience c. 520",
+   "date_ce": [
+    520,
+    520
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Dated eyewitness observation; the king is unnamed and the Mihirakula identification, though standard, is an inference",
+   "notes": "Campaign case 11 verdict CORROBORATED: 520 falls inside Mihirakula's epigraphic floruit (c. 515-542); 'two generations since the conquest' gives a conquest horizon c. 460-490. Cf. spine C14.",
+   "references": [
+    "Luoyang qielan ji (Song Yun itinerary)",
+    "Campaign CORRECTIONS.md case 11"
+   ]
+  },
+  {
+   "aliases": [
+    "Mihirakula"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "xuanzang-mihirakula-account-630s",
+   "indian_entity": "Mihirakula (Xuanzang's narrative)",
+   "entity_type": "person",
+   "chinese_source": "Xuanzang, Da Tang Xiyu ji (646)",
+   "source_type": "pilgrim",
+   "event": "Xuanzang narrates Mihirakula's persecution and his defeat/capture by the Gupta king Baladitya, but places him 'several hundred years' before his own time - the actual gap is c. 100 years",
+   "date_raw": "Record presented 646 (Zhenguan 20)",
+   "date_ce": [
+    629,
+    645
+   ],
+   "constraint_type": "floruit",
+   "firmness": "contested",
+   "firmness_reason": "The narrative corroborates the Baladitya-defeat tradition, but the stated interval is a demonstrable Chinese-side error (c. 100 years reported as several hundred); carried as a reliability flag, not a bound",
+   "notes": "Campaign case 11: the campaign's clearest proof that pilgrim-reported intervals are tradition, while pilgrim observation is record.",
+   "references": [
+    "Xuanzang, Da Tang Xiyu ji",
+    "Campaign CORRECTIONS.md case 11"
+   ]
+  },
+  {
+   "aliases": [
+    "Faxian",
+    "Foguo ji",
+    "Candragupta II (unnamed in the text)"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "faxian-madhyadesa-399-414",
+   "indian_entity": "Gupta paramountcy at Pataliputra (Faxian's Madhyadesa)",
+   "entity_type": "event",
+   "chinese_source": "Faxian, Foguo ji (Record of Buddhist Kingdoms)",
+   "source_type": "pilgrim",
+   "event": "Faxian in India 399-414 (three years at Pataliputra): a prosperous, lightly governed paramount kingdom centred at Pataliputra; the king is never named",
+   "date_raw": "Journey 399-414 (left Chang'an Hongshi 1, Later Qin)",
+   "date_ce": [
+    399,
+    414
+   ],
+   "constraint_type": "synchronism",
+   "firmness": "probable",
+   "firmness_reason": "Itinerary is internally dated and firm; the identification of the unnamed king's frame with Candragupta II (r. c. 375-415, inscriptions to Gupta year 93 = 412) is inferential",
+   "notes": "Campaign case 12 (corroboration test) verdict CORROBORATED: the frame holds; graded Probable because an unnamed king's prosperity would corroborate a wrong reign almost as smoothly. Cf. spine C11.",
+   "references": [
+    "Faxian, Foguo ji (trans. Legge 1886)",
+    "Campaign CORRECTIONS.md case 12"
+   ]
+  },
+  {
+   "aliases": [
+    "Rajaraja",
+    "Lo-ts'a-lo-ts'a"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "chola-embassy-song-1015",
+   "indian_entity": "Rajaraja I, Chola (embassy to Song)",
+   "entity_type": "person",
+   "chinese_source": "Song annals (Song Shi / Song Huiyao), Zhulian (Chola) file",
+   "source_type": "annals",
+   "event": "First Chola mission reaches the Song court; the sending king is named Lo-ts'a-lo-ts'a (Rajaraja). Dispatched in Rajaraja's name one to two sailing seasons earlier; he died in 1014, months before the arrival",
+   "date_raw": "Dazhong Xiangfu 8 (Northern Song)",
+   "date_ce": [
+    1015,
+    1015
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Annalistic entry with reign-era date; name equation phonetically transparent",
+   "notes": "Campaign case 13 verdict CORROBORATED. The Song file also preserves Srivijaya's earlier misrepresentation of Chola as its dependency, which this mission corrected at court.",
+   "references": [
+    "Song Shi, Zhulian account",
+    "Campaign CORRECTIONS.md case 13"
+   ]
+  },
+  {
+   "aliases": [
+    "Rajendra Chola",
+    "Shi-lo-cha Yin-to-lo Chu-lo"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "chola-embassy-song-1033",
+   "indian_entity": "Rajendra I, Chola (embassy to Song)",
+   "entity_type": "person",
+   "chinese_source": "Song annals, Zhulian (Chola) file",
+   "source_type": "annals",
+   "event": "Chola mission from Shi-lo-cha Yin-to-lo Chu-lo (Sri Raja Indra Chola = Rajendra I) reaches the Song court",
+   "date_raw": "Mingdao 2 (Northern Song)",
+   "date_ce": [
+    1033,
+    1033
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Annalistic entry with reign-era date; name equation transparent",
+   "notes": "Falls inside Rajendra's inscriptionally dated sole reign (1014-1044): exact corroboration.",
+   "references": [
+    "Song Shi, Zhulian account",
+    "Campaign CORRECTIONS.md case 13"
+   ]
+  },
+  {
+   "aliases": [
+    "Kulottunga I",
+    "Ti-hua-kia-lo",
+    "Deva Kulottunga"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "chola-embassy-song-1077",
+   "indian_entity": "Kulottunga I, Chola (embassy to Song)",
+   "entity_type": "person",
+   "chinese_source": "Song annals, Zhulian (Chola) file",
+   "source_type": "annals",
+   "event": "Mission of seventy merchants from Ti-hua-kia-lo (Deva Kulottunga = Kulottunga I) received at the Song court; 81,800 strings of copper cash given for its tribute goods",
+   "date_raw": "Xining 10 (Northern Song)",
+   "date_ce": [
+    1077,
+    1077
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Annalistic entry with reign-era date; name equation standard",
+   "notes": "Independently confirms Kulottunga I (accession 1070 by the inscriptional computation) on the throne in 1077.",
+   "references": [
+    "Song Shi, Zhulian account",
+    "Campaign CORRECTIONS.md case 13"
+   ]
+  },
+  {
+   "aliases": [
+    "Srivijaya",
+    "Fo-shih",
+    "Shili Foshi"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "yijing-srivijaya-671",
+   "indian_entity": "Srivijaya (Fo-shih) as a Buddhist learning centre",
+   "entity_type": "event",
+   "chinese_source": "Yijing, travel memoir and Nanhai jigui neifa zhuan",
+   "source_type": "pilgrim",
+   "event": "Yijing spends six months in Fo-shih (Srivijaya) in 671: a fortified royal city with more than a thousand monks, learning ranked with Madhyadesa's; he studies Sanskrit grammar there and recommends it to Chinese students",
+   "date_raw": "Xianheng 2 (Tang), 671",
+   "date_ce": [
+    671,
+    671
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Dated eyewitness observation - the spine's zero-lag class",
+   "notes": "Campaign case 14 verdict BOUNDED: a mature Srivijaya existed in 671, eleven years before its first surviving inscription (Kedukan Bukit, 682); the rise is bounded to the 660s at the latest.",
+   "references": [
+    "Yijing, Nanhai jigui / memoir (trans. Takakusu)",
+    "Campaign CORRECTIONS.md case 14"
+   ]
+  },
+  {
+   "aliases": [
+    "Malayu",
+    "Mo-lo-yu"
+   ],
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "yijing-malayu-absorbed-685-689",
+   "indian_entity": "Malayu absorbed by Srivijaya",
+   "entity_type": "event",
+   "chinese_source": "Yijing, travel memoir",
+   "source_type": "pilgrim",
+   "event": "Yijing passed Mo-lo-yu (Malayu) as a separate country in 673; by his return stay in Srivijaya (685-689) he records that Mo-lo-yu 'has become Fo-shih'",
+   "date_raw": "Observations 673 and 685-689",
+   "date_ce": [
+    685,
+    689
+   ],
+   "constraint_type": "synchronism",
+   "firmness": "firm",
+   "firmness_reason": "Two dated eyewitness observations bracketing the event",
+   "notes": "Annexation of Malayu bracketed to (673, 689] - Srivijaya's first datable act of expansion.",
+   "references": [
+    "Yijing, memoir",
+    "Campaign CORRECTIONS.md case 14"
+   ]
+  },
+  {
+   "id": "baolin-zhuan-patriarch-list-801",
+   "indian_entity": "28 Indian patriarchs list (Chan)",
+   "aliases": [
+    "Baolin Zhuan"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Baolin Zhuan (801), lost; known through quotation and the list it standardised",
+   "source_type": "catalogue",
+   "event": "The Baolin Zhuan fixes the canonical list of 28 Indian patriarchs ending Prajnatara (27) - Bodhidharma (28), reopening the line the Fu Fazang Yinyuan Zhuan (472) had closed at Simha's beheading by inserting Basiasita, Punyamitra and Prajnatara",
+   "date_raw": "Tang, Zhenyuan 17 (801)",
+   "date_ce": [
+    801,
+    801
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The fixing of the list at 801 is the standard scholarly account, but the text is lost and the list is known through later quotation",
+   "notes": "First attestation of Prajnatara in any source. The names between Simha and Bodhidharma are the least stable segment across competing Tang lists (Lidai Fabao Ji c. 775 differs).",
+   "references": [
+    "Encyclopedia of Buddhism, 'Lineage' entry",
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 4"
+   ]
+  },
+  {
+   "id": "bodhidharma-floruit-luoyang-516-526",
+   "indian_entity": "Bodhidharma",
+   "aliases": [
+    "Bodhidharma",
+    "Damo"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Luoyang Qielan Ji notice (547); Xu Gaoseng Zhuan biography (645-667)",
+   "source_type": "catalogue",
+   "event": "Bodhidharma's defensible floruit: present in Luoyang 516-526, dead before 534; arrival best supported under the Liu Song (by the 470s) per Daoxuan",
+   "date_raw": "Northern Wei, c. 516-534 (death before 534)",
+   "date_ce": [
+    516,
+    526
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Two independent near-contemporary witnesses; the window rests on the Yongning Temple inference and Daoxuan's pre-534 death horizon",
+   "notes": "Refines and bounds the contested seed record bodhidharma-arrival-c520: the 520/527 arrival dates are later traditional assignments; 527 is falsified by this window.",
+   "references": [
+    "Yang Xuanzhi, Luoyang Qielan Ji",
+    "Daoxuan, Xu Gaoseng Zhuan, T.2060",
+    "Bodhidharma Case 16 build, BODHIDHARMA.md sections 1-2"
+   ]
+  },
+  {
+   "id": "daoxin-floruit-580-651",
+   "indian_entity": "Daoxin",
+   "aliases": [
+    "Daoxin"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Near-contemporary biographical records; East Mountain community tradition",
+   "source_type": "catalogue",
+   "event": "Floruit of Daoxin (580-651), fourth Chinese node of the Lengjia chart",
+   "date_raw": "Sui-Tang, 580-651",
+   "date_ce": [
+    580,
+    651
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Attested in near-contemporary records; dates conventional in the biographical tradition and consistent with the Hongren succession",
+   "notes": "Daoxin (b. 580) to Hongren (b. 601) is the first normal generational interval (~21 years) in the chart.",
+   "references": [
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 2"
+   ]
+  },
+  {
+   "id": "faru-epitaph-lineage-689",
+   "indian_entity": "Chan lineage chart (first attestation)",
+   "aliases": [
+    "Faru epitaph"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Epitaph for Faru (638-689), dated inscription",
+   "source_type": "catalogue",
+   "event": "The epitaph for Faru gives the first lineage succession of any kind: Bodhidharma - Huike - Sengcan - Daoxin - Hongren - Faru. Before 689 no source arranges these men as a succession",
+   "date_raw": "Tang, Chuigong era (689)",
+   "date_ce": [
+    689,
+    689
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated inscription; the lineage claim's first appearance is fixed by the stone's own date",
+   "notes": "TAQ on the lineage idea itself: the chart is a late-7th-century artefact, ~160 years after Bodhidharma's death.",
+   "references": [
+    "Faru epitaph (689)",
+    "McRae, Seeing Through Zen (2003)"
+   ]
+  },
+  {
+   "id": "gunabhadra-death-468",
+   "indian_entity": "Gunabhadra",
+   "aliases": [
+    "Gunabhadra",
+    "Qiunabatuoluo"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Gaoseng Zhuan / Xu Gaoseng Zhuan biographical tradition and translation catalogues",
+   "source_type": "catalogue",
+   "event": "Death of Gunabhadra (394-468), the Lankavatara translator — the terminus that constrains the Lengjia Shizi Ji chart: any personal discipleship of Bodhidharma under Gunabhadra must end by 468",
+   "date_raw": "Liu Song, Shengming era (468)",
+   "date_ce": [
+    468,
+    468
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Death year from the dated biographical tradition for a translator whose activity (435 arrival, 443 Lankavatara) is catalogue-anchored; not itself a dated colophon",
+   "notes": "Chart constraint, not a text TAQ: with the 527-arrival tradition it forces a >=59-year gap between discipleship and arrival; with the Liu Song arrival (<=479) it forces arrival by the 460s.",
+   "references": [
+    "Xu Gaoseng Zhuan biography of Gunabhadra",
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 2"
+   ]
+  },
+  {
+   "id": "hongren-floruit-601-674",
+   "indian_entity": "Hongren",
+   "aliases": [
+    "Hongren",
+    "Daman Hongren"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Multiple biographical notices; Faru epitaph (689) from inside his community",
+   "source_type": "catalogue",
+   "event": "Floruit of Hongren (601-674; some sources 602-675), fifth Chinese node of the Lengjia chart",
+   "date_raw": "Tang, 601-674",
+   "date_ce": [
+    601,
+    674
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Multiple independent attestations plus a dated inscription (689) by his disciple's circle; the first node after Gunabhadra where cross-dating fully works",
+   "notes": "Some sources give 602-675; the one-year variance is recorded rather than resolved.",
+   "references": [
+    "Faru epitaph (689)",
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 2"
+   ]
+  },
+  {
+   "id": "huike-death-593",
+   "indian_entity": "Huike",
+   "aliases": [
+    "Huike",
+    "Dazu Huike",
+    "Shenguang"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Xu Gaoseng Zhuan biography of Huike; later biographical tradition",
+   "source_type": "catalogue",
+   "event": "Death of Huike (487-593), Bodhidharma's disciple and recipient of the 4-fascicle Lankavatara per Daoxuan",
+   "date_raw": "Sui, Kaihuang 13 (593)",
+   "date_ce": [
+    593,
+    593
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Death era consistent across the biographical tradition; the implied 107-year lifespan (487-593) is longevity inflation and is not load-bearing",
+   "notes": "Chart node 2 of the Lengjia line. Daoxuan has his arm lost to bandits; the self-severing version is first epigraphically attested on a stele of 798.",
+   "references": [
+    "Daoxuan, Xu Gaoseng Zhuan, T.2060",
+    "Shahar, The Shaolin Monastery (2008)"
+   ]
+  },
+  {
+   "id": "prajnatara-first-attestation-801",
+   "indian_entity": "Prajnatara",
+   "aliases": [
+    "Prajnatara",
+    "Prajnadhara (proposed reading)",
+    "Boruoduoluo",
+    "Hannyatara"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Baolin Zhuan (801) patriarch list; first extant narratives Zutang Ji (952) and Jingde Chuandeng Lu (1004)",
+   "source_type": "catalogue",
+   "event": "First attestation of Prajnatara, Bodhidharma's putative teacher and 27th Indian patriarch: an ATTESTATION record, not a date for a life. No attestation exists in Tanlin, Daoxuan, the Lengjia Shizi Ji, the Fu Fazang list (472), or any Indian, Tibetan, Central Asian or non-Chan Chinese source",
+   "date_raw": "Tang, Zhenyuan 17 (801) — first attestation",
+   "date_ce": [
+    801,
+    801
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "contested",
+   "firmness_reason": "The figure is attested only inside Chan lineage literature and only from 801, ~270 years after Bodhidharma's death; graded contested as a person, firm as an attestation date",
+   "notes": "Default verdict of the Case 16 build: a lineage construction at the seam where the Fu Fazang list had declared the transmission extinct. A mid-9th-c. Nalanda namesake (folios preserved in Japan via Enchin) is unconnected. The female identification is a modern conjecture (Benson 2008).",
+   "references": [
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 4"
+   ]
+  },
+  {
+   "id": "sengcan-death-606",
+   "indian_entity": "Sengcan",
+   "aliases": [
+    "Sengcan"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Later Chan biographical tradition",
+   "source_type": "catalogue",
+   "event": "Traditional death year of Sengcan, third node of the Lengjia chart after Bodhidharma and Huike",
+   "date_raw": "Sui, Daye 2 (606)",
+   "date_ce": [
+    606,
+    606
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "contested",
+   "firmness_reason": "Almost no independent attestation; the Huike-Sengcan link itself is flagged as tenuous in the scholarship (Whalen Lai). Carried with the grade shown, not dropped",
+   "notes": "The chart's weakest node: a death year with no documented life. His 606 death, 13 years after Huike's, creates the downstream generational squeeze analysed in the Case 16 build.",
+   "references": [
+    "Bodhidharma Case 16 build, BODHIDHARMA.md section 2"
+   ]
+  },
+  {
+   "id": "yongning-temple-window-516-534",
+   "indian_entity": "Yongning Temple, Luoyang (Bodhidharma sighting window)",
+   "aliases": [
+    "Yongning Si"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Yang Xuanzhi, Luoyang Qielan Ji (547)",
+   "source_type": "pilgrim",
+   "event": "Yongning Temple built 516 and destroyed by fire 534; Yang Xuanzhi's notice places Bodhidharma admiring its stupa in the intact temple, bounding his Luoyang presence to 516-526 on Broughton's reading",
+   "date_raw": "Northern Wei, Xiping 1 (516) to Yongxi 3 (534)",
+   "date_ce": [
+    516,
+    526
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Temple construction/destruction are court-record dates; the sighting window is an inference from the gazetteer's description of the intact temple",
+   "notes": "The hardest single terminus in the Bodhidharma dossier: falsifies the 527 Liang-arrival tradition, which postdates this entire window.",
+   "references": [
+    "Yang Xuanzhi, Luoyang Qielan Ji",
+    "Broughton, The Bodhidharma Anthology (1999)"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "cheraman-legend-barbosa-1516",
+   "indian_entity": "Cheraman Perumal conversion legend",
+   "aliases": [
+    "Legend of Cheraman Perumal",
+    "Chirimay Perumal"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Duarte Barbosa, The Book of Duarte Barbosa (composed c. 1516-1518) — first written record of the legend",
+   "source_type": "pilgrim",
+   "event": "Barbosa records that a Malabar king ('Chirimay Perumal') was converted by Moorish traders, sailed to Mecca and died there or en route, his kingdom partitioned — and dates the event 'more than 600 years before our time', i.e. c. 900 CE. No Prophet, no moon-splitting, no Malik ibn Dinar",
+   "date_raw": "Composed c. 1516-1518 CE",
+   "date_ce": [
+    1516,
+    1518
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "probable",
+   "firmness_reason": "The legend existed in oral circulation by c. 1516 (firm); the composition window of Barbosa's book is approximate, hence probable for the record as dated",
+   "notes": "TAQ for the LEGEND, and a synchronism against its modern form: the earliest witness dates the conversion to c. 900 and knows nothing of the 629 CE / Prophet's-lifetime synchronism, which is a later layer.",
+   "references": [
+    "Barbosa, The Book of Duarte Barbosa (c. 1516-1518)",
+    "More, J. B. P., on the Portuguese notices of the legend"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "cheraman-legend-tuhfat-1583",
+   "indian_entity": "Cheraman Perumal conversion legend (full Malik ibn Dinar cycle)",
+   "aliases": [
+    "Tuhfat al-Mujahidin",
+    "Zainuddin Makhdum II"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Zainuddin Makhdum II, Tuhfat al-Mujahidin (Arabic, completed c. 1583) — first full devotional telling",
+   "source_type": "catalogue",
+   "event": "The full cycle exists in writing: the pilgrims en route to Adam's Foot, the moon-splitting narration, the king's secret departure and death abroad, his letters, and Malik ibn Dinar's party founding mosques at Kodungallur and the named ports. Zainuddin himself dates the conversion to two hundred years after the Prophet (c. 820s), NOT to the Prophet's lifetime",
+   "date_raw": "Completed c. 1583 CE",
+   "date_ce": [
+    1583,
+    1583
+   ],
+   "constraint_type": "TAQ",
+   "firmness": "firm",
+   "firmness_reason": "Dated, extant, authored text — the standard first history of Kerala by a Keralite",
+   "notes": "TAQ for the developed legend. Its internal dating (c. 820s) is the legend's own earliest full-text chronology and contradicts the 629 CE date now displayed at the mosque.",
+   "references": [
+    "Zainuddin Makhdum II, Tuhfat al-Mujahidin (c. 1583), trans. Nainar (1942)",
+    "More, J. B. P., on the Tuhfat's dating of the conversion"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "ibn-battuta-malabar-mosques-1342",
+   "indian_entity": "Mosques of the Malabar ports",
+   "aliases": [
+    "Ibn Battuta Rihla Malabar"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Ibn Battuta, Rihla — eyewitness account of his Malabar sojourn, 1342-1347",
+   "source_type": "pilgrim",
+   "event": "Describes mosques in every Malabar port town, named qadis at Calicut and Kollam, the cathedral mosque at Hili (Ezhimala) enriched by sailors' vows, and a Muslim shah bandar governing Calicut's port — Malabar Islam as a long-established institution",
+   "date_raw": "Sojourn 1342-1347 CE",
+   "date_ce": [
+    1342,
+    1347
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Dated eyewitness travel account, internally consistent with the 14th-century mosque epigraphy of Kozhikode (Kuttichira)",
+   "notes": "Terminus: Malabar mosques are FIRM by the 1340s. Battuta records no foundation legend for Kodungallur and no 629 tradition.",
+   "references": [
+    "Ibn Battuta, Rihla, Gibb translation, Malabar chapters"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "jewish-copper-plates-c1000",
+   "indian_entity": "Joseph Rabban and the Jewish guild (Anjuvannam) of Kodungallur",
+   "aliases": [
+    "Jewish copper plates of Cochin",
+    "Cochin plates of Bhaskara Ravi"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Jewish copper plates of Cochin — Old Malayalam (Vattezhuthu with Grantha) royal charter of Bhaskara Ravi Varma (local epigraphy)",
+   "source_type": "inscription",
+   "event": "Bhaskara Ravi grants Joseph Rabban the rights of the Anjuvannam merchant guild and aristocratic privileges at Muyirikkottu (Kodungallur) — a chartered Jewish merchant lordship at the old Chera capital",
+   "date_raw": "38th regnal year of Bhaskara Ravi Varma",
+   "date_ce": [
+    1000,
+    1001
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Epigraphic consensus (Narayanan 1972 and successors) dates the plates c. 1000 CE via Bhaskara Ravi's accession c. 962; the community's traditional date is 379 CE",
+   "notes": "Web anchor for the Kodungallur node: the plates are genuine, their traditional date overshoots the epigraphic date by ~620 years — the same tradition-vs-attestation gap shape as the Cheraman mosque claim (629 vs 11th-12th-c. fabric). Jewish presence on the coast is independently firm by 849 (Hebrew signatures on the Quilon plates).",
+   "references": [
+    "Narayanan, M. G. S., Cultural Symbiosis in Kerala (1972); Perumals of Kerala (1996/2013)"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "madayi-mosque-foundation-ah518-1124",
+   "indian_entity": "Madayi Mosque, Malabar Coast",
+   "aliases": [
+    "Madayi Palli",
+    "Madayi mosque foundation inscription"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Arabic foundation inscription (copper slab) preserved in the Madayi Mosque (local epigraphy as reported in the Kerala survey literature)",
+   "source_type": "inscription",
+   "event": "Foundation inscription dates the Madayi Mosque to Hijra 518 — the earliest dated mosque-foundation inscription in Kerala",
+   "date_raw": "Hijra 518",
+   "date_ce": [
+    1124,
+    1124
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Reported consistently across the survey literature; no modern epigraphic edition was available to the build",
+   "notes": "Mosque foundations on the Malabar coast become epigraphically visible in the 12th century. The date 1124 is sometimes misattributed in polemical literature to the Kodungallur (Cheraman) mosque, which has no dated foundation inscription.",
+   "references": [
+    "Malabar Muslims / Mappila survey literature on the Madayi inscription"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "masudi-saymur-bayasira-915",
+   "indian_entity": "Settled Muslim community on India's west coast (Saymur/Chaul)",
+   "aliases": [
+    "Masudi bayasira",
+    "Saymur Muslims"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Al-Masudi, Muruj al-Dhahab (completed 943, revised 956), reporting his Indian sojourn of c. 915-916",
+   "source_type": "pilgrim",
+   "event": "Masudi reports some 10,000 bayasira (locally born Muslims) at Saymur (Chaul, Konkan coast) with ordinary and Friday mosques, protected by the Hindu king — a settled, second-generation, mosque-building Muslim community under Hindu rule",
+   "date_raw": "Sojourn c. 915-916 CE; text 943/956 CE",
+   "date_ce": [
+    915,
+    916
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Eyewitness-grade traveller report, but the named town is Saymur on the Konkan coast, NOT Malabar proper; the figure of 10,000 is a traveller's round number",
+   "notes": "Bounds the regional pattern: by c. 915 mosque-building Muslim settlement under Hindu kings is normal on the west coast north of Malabar. It does not attest Malabar itself, and Masudi tells no convert-king story.",
+   "references": [
+    "Al-Masudi, Muruj al-Dhahab wa Ma'adin al-Jawahir (943/956)"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "panthalayani-tombstone-ah166-782",
+   "indian_entity": "Muslim burial at Panthalayani Kollam, Malabar Coast",
+   "aliases": [
+    "Panthalayani Kollam tombstone",
+    "ibn Udthorman tombstone"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Arabic tombstone inscription outside the Juma mosque, Panthalayani Kollam (local epigraphy as reported in the Kerala survey literature)",
+   "source_type": "inscription",
+   "event": "Tombstone records the death of a Muslim (ibn Udthorman) in Hijra 166 — a Muslim buried on the Malabar coast, implying a burying community",
+   "date_raw": "Hijra 166",
+   "date_ce": [
+    782,
+    783
+   ],
+   "constraint_type": "floruit",
+   "firmness": "probable",
+   "firmness_reason": "Reading circulates through secondary survey literature, not a modern epigraphic edition; AH 166 = 782-783 CE (repeatedly misprinted as '752 CE' in the secondary literature — a conversion error)",
+   "notes": "If the reading holds, this is the earliest dated Muslim presence on the coast, two-thirds of a century before the Quilon plates. Grade is explicitly hostage to a critical re-edition of the stone.",
+   "references": [
+    "Malabar Muslims / Mappila survey literature on the Panthalayani tombstone",
+    "Heritage: Journal of Multidisciplinary Studies in Archaeology 8.1 (2020) — prints the erroneous '752 CE' conversion"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "quilon-plates-muslim-witnesses-849",
+   "indian_entity": "Muslim community of Kollam (Quilon), Malabar Coast",
+   "aliases": [
+    "Tarisapalli copper plates",
+    "Quilon Syrian copper plates",
+    "Tharisapalli sasanam"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Quilon (Tarisapalli) copper plates — Chera royal charter of Ayyan Adikal under Sthanu Ravi Kulasekhara, witness plate (local epigraphy; the correlation source here is epigraphic, not Chinese)",
+   "source_type": "inscription",
+   "event": "Eleven Muslim witnesses sign, in Kufic Arabic, a royal charter granting privileges to the Christian Tarisapalli church at Kollam, alongside witnesses signing in Pahlavi and Hebrew — a settled Muslim community of charter-witnessing standing exists at Kollam",
+   "date_raw": "5th regnal year of Sthanu Ravi Kulasekhara (Kollam era 24/25)",
+   "date_ce": [
+    849,
+    850
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Dated royal charter, extant plates; the standard epigraphic dating of the Tarisapalli grant",
+   "notes": "Earliest FIRM attestation of a Muslim community on the Malabar coast. The signatures attest a community, not a mosque building; no mosque at Kollam or Kodungallur is dated by this document.",
+   "references": [
+    "Quilon Syrian copper plates (849 CE), plate 5 witness signatures",
+    "Narayanan, M. G. S., Perumals of Kerala (1996/2013)"
+   ]
+  },
+  {
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "id": "sulaiman-kollam-route-851",
+   "indian_entity": "Kollam (Kulam Mali) in the Arab-Chinese sea trade",
+   "aliases": [
+    "Akhbar al-Sin wa'l-Hind",
+    "Sulaiman the Merchant"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Akhbar al-Sin wa'l-Hind (Accounts of China and India), compiled 851, attributed to the merchant Sulaiman — an Arabic witness to the China run, held in the spine as the traveller-record class",
+   "source_type": "pilgrim",
+   "event": "Describes the working route Siraf-Muscat-Kulam Mali (Kollam), with Chinese ships paying heavy port dues at Kollam — Arab shipping serves Malabar as a mature entrepot system",
+   "date_raw": "Compiled 851 CE",
+   "date_ce": [
+    851,
+    851
+   ],
+   "constraint_type": "floruit",
+   "firmness": "firm",
+   "firmness_reason": "Dated compilation; the itinerary is first-hand merchant reporting",
+   "notes": "Attests Arab TRADE presence and Kollam's role. It does NOT mention a Muslim community, a mosque, or a convert king in Malabar — a registered negative for the Cheraman claim.",
+   "references": [
+    "Akhbar al-Sin wa'l-Hind (851), Ferrand (1922) / Mackintosh-Smith (2014) editions"
+   ]
+  },
+  {
+   "aliases": [
+    "Olopen",
+    "Aluoben",
+    "阿羅本"
+   ],
+   "chinese_source": "Xi'an Stele (781), corroborated in outline by Tang Huiyao fasc. 49",
+   "constraint_type": "synchronism",
+   "date_ce": [
+    635,
+    635
+   ],
+   "date_raw": "Tang, Zhenguan 9",
+   "entity_type": "event",
+   "event": "Alopen arrives at Chang'an from Daqin carrying scriptures and images; received by Fang Xuanling; the scriptures are translated in the imperial library",
+   "firmness": "probable",
+   "firmness_reason": "Retrospective by 146 years on the stele; no contemporary Tang document records the arrival itself, though the 638 edict and the church's Tang presence are independently recorded",
+   "id": "alopen-arrival-changan-635",
+   "indian_entity": "Alopen's mission — first documented Church of the East arrival in China",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Dates the ARRIVAL of the Church of the East in China — a transmission event. It attests the institution that carried the Thomas tradition east; it is not evidence about Thomas (1st c.).",
+   "references": [
+    "Xi'an Stele inscription (781)",
+    "Tang Huiyao fasc. 49 (compiled 961)"
+   ],
+   "source_type": "inscription"
+  },
+  {
+   "aliases": [
+    "Gudnaphar",
+    "Guduvhara",
+    "Vindafarnah",
+    "Gondophares"
+   ],
+   "chinese_source": "Takht-i-Bahi Kharoshthi inscription (NON-CHINESE external anchor; this field carries the dating record per schema)",
+   "constraint_type": "synchronism",
+   "date_ce": [
+    46,
+    46
+   ],
+   "date_raw": "Era year 103, regnal year 26 (era unnamed in the inscription)",
+   "entity_type": "person",
+   "event": "Inscription dated in era year 103 and in Gondophares' 26th regnal year. On the standard identification of the unnamed era with the Azes era (= Vikrama era, year 1 = 57 BCE), year 103 = 46 CE and accession falls c. 20 CE",
+   "firmness": "probable",
+   "firmness_reason": "The inscription is contemporary and names the king, but the absolute year rests entirely on identifying its unnamed era with Azes/Vikrama — Bivar (Encyclopaedia Iranica) treats the identification as settled; Robert Senior's alternative chronology reassigns the inscription to a later Gondophares",
+   "id": "gondophares-takht-i-bahi-46",
+   "indian_entity": "Gondophares I, Indo-Parthian king (the 'Gudnaphar' of the Acts of Thomas)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Load-bearing anchor for the Acts of Thomas' Gondophares (reign c. 20-46 CE on the standard reading). Caveats: 'Gondophares' later became a dynastic title (Gondophares IV Sases, mid-to-late 1st c.), so the name alone does not fix which bearer an undated text means; his brother Gad in the Acts matches Gadana/Gad among the subordinate names on his coinage. Proposed as a non-Chinese external anchor, on the same logic as the Aihole prasasti in the BU benchmark panel.",
+   "references": [
+    "Bivar, 'Gondophares', Encyclopaedia Iranica XI (2002)",
+    "Senior, 'More Gondophares, Less Azes', Oriental Numismatic Society Occasional Paper 25 (1991)"
+   ],
+   "source_type": "inscription"
+  },
+  {
+   "aliases": [
+    "Luoyang Nestorian pillar",
+    "Daqin Jingjiao Xuanyuan Zhiben Jing pillar"
+   ],
+   "chinese_source": "Luoyang Jingjiao pillar inscription (recovered at Luoyang, published from 2006)",
+   "constraint_type": "synchronism",
+   "date_ce": [
+    814,
+    815
+   ],
+   "date_raw": "Tang, Yuanhe 9-10",
+   "entity_type": "event",
+   "event": "Stone pillar erected at Luoyang carrying the Xuanyuan Zhiben Jing text with a Syriac inscription naming East Syriac clergy — a second dated Jingjiao monument after the Xi'an Stele",
+   "firmness": "probable",
+   "firmness_reason": "Self-dated pillar; recovered and published only in 2006, so the specialist literature is younger than for the Xi'an Stele",
+   "id": "luoyang-jingjiao-pillar-814-815",
+   "indian_entity": "Jingjiao community at Luoyang (Daqin Jingjiao Xuanyuan Zhiben Jing pillar)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "The closest thing to a dated Jingjiao colophon-monument after 781. Its text is doctrinal (Xuanyuan Zhiben Jing); no Thomas material.",
+   "references": [
+    "Luoyang pillar inscription (814/815)",
+    "Saeki, The Nestorian Documents and Relics in China (1937), for the text's Dunhuang witness"
+   ],
+   "source_type": "inscription"
+  },
+  {
+   "aliases": [
+    "Tharisapalli plates",
+    "Kollam Syrian copper plates",
+    "Maruvan Sapir Iso grant"
+   ],
+   "chinese_source": "Quilon (Tarisapalli) copper plates (NON-CHINESE external anchor; this field carries the dating record per schema)",
+   "constraint_type": "synchronism",
+   "date_ce": [
+    849,
+    850
+   ],
+   "date_raw": "5th regnal year of the Chera king Sthanu Ravi Kulasekhara",
+   "entity_type": "event",
+   "event": "Ayyan Adikal, chief of Kollam, grants land and privileges to the Tarisapalli church under the Persian merchant Maruvan Sapir Iso; the witness plate carries signatures in Pahlavi, Kufic Arabic and Judeo-Persian",
+   "firmness": "firm",
+   "firmness_reason": "Dated by the regnal year of an epigraphically anchored Chera king; the plates survive; the Pahlavi witness signatures were edited by Cereti (2009)",
+   "id": "quilon-tarisapalli-plates-849",
+   "indian_entity": "Tarisapalli church, Kollam (Quilon) — East Syriac-linked Christian community in Kerala",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Proves a chartered, Persian-linked Christian church on the Malabar coast by 849 — and nothing about its founder. Community tradition associates the migration behind the grant with Mar Sabor and Mar Proth (arrival c. 825), but the plates name Maruvan Sapir Iso; the identification is traditional, not epigraphic.",
+   "references": [
+    "Cereti, 'The Pahlavi Signatures on the Quilon Copper Plates' (2009)",
+    "Varier & Veluthat, Tarissappallippattayam (2013)"
+   ],
+   "source_type": "inscription"
+  },
+  {
+   "aliases": [
+    "Edict of Zhenguan 12",
+    "Taizong edict on the Daqin religion"
+   ],
+   "chinese_source": "Edict text preserved in Tang Huiyao fasc. 49 (compiled 961) and quoted on the Xi'an Stele (781)",
+   "constraint_type": "synchronism",
+   "date_ce": [
+    638,
+    638
+   ],
+   "date_raw": "Tang, Zhenguan 12",
+   "entity_type": "event",
+   "event": "Emperor Taizong's edict approves propagation of the Daqin (Jingjiao) religion and authorises a temple in the Yining ward of Chang'an with twenty-one monks",
+   "firmness": "probable",
+   "firmness_reason": "Edict text survives in a Song-compiled Tang institutional history and on the 781 stele; two carriers, neither contemporary paper",
+   "id": "taizong-jingjiao-edict-638",
+   "indian_entity": "Imperial authorisation of Jingjiao in Tang China",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "The earliest Chinese state document on Christianity. It names the religion and its Daqin origin; it does not name Thomas or any apostle.",
+   "references": [
+    "Tang Huiyao fasc. 49",
+    "Xi'an Stele inscription (781)"
+   ],
+   "source_type": "annals"
+  },
+  {
+   "aliases": [
+    "Bosi si to Daqin si edict",
+    "Tianbao 4 edict"
+   ],
+   "chinese_source": "Edict of Tianbao 4, preserved in Tang Huiyao / Tang institutional records",
+   "constraint_type": "synchronism",
+   "date_ce": [
+    745,
+    745
+   ],
+   "date_raw": "Tang, Tianbao 4",
+   "entity_type": "event",
+   "event": "Imperial edict renames the religion's temples from Bosi si ('Persian temples') to Daqin si ('Daqin temples') in the two capitals and all prefectures, on the stated ground that the religion originates in Daqin, not Persia",
+   "firmness": "probable",
+   "firmness_reason": "Edict text preserved in Tang institutional compilations; consistent with the stele's account of the church's status",
+   "id": "tang-daqin-temple-renaming-745",
+   "indian_entity": "Official status of Jingjiao temples in Tang China",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Institutional anchor only: it fixes the church's recognised presence empire-wide in 745. No Thomas content.",
+   "references": [
+    "Tang Huiyao fasc. 49",
+    "Saeki, The Nestorian Documents and Relics in China (1937)"
+   ],
+   "source_type": "annals"
+  },
+  {
+   "aliases": [
+    "Daqin Jingjiao Stele",
+    "Nestorian Monument",
+    "Xi'an Stele"
+   ],
+   "chinese_source": "Xi'an (Daqin Jingjiao) Stele, erected at the Daqin temple, Chang'an; composed by Jingjing (Adam)",
+   "constraint_type": "synchronism",
+   "date_ce": [
+    781,
+    781
+   ],
+   "date_raw": "Tang, Jianzhong 2, 1st month, 7th day",
+   "entity_type": "event",
+   "event": "Stele erected, recording the Jingjiao church's history in China from 635 to 781 and naming its clergy in Chinese and Syriac (~70 Syriac names; Catholicos Hnanisho' named)",
+   "firmness": "firm",
+   "firmness_reason": "Self-dated inscription; the stone survives (unearthed 1623-1625)",
+   "id": "xian-stele-erection-781",
+   "indian_entity": "Church of the East (Jingjiao) mission in China — the eastern carrier of the Thomas tradition",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "The stele does NOT name Thomas anywhere. It dates the institution's China history (635-781), not the apostle. The arriving church traced its own apostolic origin to Thomas in its Syriac tradition, but that self-understanding is not a Chinese record of Thomas.",
+   "references": [
+    "Saeki, The Nestorian Documents and Relics in China (1937)",
+    "Nicolini-Zani, Christian Monks on Chinese Soil (2006)"
+   ],
+   "source_type": "inscription"
+  },
+  {
+   "id": "nalanda-devapala-plate-year-39",
+   "indian_entity": "Nalanda mahavihara (Balaputradeva's vihara endowment)",
+   "aliases": [
+    "Nalanda copper plate of Devapaladeva",
+    "Balaputradeva monastery"
+   ],
+   "entity_type": "event",
+   "chinese_source": "EXTERNAL epigraphic anchor (non-Chinese): Nalanda copper plate of Devapala, regnal year 39, found 1921 in the antechamber of Monastery 1, Nalanda (Epigraphia Indica XVII)",
+   "source_type": "inscription",
+   "event": "At the request of Balaputradeva, Sailendra king of Suvarnadvipa (Srivijaya), who has built a monastery at Nalanda, Devapala grants five named villages for its monks' requisites, the copying of texts, and the upkeep of the vihara",
+   "date_raw": "Devapala regnal year 39, Karttika",
+   "date_ce": [
+    849,
+    861
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated royal charter excavated in situ at Nalanda itself; the only uncertainty is Devapala's accession year (c. 810-821 in competing chronologies), which sets the 849-861 window",
+   "notes": "Endowment rate: five villages for ONE vihara (~30-60 residents) implies roughly 6-12 monks supported per village — the same order as Yijing's implied 15 per village, and a cross-check against Huili's implied 100 per village. Also a Srivijaya synchronism: Balaputradeva's reign must intersect this window.",
+   "references": [
+    "N. G. Majumdar, Epigraphia Indica XVII, The Nalanda Copper-plate of Devapaladeva",
+    "Varendra Research Society Monograph no. 1 (1926)"
+   ]
+  },
+  {
+   "id": "nalanda-dharmasvamin-visit-1235",
+   "indian_entity": "Nalanda mahavihara (Dharmasvamin's visit)",
+   "aliases": [
+    "Dharmasvamin",
+    "Chag lo-tsa-ba",
+    "Rahulasribhadra"
+   ],
+   "entity_type": "event",
+   "chinese_source": "EXTERNAL pilgrim anchor (Tibetan, non-Chinese): Biography of Dharmasvamin (Chag lo-tsa-ba Chos-rje-dpal), dictated by the pilgrim, tr. Roerich (1959)",
+   "source_type": "pilgrim",
+   "event": "Dharmasvamin studies at Nalanda in 1235 for about six months: the site is damaged and largely deserted after the Turushka raids, but two viharas remain serviceable and the aged abbot Rahulasribhadra (over 90) is still teaching a class of about 70 students",
+   "date_raw": "Visit dated by the biography's itinerary to 1235 (in India 1234-1236)",
+   "date_ce": [
+    1234,
+    1236
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Near-eyewitness (dictated by the pilgrim to his biographer); the small numbers are non-round and circumstantial (70 students, a named teacher, a dated raid scare) — the most credible population data point in the whole series, at the series' end",
+   "notes": "His hearsay memory of Nalanda's former extent — 7 temples, 14 large and 84 small monasteries — is graded rhetoric in the stats file (84 is a canonical number), but the 70 students is a count, not a trope. Refutes the textbook claim of total destruction c. 1193-1200: the institution was wounded, not annihilated, and teaching continued four decades on.",
+   "references": [
+    "George Roerich (tr.), Biography of Dharmasvamin (1959), with A. S. Altekar's introduction",
+    "Biography of Dharmasvamin, Tibetan text ed. Roerich"
+   ]
+  },
+  {
+   "id": "nalanda-founding-kumaragupta-sealings",
+   "indian_entity": "Nalanda mahavihara (foundation)",
+   "aliases": [
+    "Nalanda",
+    "Nalanda University",
+    "Shakraditya foundation"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Xuanzang, Da Tang Xiyu Ji (646) and Huili, Life of Xuanzang — attribution of the founding vihara to King Shakraditya; corroborated on the ground by Gupta royal clay sealings excavated in Monastery 1, Nalanda (EXTERNAL epigraphic anchor, non-Chinese)",
+   "source_type": "inscription",
+   "event": "Nalanda's first royal vihara is founded under Kumaragupta I (Xuanzang's Shakraditya); clay sealings of the Gupta royal line and of the Nalanda sangha were excavated in Monastery 1, physically anchoring the foundation tradition in the Gupta period",
+   "date_raw": "Reign of Kumaragupta I",
+   "date_ce": [
+    414,
+    455
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Shakraditya = Kumaragupta I is an identification, not a naming in any inscription; but the excavated Gupta sealings put royal Gupta patronage on the site in exactly this window",
+   "notes": "Xuanzang's own chronology for Shakraditya ('not long after the Buddha's nirvana') is worthless; the identification rests on the sealings and the six-king building sequence in Huili. Conventional founding date c. 427 CE falls inside this reign window. Faxian (c. 410) saw only a village and stupa at Nalanda — a negative attestation just before the window opens.",
+   "references": [
+    "Beal, Buddhist Records of the Western World (1884), Nalanda chapter",
+    "Hirananda Sastri, Nalanda and its Epigraphic Material (1942)",
+    "ASI excavation record, Monastery 1 sealings"
+   ]
+  },
+  {
+   "id": "nalanda-ghosrawa-viradeva-abbot",
+   "indian_entity": "Nalanda mahavihara (Viradeva appointed abbot)",
+   "aliases": [
+    "Ghosrawa inscription",
+    "Viradeva"
+   ],
+   "entity_type": "event",
+   "chinese_source": "EXTERNAL epigraphic anchor (non-Chinese): Ghosrawa (Ghosrawan) stone inscription, time of Devapala (Indian Antiquary XVII, 1888)",
+   "source_type": "inscription",
+   "event": "Viradeva of Nagarahara — trained at the Kaniska vihara near Peshawar, resident at Yasovarmanapura vihara — is elected by the sangha, under Devapala's patronage, to preside over the monasteries of Nalanda, and builds a vihara and chaityas at Ghosrawa",
+   "date_raw": "Undated; reign of Devapala, palaeography late 9th century (Fleet)",
+   "date_ce": [
+    810,
+    900
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Undated inscription; the window is Devapala's reign widened by Fleet's palaeographic judgement (latter half of the 9th century). Content — a royally backed abbatial appointment — is not in doubt",
+   "notes": "Governance anchor: in the later 9th century Nalanda still has a sangha that elects its head and a Pala king who backs the appointment. No population figure.",
+   "references": [
+    "J. F. Fleet, Indian Antiquary XVII (1888), Ghosrawa Buddhist Inscription",
+    "Bhagwant Sahai, The Inscriptions of Bihar (1983)"
+   ]
+  },
+  {
+   "id": "nalanda-huili-ten-thousand-claim",
+   "indian_entity": "Nalanda mahavihara (the 10,000-residents tradition)",
+   "aliases": [
+    "10000 monks of Nalanda",
+    "Huili Life of Xuanzang Nalanda"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Huili (completed by Yancong), Life of Xuanzang (Da Ci'en Si Sanzang Fashi Zhuan), presented c. 688",
+   "source_type": "pilgrim",
+   "event": "Huili's biography states that Nalanda's residents and visitors together 'always reach 10,000', with about 100 lecture pulpits daily, 1,000 men able to explain twenty collections, 500 able to explain thirty, and Harsa's endowment of about 100 villages with 200 supplying householders each",
+   "date_raw": "Tang, Chuigong era (composition completed c. 688)",
+   "date_ce": [
+    665,
+    688
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "contested",
+   "firmness_reason": "This record anchors the CLAIM's first carrier, not the population: the figure is a disciple's panegyric, is ~3x both Xuanzang's own text and Yijing's eyewitness count, and exceeds the excavated residential plant's capacity by 5-15x (see nalanda/NALANDA-STATS.md capacity test)",
+   "notes": "Modern '1,500 faculty' is a sum of Huili's 1,000 + 500 mastery tiers; '2,000 teachers' has no pre-modern carrier at all. Huili's architectural data (eight halls) agree with Yijing exactly — the inflation is specific to crowds, not buildings.",
+   "references": [
+    "Beal, The Life of Hiuen-Tsiang (1911), Nalanda description",
+    "Li Rongxi, The Life of Xuanzang (1995)"
+   ]
+  },
+  {
+   "id": "nalanda-hyecho-visit-723-728",
+   "indian_entity": "Nalanda mahavihara (Hyecho's attestation)",
+   "aliases": [
+    "Hyecho",
+    "Hui Chao",
+    "Wang Ocheonchukguk Jeon"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Hyecho (Silla), Wang Ocheonchukguk Jeon (Memoir of the Pilgrimage to the Five Kingdoms of India), Dunhuang manuscript",
+   "source_type": "pilgrim",
+   "event": "The Korean pilgrim Hyecho passes through Magadha in 723-728 and names Nalanda among its living monasteries; he gives no population figure — a dated presence attestation between Yijing and the Yasovarman inscription",
+   "date_raw": "Tang, Kaiyuan era; travel 723-727/728",
+   "date_ce": [
+    723,
+    728
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Eyewitness itinerary, but the surviving Dunhuang scroll is fragmentary (first volume and end of third lost) and his Nalanda notice is brief; value is chronological, not statistical",
+   "notes": "Negative-statistical value: the one 8th-century pilgrim who might have updated the population series gives no number, so the series jumps from Yijing (685) to epigraphy.",
+   "references": [
+    "Yang Han-sung et al., The Hye Ch'o Diary (1984)",
+    "Dunhuang manuscript P.3532, Bibliotheque nationale de France"
+   ]
+  },
+  {
+   "id": "nalanda-xuanzang-residence-637-642",
+   "indian_entity": "Nalanda mahavihara (Xuanzang's residence)",
+   "aliases": [
+    "Xuanzang at Nalanda",
+    "Silabhadra"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Xuanzang, Da Tang Xiyu Ji (compiled 646), Nalanda chapter",
+   "source_type": "pilgrim",
+   "event": "Xuanzang resides at Nalanda under abbot Silabhadra; his own Records put the resident priests at 'several thousand', describe eight halls inside one brick wall, and give the gatekeeper's failure rate for would-be debaters as seven or eight in ten",
+   "date_raw": "Tang, Zhenguan era; residence 637-642",
+   "date_ce": [
+    637,
+    642
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Eyewitness resident, but his population figure is an uncounted round phrase ('several thousand'); his architectural count (eight halls) is corroborated independently by Yijing",
+   "notes": "The famous 10,000 figure is NOT in this text — it is in Huili's biography (see nalanda-huili-ten-thousand-claim). Xuanzang's own number is consistent with Yijing's 3,000+ a generation later.",
+   "references": [
+    "Beal, Buddhist Records of the Western World (1884), vol. II, Nalanda chapter",
+    "Da Tang Xiyu Ji, fascicle IX"
+   ]
+  },
+  {
+   "id": "nalanda-yasovarman-inscription-malada",
+   "indian_entity": "Nalanda mahavihara (Malada's endowment)",
+   "aliases": [
+    "Nalanda stone inscription of Yasovarmadeva",
+    "Malada gift"
+   ],
+   "entity_type": "event",
+   "chinese_source": "EXTERNAL epigraphic anchor (non-Chinese): Nalanda stone inscription of the reign of Yasovarman of Kanauj, found in the southern verandah debris of Monastery 1 (Epigraphia Indica XX, no. 2)",
+   "source_type": "inscription",
+   "event": "Malada, son of Yasovarman's minister Tikina ('Lord of the North'), makes a permanent endowment (aksaya-nivi) to Baladitya's temple at Nalanda funding daily distribution of rice, curds and ghee to the monks — the mahavihara is endowed and feeding a resident sangha under Kanauj's king",
+   "date_raw": "Reign of Yasovarman of Kanauj; the date as read ('731' of an unspecified era) does not convert cleanly",
+   "date_ce": [
+    725,
+    752
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The inscription is physically in situ at Nalanda and its content is unambiguous; only its era attribution is disputed, so the window is Yasovarman's reign rather than a single year",
+   "notes": "No head-count is given — a provisions anchor, not a population one. The donor's father bears the Turkic title Tikina (tegin), a nice datum for Nalanda's Central Asian connections in the 8th century.",
+   "references": [
+    "Hirananda Sastri, Epigraphia Indica XX (1929-30), pp. 37-46",
+    "Bhagwant Sahai, The Inscriptions of Bihar (1983)"
+   ]
+  },
+  {
+   "id": "nalanda-yijing-residence-673-685",
+   "indian_entity": "Nalanda mahavihara (Yijing's residence)",
+   "aliases": [
+    "Yijing at Nalanda",
+    "I-tsing Nalanda 3000 monks"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Yijing, Nanhai Jigui Neifa Zhuan (Record of Buddhist Practices, sent home 691) and his Memoir of eminent monks",
+   "source_type": "pilgrim",
+   "event": "Yijing resides ten years at Nalanda and reports, as an administrator of monastic routine: more than 3,000 resident monks (Memoir: 3,500), eight halls, more than 300 apartments, and landed endowment of more than 200 villages accumulated from successive kings",
+   "date_raw": "Tang, Xianheng to Chuigong eras; residence 673-685, Record sent home Tianshou 2 (691)",
+   "date_ce": [
+    673,
+    685
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Eyewitness with an administrative (not panegyric) register; his 300 apartments match the excavated ground-floor cell estimate (~250-320) and his 15 monks-per-village ratio is internally consistent with the Devapala plate's endowment rate — the dataset's anchor population witness",
+   "notes": "Some manuscripts of the Record read 5,000 for the resident count; Takakusu judged 3,000 the correct reading. Even 3,000 exceeds the excavated core's design capacity (~450-650 cells), so his figure implies the unexcavated remainder of the walled complex and/or shared occupancy — see the capacity test.",
+   "references": [
+    "Takakusu, A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (1896)",
+    "Yijing, Nanhai Jigui Neifa Zhuan, T.2125"
+   ]
+  },
+  {
+   "aliases": [
+    "Ayuwang zhuan",
+    "T.2042",
+    "Ashokavadana"
+   ],
+   "chinese_source": "Ayuwang zhuan (T.2042), translated by An Faqin (fl. 281-306); re-translated as Ayuwang jing (T.2043) by Sanghabhara, 512",
+   "constraint_type": "TAQ",
+   "date_ce": [
+    281,
+    306
+   ],
+   "date_raw": "An Faqin floruit, Western Jin (281-306)",
+   "entity_type": "text",
+   "event": "The Ashoka legend cycle (84,000 stupas, Upagupta frame, gift-of-dirt prophecy) exists in Chinese translation by c. 306 CE - a TAQ for the legend stratum as formed literature; the cycle's internal frame places Ashoka ~100 years after the parinirvana (the short interval)",
+   "firmness": "probable",
+   "firmness_reason": "The translation and its attribution are consistent across the catalogues; An Faqin's exact working years are a floruit, not a colophon year",
+   "id": "ayuwang-zhuan-anfaqin-306",
+   "indian_entity": "Asokavadana / Ayuwang zhuan (Ashoka legend cycle)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 Build A1: bounds the Ashoka-legend stratum, not Ashoka. The short (100-year) nirvana interval rides in this cargo; the long (218-year) interval rides in the Samantapasadika (trans. 488). Neither interval is independent of its lineage.",
+   "references": [
+    "Taisho no. 2042 (Ayuwang zhuan)",
+    "Taisho no. 2043 (Ayuwang jing)",
+    "Strong, The Legend of King Ashoka (1983)",
+    "Mukhopadhyaya, The Asokavadana (1960)",
+    "Campaign 2 BUDDHA.md A1"
+   ],
+   "source_type": "catalogue"
+  },
+  {
+   "aliases": [
+    "Samantapasadika",
+    "Shan-jian-lu piposha",
+    "T.1462"
+   ],
+   "chinese_source": "Samantapasadika (T.1462), translated by Sanghabhadra at Canton, 488 CE",
+   "constraint_type": "TAQ",
+   "date_ce": [
+    488,
+    488
+   ],
+   "date_raw": "Yongming 6 (Southern Qi)",
+   "entity_type": "text",
+   "event": "Buddhaghosa's Theravada Vinaya commentary - the carrier of the Ceylon 218-year nirvana-to-Ashoka interval - is translated into Chinese in 488; its translator Sanghabhadra is the same monk who placed the 975th dot of the dotted record at Canton in 489 (Campaign 1 case 1)",
+   "firmness": "probable",
+   "firmness_reason": "Translation date is catalogue/colophon record; the identity of the dotted record's Sanghabhadra with the translator is the standard reading",
+   "id": "samantapasadika-sanghabhadra-488",
+   "indian_entity": "Samantapasadika (Buddhaghosa's Vinaya commentary; Ceylon chronicle arithmetic)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 Build A1: the 218-year interval and the dotted record enter China through the same man in consecutive years - the dependence graded in Campaign 1 case 1 made biographical.",
+   "references": [
+    "Taisho no. 1462",
+    "Fei Changfang, Lidai Sanbao Ji (597)",
+    "Campaign CORRECTIONS.md case 1",
+    "Campaign 2 BUDDHA.md A1"
+   ],
+   "source_type": "colophon"
+  },
+  {
+   "aliases": [
+    "Lidai Sanbao Ji chronology",
+    "King Zhao birth scheme",
+    "1027 BCE Buddha"
+   ],
+   "chinese_source": "Fei Changfang, Lidai Sanbao Ji (T.2034), completed 597 CE",
+   "constraint_type": "synchronism",
+   "date_ce": [
+    597,
+    597
+   ],
+   "date_raw": "Kaihuang 17 (Sui) = 597 CE",
+   "entity_type": "event",
+   "event": "Fei's catalogue records several mutually inconsistent backward-counting scales for the Buddha's dates (death dates derivable as early as 1005 BCE) and its own imperial chronology opens with the Buddha's birth in 687 BCE (King Zhuang of Zhou, jiawu year); the rival Zhao/Mu scheme (birth c. 1027 BCE in King Zhao's reign, death c. 949 BCE in King Mu's 52nd year) circulated via the lost Zhou Shu Yiji cited in court debate",
+   "firmness": "contested",
+   "firmness_reason": "Firm as a record of what the catalogue says; CONTESTED-to-excluded as evidence for the Buddha's dates - the schemes are Chinese constructions (mofa countdown arithmetic and huahu polemic), mutually inconsistent by up to ~350 years, and all centuries earlier than every Indian-side candidate",
+   "id": "fei-changfang-buddha-dates-597",
+   "indian_entity": "Buddha's birth and parinirvana (Chinese traditional dating)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 Build A2 verdict: CORRECTED in the reverse direction - carried in the tool precisely so the 'Chinese traditional date of the Buddha' cannot be cited as an independent witness.",
+   "references": [
+    "Taisho no. 2034 (Lidai Sanbao Ji)",
+    "Zanning, Da Song Seng Shi Lue (999)",
+    "Campaign 2 BUDDHA.md A2"
+   ],
+   "source_type": "catalogue"
+  },
+  {
+   "aliases": [
+    "Aihole inscription",
+    "Ravikirti prashasti"
+   ],
+   "chinese_source": "EXTERNAL epigraphic anchor (non-Chinese): Aihole prashasti of Pulakesin II, composed by Ravikirti, dated Saka 556",
+   "constraint_type": "TAQ",
+   "date_ce": [
+    634,
+    635
+   ],
+   "date_raw": "Saka 556",
+   "entity_type": "author",
+   "event": "Ravikirti's prashasti, dated 634 CE, already names Kalidasa (with Bharavi) as a byword for poetic fame - Kalidasa is classical before 634; the same inscription claims Pulakesin II's victory over Harsha",
+   "firmness": "firm",
+   "firmness_reason": "A dated royal inscription; the Saka-era conversion is standard and the Kalidasa/Bharavi reference is in the published text",
+   "id": "aihole-prashasti-kalidasa-634",
+   "indian_entity": "Kalidasa (fame as classical standard)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 Build C5: added because the campaign brief described this TAQ as 'already in the spine' - it was not in anchors.json (checked 2026-11-17). Flagged external on the Gondophares/Quilon precedent. Chinese-translation evidence for Kalidasa: none (no kavya in any Tang catalogue).",
+   "references": [
+    "Aihole prashasti of Pulakesin II (Epigraphia Indica VI)",
+    "Campaign 2 VIKRAMADITYA.md C5"
+   ],
+   "source_type": "inscription"
+  },
+  {
+   "aliases": [
+    "Shendu report",
+    "Shiji 123",
+    "Dayuan liezhuan"
+   ],
+   "chinese_source": "Shiji ch. 123 (Account of Dayuan), preserving Zhang Qian's report to Emperor Wu",
+   "constraint_type": "floruit",
+   "date_ce": [
+    -126,
+    -126
+   ],
+   "date_raw": "Zhang Qian returns to Chang'an, Yuanshuo 3 (126 BCE); mission dispatched 138 BCE",
+   "entity_type": "event",
+   "event": "Zhang Qian reports Shendu (India) at second hand: in Daxia (Bactria) he saw Shu cloth and Qiong bamboo staffs and was told merchants bought them in Shendu, several thousand li southeast of Daxia, whose people ride elephants to war beside a great river. He never entered India. Shu goods were already reaching Bactria via India before any Han mission",
+   "firmness": "firm",
+   "firmness_reason": "The report is preserved in the Shiji with the mission's dated frame (138-126 BCE); its content about India is explicitly hearsay, and is graded as hearsay",
+   "id": "zhang-qian-shendu-report-126bce",
+   "indian_entity": "Shendu / India (first Chinese notice; Shu-Shendu-Bactria trade)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case D1: the spine's founding record. It dates China's knowledge of India and the trade's existence by c. 128 BCE - and names no Indian king, place or event. Zero-king content sets the channel's pattern from its first page.",
+   "references": [
+    "Shiji ch. 123 (Dayuan liezhuan)",
+    "Yang Juping, The Relations Between China and India and the Opening of the Southern Silk Road During the Han Dynasty",
+    "Campaign 2 CORRECTIONS2.md case D1"
+   ],
+   "source_type": "annals"
+  },
+  {
+   "aliases": [
+    "Arunasa",
+    "Arjuna usurpation",
+    "Wang Xuance second mission"
+   ],
+   "chinese_source": "Jiu Tang shu / Xin Tang shu (Tianzhu account); Cefu Yuangui embassy records",
+   "constraint_type": "floruit",
+   "date_ce": [
+    647,
+    648
+   ],
+   "date_raw": "Zhenguan 21-22 (Tang)",
+   "entity_type": "event",
+   "event": "Wang Xuance's second mission (dispatched 647) arrives to find Harsha dead and the usurper Arunasa on the throne; the mission is attacked; Wang escapes to Tibet, returns in 648 with 7,000 Nepalese horse and Tibetan troops, defeats Arunasa in a three-day battle, and brings him captive to Chang'an",
+   "firmness": "firm",
+   "firmness_reason": "Annalistic embassy sequence dated at every step; no Indian source records the usurpation at all. The usurper's equation with an Indian 'Arjuna' is probable, not firm, and is graded separately in the case file",
+   "id": "wang-xuance-arunasa-captivity-648",
+   "indian_entity": "Arunasa's usurpation and defeat (Harsha's succession crisis)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case D3: distinct from Campaign 1 case 8 (Harsha's death date). This record grades the succession event, which Indian history does not contain.",
+   "references": [
+    "Jiu Tang shu, Tianzhu account",
+    "Xin Tang shu, Tianzhu account",
+    "Cefu Yuangui",
+    "Campaign 2 CORRECTIONS2.md case D3"
+   ],
+   "source_type": "annals"
+  },
+  {
+   "aliases": [
+    "Mo-ho-la-cha",
+    "Maharashtra kingdom"
+   ],
+   "chinese_source": "Xuanzang, Da Tang Xiyu Ji (Maharashtra chapter); presented 646",
+   "constraint_type": "floruit",
+   "date_ce": [
+    640,
+    643
+   ],
+   "date_raw": "Xuanzang's Deccan visit, c. 641 (record presented 646)",
+   "entity_type": "person",
+   "event": "Xuanzang visits Maharashtra and describes its reigning king (Pulakesin II, unnamed in the text): far-reaching in his plans, obeyed by his vassals - and records that Siladitya (Harsha), who had mustered the forces of the five Indies against him, could not subdue him",
+   "firmness": "probable",
+   "firmness_reason": "Dated eyewitness residence; the king is identified as Pulakesin II from the Indian side (the Aihole prashasti's Harsha-victory claim, 634), so the corroboration attaches to the frame - an unconquered Deccan king c. 641 - at probable",
+   "id": "pulakesin-ii-xuanzang-c641",
+   "indian_entity": "Pulakesin II, Chalukya of Vatapi",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case D4: the Chinese witness independently attests the substance of the Aihole claim (Harsha checked by the Deccan king) a few years after the inscription; neither source dates the defeat itself (standard dating c. 618-619 is Indian-side).",
+   "references": [
+    "Da Tang Xiyu Ji, Maharashtra chapter",
+    "Aihole prashasti (634)",
+    "Campaign 2 CORRECTIONS2.md case D4"
+   ],
+   "source_type": "pilgrim"
+  },
+  {
+   "aliases": [
+    "Kumarabhaskara",
+    "Jia-mo-lu-bo"
+   ],
+   "chinese_source": "Xuanzang, Da Tang Xiyu Ji (Kamarupa chapter) and his biography (Huili)",
+   "constraint_type": "floruit",
+   "date_ce": [
+    642,
+    643
+   ],
+   "date_raw": "Xuanzang's Kamarupa residence, c. 642-643",
+   "entity_type": "person",
+   "event": "Xuanzang is invited to Kamarupa, resides about a month with King Bhaskaravarman, and is escorted by him to Harsha's Kannauj assembly (643) - a dated eyewitness floruit for the king",
+   "firmness": "probable",
+   "firmness_reason": "Pilgrim eyewitness with a dated itinerary; the king is named in the record (unlike the Gupta case), so the synchronism is direct, graded probable only because the month-level dates are itinerary reconstructions",
+   "id": "bhaskaravarman-xuanzang-643",
+   "indian_entity": "Bhaskaravarman of Kamarupa",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case D5, first half: against an Indian side whose Kamarupa records (Nidhanpur plates) carry no absolute date, the pilgrim's visit is a fixed point in the reign.",
+   "references": [
+    "Da Tang Xiyu Ji, Kamarupa chapter",
+    "Huili, Life of Xuanzang",
+    "Campaign 2 CORRECTIONS2.md case D5"
+   ],
+   "source_type": "pilgrim"
+  },
+  {
+   "aliases": [
+    "Kamarupa supplies 648"
+   ],
+   "chinese_source": "Tang records of the Wang Xuance campaign (Jiu/Xin Tang shu; Cefu Yuangui tradition)",
+   "constraint_type": "floruit",
+   "date_ce": [
+    648,
+    649
+   ],
+   "date_raw": "Zhenguan 22 (Tang) and after",
+   "entity_type": "person",
+   "event": "After the 648 victory over Arunasa, Bhaskaravarman supplies Wang Xuance's force with cattle, horses and provisions (the Tang tradition gives 30,000 head of cattle) - the king still reigning and cooperative in 648; the same record complex preserves his request for a portrait of Laozi and a translation of the Daodejing",
+   "firmness": "probable",
+   "firmness_reason": "Annalistic logistics record; the Laozi-image request is famous but rests on the same record complex, so both halves are graded probable",
+   "id": "bhaskaravarman-supplies-wang-648",
+   "indian_entity": "Bhaskaravarman of Kamarupa (648 logistics)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case D5, second half: with the 642-643 eyewitness, brackets Bhaskaravarman's attested floruit to 642-648 from two independent Chinese directions.",
+   "references": [
+    "Jiu Tang shu / Xin Tang shu, Tianzhu and Kamarupa material",
+    "Cefu Yuangui",
+    "Campaign 2 CORRECTIONS2.md case D5"
+   ],
+   "source_type": "annals"
+  },
+  {
+   "aliases": [
+    "Rajasimha",
+    "Che-li-Na-lo-seng-kia pao-to-pa-mo",
+    "Sri Narasimha Potavarman"
+   ],
+   "chinese_source": "Tang court record (Cefu Yuangui), Kaiyuan 8",
+   "constraint_type": "floruit",
+   "date_ce": [
+    720,
+    720
+   ],
+   "date_raw": "Kaiyuan 8, 8th month (Tang) = 720 CE",
+   "entity_type": "person",
+   "event": "Embassy from the king of South India, transcribed Che-li-Na-lo-seng-kia pao-to-pa-mo (Sri Narasimha Potavarman = Narasimhavarman II, Pallava of Kanchi): he offers his elephants and cavalry against the Arabs (Ta-che) and Tibetans (T'ou-po), asks the emperor to name his army and a temple he has built for the emperor; Xuanzong names the army 'the army which cherished virtue' (Huai-de) and the temple Guihua si, and sends a return embassy conferring a brevet title on the king",
+   "firmness": "firm",
+   "firmness_reason": "Court record with a reign-era date to the month; the name transcription is phonetically transparent and the identification with Narasimhavarman II is the standard reading (Sastri). The popular claim that the embassy was 'led by Vajrabodhi' is Sastri's inference and is NOT in the record",
+   "id": "narasimhavarman-ii-embassy-tang-720",
+   "indian_entity": "Narasimhavarman II, Pallava of Kanchi (embassy to Tang)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case D6: a named Pallava king on his throne in a dated Chinese court record, independently confirming the inscriptional reign bracket (c. 700-728). The temple named by the emperor is plausibly - not provably - the Nagapattinam vihara later called the China Pagoda.",
+   "references": [
+    "Cefu Yuangui, Kaiyuan 8 entries",
+    "Sastri, The Colas / Foreign Notices of South India",
+    "Mahalingam, Readings in South Indian History",
+    "Campaign 2 CORRECTIONS2.md case D6"
+   ],
+   "source_type": "annals"
+  },
+  {
+   "aliases": [
+    "Mahabodhi Sangharama",
+    "Sinhalese monastery at Bodh Gaya"
+   ],
+   "chinese_source": "Xuanzang, Da Tang Xiyu Ji (Magadha / Mahabodhi chapter)",
+   "constraint_type": "floruit",
+   "date_ce": [
+    637,
+    637
+   ],
+   "date_raw": "Xuanzang at Bodh Gaya, c. 637",
+   "entity_type": "event",
+   "event": "Xuanzang describes the great Sinhalese monastery north of the Bodhi tree (three storeys, six halls, over 1,000 Sthavira monks) standing in 637, and transmits its foundation tradition: a king of Ceylon sent gifts to the Indian emperor and obtained permission to build it for Sinhalese pilgrims. Neither king is named in his text",
+   "firmness": "probable",
+   "firmness_reason": "The monastery's existence in 637 is eyewitness (firm as observation); the foundation story is received tradition recorded by the pilgrim, and the named pairing Meghavarna-Samudragupta is a scholarly join with the Allahabad prashasti's Simhala missions, not a statement of either source",
+   "id": "sinhala-mahabodhi-sangharama-xuanzang-637",
+   "indian_entity": "Mahabodhi Sangharama (Sinhalese monastery at Bodh Gaya; Meghavarna embassy tradition)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case D7: bounds the monastery (standing by 637) and corroborates the event class (a Ceylon embassy obtained a Gupta emperor's building permission); it does not date Samudragupta, whose frame is the Gupta era's own.",
+   "references": [
+    "Da Tang Xiyu Ji, Mahabodhi chapter",
+    "Allahabad pillar prashasti of Samudragupta",
+    "Campaign 2 CORRECTIONS2.md case D7"
+   ],
+   "source_type": "pilgrim"
+  },
+  {
+   "aliases": [
+    "liushi waidao",
+    "six heretical teachers",
+    "Sramanyaphala-sutra",
+    "Shamenguo jing"
+   ],
+   "chinese_source": "Dirghagama (T.1), sutra 27 (Shamenguo jing), read out by Buddhayasas, translated by Zhu Fonian, Chang'an; second recension in Yijing's Mulasarvavastivada Vinaya Sanghabhedavastu (T.1450), 710",
+   "constraint_type": "TAQ",
+   "date_ce": [
+    412,
+    413
+   ],
+   "date_raw": "Later Qin, Hongshi era (translation completed 413 CE)",
+   "entity_type": "text",
+   "event": "The six sramana teachers - Purana Kassapa, Makkhali Gosala, Ajita Kesakambala, Pakudha Kaccayana, Sanjaya Belatthiputta, Nigantha Nataputta (Mahavira) - are preserved as a fixed list with fixed one-line doctrines in the Sramanyaphala-sutra as translated into Chinese in 413 CE: a TAQ for the six-teachers stratum as fossilised syllabus material",
+   "firmness": "firm",
+   "firmness_reason": "The Dirghagama translation date (412-413) is catalogue/colophon record; the bound applies to the textual stratum, not to the teachers' floruits, which rest on the Buddha-synchronism of tradition class",
+   "id": "six-teachers-dirghagama-413",
+   "indian_entity": "The six sramana teachers (Purana, Gosala, Ajita, Pakudha, Sanjaya, Nigantha Nataputta)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case E2: carried so the tool records the distinction this campaign insists on - China dates the list, not the men. Mahavira's own interval is chained to the Buddha result (MAHAVIRA.md E1), not derived from this record.",
+   "references": [
+    "Taisho no. 1 (Dirghagama), sutra 27",
+    "Taisho no. 1450 (Sanghabhedavastu, trans. Yijing 710)",
+    "Chinaknowledge, Chang ahan jing",
+    "Campaign 2 MAHAVIRA.md E2"
+   ],
+   "source_type": "colophon"
+  },
+  {
+   "aliases": [
+    "Ni-kien",
+    "Li-hi",
+    "naked Nirgranthas Bengal"
+   ],
+   "chinese_source": "Xuanzang, Da Tang Xiyu Ji (Pundravardhana and Samatata chapters; India taxonomy juan 2); record presented 646",
+   "constraint_type": "floruit",
+   "date_ce": [
+    637,
+    645
+   ],
+   "date_raw": "Xuanzang's Bengal visit, c. 638 (sojourn 629-645)",
+   "entity_type": "event",
+   "event": "Xuanzang counts the naked Nirgranthas (Jains) as the most numerous non-Buddhist sectaries at Pundravardhana and again at Samatata, and describes the order from observation (naked, hair-plucking, cracked skin) - a dated eyewitness snapshot of Jain communities thriving across Bengal eleven centuries after Mahavira",
+   "firmness": "probable",
+   "firmness_reason": "Dated eyewitness observation, the spine's zero-lag class; graded probable because the pilgrim's 'most numerous' is an impression, not a census, and the Ni-kien = Nirgrantha = Jain identification, though standard, is an identification",
+   "id": "nirgranthas-xuanzang-bengal-c638",
+   "indian_entity": "Nirgrantha (Jain) communities of Bengal (Pundravardhana, Samatata)",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "notes": "Campaign 2 case E3: pins the order's survival and distribution in the 7th century; says nothing about its origins. No anchor is offered for Mahavira himself, Parsva, Gosala or the Buddha's teachers - the Chinese record dates none of them (MAHAVIRA.md E1, E4-E6).",
+   "references": [
+    "Da Tang Xiyu Ji, Pundravardhana / Samatata chapters",
+    "Beal, Si-yu-ki (Buddhist Records of the Western World)",
+    "Banglapedia, Chinese Accounts",
+    "Campaign 2 MAHAVIRA.md E3"
+   ],
+   "source_type": "pilgrim"
+  },
+  {
+   "id": "astangahrdaya-tibetan-translation-1055",
+   "indian_entity": "Astangahrdaya Samhita (Tibetan translation)",
+   "aliases": [
+    "Yan lag brgyad pa'i snying po",
+    "Toh 4310"
+   ],
+   "entity_type": "text",
+   "chinese_source": "EXTERNAL Tibetan anchor: Tengyur, Toh 4310 (with Candranandana's commentary), translation of the later-diffusion (phyi dar) period",
+   "source_type": "colophon",
+   "event": "Vagbhata's Astangahrdaya — the one great medical samhita the Tibetan canon took — is translated into Tibetan in the translation enterprise associated with Rinchen Zangpo (958-1055)",
+   "date_raw": "Later diffusion period, Rinchen Zangpo's lifetime",
+   "date_ce": [
+    1000,
+    1055
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The Tengyur inclusion is certain; the precise translation date and team rest on the colophon tradition of the phyi dar period",
+   "notes": "The loosest of Vagbhata's three foreign brackets (Yijing 691 and the Firdaws 850 both bite earlier) — but the socially largest: this translation is why the Hrdaya, not Caraka or Susruta, became Tibet's Ayurveda.",
+   "references": [
+    "Vogel, Vagbhata's Astangahrdayasamhita: the First Five Chapters of its Tibetan Version (1965)",
+    "Bu ston, History of Buddhism (chos 'byung)"
+   ]
+  },
+  {
+   "id": "bower-manuscript-navanitaka-450-550",
+   "indian_entity": "Early Ayurvedic formulary tradition (Navanitaka; Caraka/Susruta/Bhela-line material)",
+   "aliases": [
+    "Bower Manuscript",
+    "Navanitakam"
+   ],
+   "entity_type": "text",
+   "chinese_source": "EXTERNAL physical anchor (non-Chinese record): birch-bark manuscript in Gupta script, excavated from a stupa near Kucha (Xinjiang), now Bodleian MS Sansk. c.17",
+   "source_type": "inscription",
+   "event": "Three of the Bower Manuscript's seven treatises are medical; the Navanitaka formulary opens with a recipe that also stands in the Caraka Samhita and excerpts Caraka-, Susruta- and Bhela-line material",
+   "date_raw": "Palaeographic dating (Gupta script; letter ya forms); no radiocarbon published",
+   "date_ce": [
+    450,
+    550
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Palaeographic range (Sander 500-550; Callewaert c. 450; Hoernle's final view 4th-5th c.); a published radiocarbon date would make it firm",
+   "notes": "A TAQ for the formulary SYSTEM behind the samhitas, not for any one samhita's final form: by c. 500 the eight-branch corpus was mature and excerptable on the Silk Road.",
+   "references": [
+    "Hoernle (ed.), The Bower Manuscript (1893-1912)",
+    "Lore Sander (1986), palaeographic analysis",
+    "Wujastyk, The Roots of Ayurveda (2003)"
+   ]
+  },
+  {
+   "id": "caraka-kaniska-sutralankara-402-413",
+   "indian_entity": "Caraka (the Kaniṣka court-physician tradition)",
+   "aliases": [
+    "Charaka",
+    "Zheluojia",
+    "Sutralankara Kanishka court"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Da zhuangyan lun jing (Sutralankara, T.201), Chinese translation attributed to Kumarajiva's bureau, Chang'an",
+   "source_type": "colophon",
+   "event": "The Chinese Sutralankara tells of Kaniska's court attended by the minister Mathara, the bodhisattva Asvaghosa, the minister Devadharma and the physician Caraka — the earliest datable carrier of the tradition that Caraka was Kaniska's physician (identified by Sylvain Levi, 1896)",
+   "date_raw": "Later Qin, Hongshi era (Kumarajiva's Chang'an translation activity)",
+   "date_ce": [
+    402,
+    413
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "T.201's attribution to Kumarajiva is traditional catalogue evidence, and the passage dates the TRADITION, not the redactor: the story is attested ~250 years after the event it claims",
+   "notes": "Combined with the Kaniska epoch bound (c. 125-165, Campaign Case 2), the tradition if granted puts the Caraka redaction layer in the mid-2nd c. CE. 'Caraka' may name a school or professional type; the identification is unprovable from this carrier alone.",
+   "references": [
+    "Sylvain Levi, Journal Asiatique (1896), on the Sutralankara's Kaniska court",
+    "Encyclopaedia Iranica, s.v. Caraka",
+    "Meulenbeld, History of Indian Medical Literature IA (1999)"
+   ]
+  },
+  {
+   "id": "faxian-pataliputra-dispensaries-405-411",
+   "indian_entity": "Organised charitable medicine in India (Pataliputra dispensaries)",
+   "aliases": [
+    "Faxian hospitals",
+    "Foguo Ji medicine houses"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Faxian, Foguo Ji (Record of Buddhist Kingdoms), Pataliputra chapter",
+   "source_type": "pilgrim",
+   "event": "Faxian, resident in Pataliputra, describes houses established by Vaisya elders for dispensing charity and medicine: the destitute and diseased attend, physicians examine them, and food and medicine are provided free",
+   "date_raw": "Faxian's Indian sojourn; three years resident in Pataliputra",
+   "date_ce": [
+    405,
+    411
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated eyewitness describing what he saw in the city he lived in; the spine's standard pilgrim grade at its strongest",
+   "notes": "An infrastructure anchor: dates no text, but proves institutional, physician-staffed charitable medicine in a major Indian city within Drdhabala's floruit window (300-500).",
+   "references": [
+    "Faxian, Foguo Ji, tr. Legge (1886), ch. on Pataliputra",
+    "Campaign anchor faxian-gupta frame (Case 12)"
+   ]
+  },
+  {
+   "id": "fihrist-indian-medical-books-987",
+   "indian_entity": "Indian medical books in Arabic (Sharaka, Susrud, Ashtankar)",
+   "aliases": [
+    "Fihrist Indian medicine list",
+    "Kitab Sharaka",
+    "Ashtankar"
+   ],
+   "entity_type": "text",
+   "chinese_source": "EXTERNAL Arabic anchor: Ibn al-Nadim, Kitab al-Fihrist, compiled 987-988, discourse on the ancient sciences",
+   "source_type": "catalogue",
+   "event": "The Fihrist catalogues the Indian medical books available in Arabic — Sharaka (Caraka), Susrud (Susruta, tr. Mankha), the Nidana, a book on poisons by Shanaq, and the Ashtankar — most plausibly Vagbhata's Astanga work in Arabic dress",
+   "date_raw": "Baghdad, 987-988",
+   "date_ce": [
+    987,
+    988
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated catalogue of books its compiler handled; the Ashtankar identification is the one debated element and is corroborative only, the Firdaws (850) attestation of the Hrdaya being earlier and firmer",
+   "notes": "The bibliographic terminus of the Barmakid translation movement: by 987 the Ayurvedic canon was a catalogued section of Arabic medicine.",
+   "references": [
+    "Ibn al-Nadim, Fihrist, tr. Dodge (1970)",
+    "Ullmann, Islamic Medicine (1978)"
+   ]
+  },
+  {
+   "id": "firdaws-al-hikma-indian-canon-850",
+   "indian_entity": "The Ayurvedic canon in Arabic (Caraka, Susruta, Madhavanidana, Astangahrdaya)",
+   "aliases": [
+    "Firdaws al-Hikma Indian medicine",
+    "Jarak Susrud Niddin Ashtanqahrada"
+   ],
+   "entity_type": "text",
+   "chinese_source": "EXTERNAL Arabic anchor: Ali ibn Rabban al-Tabari, Firdaws al-Hikma (Paradise of Wisdom), completed c. 850, part VII",
+   "source_type": "catalogue",
+   "event": "Al-Tabari closes his medical encyclopedia with a 36-chapter summary of Indian medicine drawn from four named books: Charaka (Jarak), Susruta (Susrud), the Nidana (Niddin = Madhavakara's Rugviniscaya) and the Astangahrdaya (Ashtanqahrada)",
+   "date_raw": "Composed at the court of al-Mutawakil, c. 849-850",
+   "date_ce": [
+    849,
+    850
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated, extant work; Meyerhof's identification of the four Arabic titles with the four Sanskrit works is the standard reading (Isis 16, 1931; Siggel's 1951 edition of the Indian chapters)",
+   "notes": "One dated page brackets four canon texts at once: Caraka, Susruta, Madhava (c. 700) and Vagbhata's Hrdaya all existed in Arabic-accessible form by 850. The earliest datable Arabic attestation of Caraka's content.",
+   "references": [
+    "Meyerhof, Isis 16.1 (1931)",
+    "Siggel, Die indischen Bucher aus dem Paradies der Weisheit (1951)"
+   ]
+  },
+  {
+   "id": "liu-yuxi-brahmin-eye-doctor-837",
+   "indian_entity": "Indian oculist practising in China (golden-scalpel cataract couching)",
+   "aliases": [
+    "Zeng yanyi poluomen seng",
+    "Liu Yuxi eye poem"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Liu Yuxi (772-842), poem 'Presented to the Brahmin Monk Eye-Doctor' (Zeng yanyi poluomen seng), with the companion reply poem of winter 837",
+   "source_type": "catalogue",
+   "event": "Liu Yuxi, himself medically literate, addresses the Indian Brahmin monk whose golden-scalpel art is to lift his three years of blindness; a dated companion poem of winter 837 celebrates the cure — 'the golden scalpel is no longer needed'",
+   "date_raw": "Tang, Kaicheng 2 winter (837) for the cure poem",
+   "date_ce": [
+    836,
+    837
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The poems are datable only through Liu Yuxi's biography and Pei Du's Luoyang tenure; the 837 companion poem anchors the cure, the address poem itself may be slightly earlier",
+   "notes": "The signature operation of the Susruta tradition, performed on a named, datable Chinese patient in the 830s — the transmission at the level of the individual practitioner's hands.",
+   "references": [
+    "Quan Tang Shi, Liu Yuxi poems",
+    "Religions 14:880 (2023), on Tang Buddhist ophthalmology"
+   ]
+  },
+  {
+   "id": "narayanasvamin-tang-court-648",
+   "indian_entity": "Indian physician at the Tang court (Narayanasvamin's longevity drug)",
+   "aliases": [
+    "Naluoersuopomei",
+    "Wang Xuance Indian physician"
+   ],
+   "entity_type": "person",
+   "chinese_source": "Jiu Tang Shu (Tianzhu account) and Zizhi Tongjian, s.a. 648-649",
+   "source_type": "annals",
+   "event": "Wang Xuance's returning mission brings the Magadhan brahmin Narayanasvamin to Chang'an; under Taizong's patronage he compounds a longevity drug — the emperor dies in 649, and the annalists leave the elixir beside the death",
+   "date_raw": "Tang, Zhenguan 22-23 (648-649)",
+   "date_ce": [
+    648,
+    649
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Annalistic record of a named foreign specialist at court; the elixir episode is told with a moralising edge, so the fact of the commission is firmer than its pharmacology",
+   "notes": "Dates Indian medicine's prestige at the Tang throne, not any text. Gaozong's reign adds the East Indian monk-physician Lokaditya, sent to gather drugs from the southern seas.",
+   "references": [
+    "Jiu Tang Shu, juan 198 (Tianzhu)",
+    "Zizhi Tongjian, juan 199"
+   ]
+  },
+  {
+   "id": "qianjin-yaofang-jivaka-material-652",
+   "indian_entity": "Indian formulary material in China (Jivaka prescriptions; Brahmin massage method)",
+   "aliases": [
+    "Sun Simiao Indian formulas",
+    "Tianzhu anmo fa",
+    "Jipo wanbing wan"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Sun Simiao, Beiji Qianjin Yaofang (Prescriptions Worth a Thousand Gold), completed 652",
+   "source_type": "catalogue",
+   "event": "Sun Simiao's dated formulary incorporates Indian material under Indian names: formulas attributed to Jivaka (incl. the Jivaka myriad-disease pill), a Jivaka saying traced to Caraka Samhita Sutrasthana 26.12 ('nothing in the world is not a medicine'), and the 'Brahmin method' of massage with the eighteen postures of Tianzhu",
+   "date_raw": "Tang, Yonghui 3 (652)",
+   "date_ce": [
+    652,
+    652
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated, extant Chinese compilation citing its Indian material by name; the Caraka line arrives under Jivaka's attribution, which is why the record is firm for Indian formulary circulation and only indirect for Caraka's text",
+   "notes": "The eastward channel in one record: Ayurveda reached China as attributed formulas and body practices inside Chinese books, not as translated samhitas.",
+   "references": [
+    "Deshpande, Indian J. Hist. Sci. 43.2 (2008)",
+    "Unschuld, Medicine in China: A History of Pharmaceutics (1986)"
+   ]
+  },
+  {
+   "id": "sui-shu-indian-medical-titles-656",
+   "indian_entity": "Indian medical literature in Chinese translation (Brahmin pharmacopoeias, Nagarjuna pharmacopoeia, Jivaka formulas)",
+   "aliases": [
+    "Poluomen yaofang",
+    "Longshu pusa yaofang",
+    "Sui shu jingji zhi medicine"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Sui shu, Jingji zhi (bibliographic treatise), medical section",
+   "source_type": "catalogue",
+   "event": "The Sui imperial bibliography lists eleven Indian medical titles in Chinese dress, incl. Pharmacopeia of the Brahmin Rsis (20 juan), Brahmin Pharmacopeia (5 juan), Pharmacopeia of Nagarjuna Bodhisattva (4 juan), Essential Formulas of Famous Physicians of the Western Regions (4 juan), Jivaka's Formulas (2 juan) — most inherited from the Liang imperial catalogue",
+   "date_raw": "Sui shu treatises compiled 641-656 (presented 656)",
+   "date_ce": [
+    641,
+    656
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated imperial catalogue entry is the spine's standard firm existence proof; the titles themselves are lost, so it dates a transmission, not contents",
+   "notes": "What it does NOT list matters equally: no Caraka and no Susruta translation is recorded here or in any Chinese bibliography — the great samhitas never entered China as books. The Nagarjuna of the pharmacopoeia is the medical/alchemical namesake, not evidence about the Madhyamika.",
+   "references": [
+    "Sui shu, juan 34 (Jingji zhi 3)",
+    "Deshpande, 'Glimpses of Ayurveda in Medieval Chinese Medicine', Indian J. Hist. Sci. 43.2 (2008)"
+   ]
+  },
+  {
+   "id": "susruta-arabic-mankha-786-803",
+   "indian_entity": "Susruta Samhita (Arabic translation, Kitab-i-Susrud)",
+   "aliases": [
+    "Susrud",
+    "Mankha translation",
+    "Manka the Indian"
+   ],
+   "entity_type": "text",
+   "chinese_source": "EXTERNAL Arabic anchor: Ibn al-Nadim, Fihrist (987), on the Barmakid translation movement",
+   "source_type": "colophon",
+   "event": "The Fihrist records that Mankha (Manka), an Indian physician at the Abbasid court, translated Susruta from Sanskrit into Arabic for the vizier Yahya ibn Khalid al-Barmaki",
+   "date_raw": "Yahya ibn Khalid's vizierate under Harun al-Rashid, ended by the Barmakid fall",
+   "date_ce": [
+    786,
+    803
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The translation is recorded in a dated catalogue two centuries later; Mankha's presence at Harun's court is independently remembered (he is said to have cured the caliph), but no colophon of the translation itself survives",
+   "notes": "Susruta existed, complete enough to translate whole, by 803 at the latest — three centuries after the internal evidence closes its present form. A confirmation anchor, not a tightening one.",
+   "references": [
+    "Ibn al-Nadim, Fihrist, tr. Dodge (1970), chapter on Indian medicine",
+    "Ibn Abi Usaybi'a, Uyun al-anba",
+    "Ullmann, Islamic Medicine (1978)"
+   ]
+  },
+  {
+   "id": "susruta-kathmandu-manuscript-878",
+   "indian_entity": "Susruta Samhita, complete six-book text (oldest dated manuscript)",
+   "aliases": [
+    "KL 699",
+    "Kathmandu Susruta manuscript"
+   ],
+   "entity_type": "text",
+   "chinese_source": "EXTERNAL physical anchor (non-Chinese record): palm-leaf manuscript, Kaiser Library, Kathmandu, MS KL 699",
+   "source_type": "inscription",
+   "event": "The oldest surviving manuscript of the Susruta Samhita, dated by its colophon era to 878 CE, already contains the complete text including the Uttaratantra",
+   "date_raw": "Manuscript colophon date, = 878 CE",
+   "date_ce": [
+    878,
+    878
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "The 878 date rests on the reading of the manuscript's colophon era; the manuscript's completeness is directly inspectable",
+   "notes": "A physical TAQ for the FINISHED Susruta: whatever the layers' dates, the six-book whole existed in this form by 878 — comfortably after the internal c. 500 closure and before Dalhana's commentary (c. 1200).",
+   "references": [
+    "Wujastyk, The Roots of Ayurveda (2003)",
+    "Meulenbeld, HIML IA (1999), on the Susruta manuscript tradition"
+   ]
+  },
+  {
+   "id": "waitai-miyao-indian-eye-treatise-752",
+   "indian_entity": "Indian ophthalmology and Jivaka formulary in China (Tianzhu eye treatise; golden-scalpel couching)",
+   "aliases": [
+    "Waitai Miyao Indian prescriptions",
+    "Tianzhu jing lunyan",
+    "Jinbi shu 752"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Wang Tao, Waitai Miyao (Secret Essentials of an Official), completed 752, juan 21 (eye diseases) and passim",
+   "source_type": "catalogue",
+   "event": "Wang Tao's dated formulary (6,900 prescriptions, sources named) carries Jivaka-attributed remedies throughout, and its eye section opens with the Preface to the Indian (Tianzhu) Treatise on Eyes by Master Xie of Longshang, who received the doctrine from a Western monk — followed by the first detailed Chinese account of golden-scalpel cataract couching",
+   "date_raw": "Tang, Tianbao 11 (752)",
+   "date_ce": [
+    752,
+    752
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated, extant compilation that names its sources; the Indian provenance of the eye treatise is stated by its Chinese transmitter himself",
+   "notes": "Indian ophthalmology existed as a TEXT in China by 752. A large share of all Indian-derived prescriptions preserved in Chinese literature is concentrated in this one book (Fan's count).",
+   "references": [
+    "Waitai Miyao, juan 21",
+    "Fan Ka Wai, and Deshpande, Indian J. Hist. Sci. 43.2 (2008)",
+    "Religions 14:880 (2023), on Tang Buddhist ophthalmology"
+   ]
+  },
+  {
+   "id": "xinxiu-bencao-brahmin-prescription-659",
+   "indian_entity": "Indian ('Brahmin') prescription in the Tang imperial pharmacopoeia",
+   "aliases": [
+    "Poluomen fang beriberi",
+    "Brahmin prescription 659"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Su Jing et al., Xinxiu Bencao (Newly Revised Materia Medica), imperial commission, 659",
+   "source_type": "catalogue",
+   "event": "The Tang state pharmacopoeia records a 'Brahmin's prescription' as the known remedy for beriberi (jiaoqi), in all probability carried to China by an Indian Buddhist monk",
+   "date_raw": "Tang, Xianqing 4 (659)",
+   "date_ce": [
+    659,
+    659
+   ],
+   "constraint_type": "synchronism",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "A dated imperial pharmacopoeia entry; the Indian provenance is stated in the record itself",
+   "notes": "An Indian formula with official Chinese status by 659 — the transmission at the level of practice, a generation before Yijing's eyewitness account of the system behind it.",
+   "references": [
+    "Xinxiu Bencao (659), beriberi entries",
+    "Deshpande, Indian J. Hist. Sci. 43.2 (2008)"
+   ]
+  },
+  {
+   "id": "xuanzang-five-sciences-medicine-646",
+   "indian_entity": "Cikitsavidya (medicine) as a formal Indian science",
+   "aliases": [
+    "Yifang ming",
+    "Pancavidya medicine"
+   ],
+   "entity_type": "event",
+   "chinese_source": "Xuanzang, Da Tang Xiyu Ji (646), juan 2, on Indian education",
+   "source_type": "pilgrim",
+   "event": "Xuanzang lists the five sciences of the standard Indian curriculum — grammar, crafts, cikitsavidya (the science of medicine), logic and inner science — taught to students across India",
+   "date_raw": "Tang, Zhenguan 20 (646)",
+   "date_ce": [
+    646,
+    646
+   ],
+   "constraint_type": "floruit",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "firm",
+   "firmness_reason": "Dated eyewitness synthesis by the pilgrim who had just spent over a decade studying in India",
+   "notes": "Attests medicine's institutional status — a named, teachable sastra — in mid-7th-century India, independent of any single text's date.",
+   "references": [
+    "Xuanzang, Da Tang Xiyu Ji, juan 2",
+    "tr. Beal, Buddhist Records of the Western World (1884)"
+   ]
+  },
+  {
+   "id": "yijing-eight-branches-epitome-691",
+   "indian_entity": "Vagbhata's Astanga synthesis (the eight branches epitomised in one work)",
+   "aliases": [
+    "Yijing medicine chapter",
+    "Astangahrdaya Yijing",
+    "Jin ri you ren lue wei yi jia"
+   ],
+   "entity_type": "text",
+   "chinese_source": "Yijing, Nanhai Jigui Neifa Zhuan (written 691), vol. 3, sections 27-29 (on the origin of disease, on medicine, on harmful drugs)",
+   "source_type": "pilgrim",
+   "event": "Yijing, resident in India 673-685, names the eight branches of Indian medicine and reports that they 'formerly existed in eight books, but lately a man has compiled them into one fascicle' — the standard scholarly identification of the unnamed epitome is Vagbhata's Astanga synthesis",
+   "date_raw": "Tang, Tianshou 2 (691)",
+   "date_ce": [
+    691,
+    691
+   ],
+   "constraint_type": "TAQ",
+   "lag": null,
+   "lag_basis": null,
+   "lag_solid": false,
+   "firmness": "probable",
+   "firmness_reason": "Yijing's text and date are firm and he is a resident eyewitness; the one inferential step is identifying his anonymous 'one fascicle' epitome with Vagbhata's Astanga works (the reading standard since Takakusu)",
+   "notes": "The sharpest foreign bracket on Vagbhata anywhere: the synthesis existed by 691 and was recent enough to remark on — pressing the c. 600-650 window from above. Yijing's sections 27-29 are also the fullest dated foreign description of Indian medicine as practised.",
+   "references": [
+    "Yijing, Nanhai Jigui Neifa Zhuan, tr. Takakusu (1896), chs. 27-29 and note",
+    "J. Ethnobiology and Ethnomedicine 20:92 (2024), analysis of the medical chapters"
+   ]
+  }
+ ]
+}

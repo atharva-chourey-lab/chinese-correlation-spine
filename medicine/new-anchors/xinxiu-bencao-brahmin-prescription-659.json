@@ -1,0 +1,28 @@
+{
+ "id": "xinxiu-bencao-brahmin-prescription-659",
+ "indian_entity": "Indian ('Brahmin') prescription in the Tang imperial pharmacopoeia",
+ "aliases": [
+  "Poluomen fang beriberi",
+  "Brahmin prescription 659"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Su Jing et al., Xinxiu Bencao (Newly Revised Materia Medica), imperial commission, 659",
+ "source_type": "catalogue",
+ "event": "The Tang state pharmacopoeia records a 'Brahmin's prescription' as the known remedy for beriberi (jiaoqi), in all probability carried to China by an Indian Buddhist monk",
+ "date_raw": "Tang, Xianqing 4 (659)",
+ "date_ce": [
+  659,
+  659
+ ],
+ "constraint_type": "synchronism",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "A dated imperial pharmacopoeia entry; the Indian provenance is stated in the record itself",
+ "notes": "An Indian formula with official Chinese status by 659 — the transmission at the level of practice, a generation before Yijing's eyewitness account of the system behind it.",
+ "references": [
+  "Xinxiu Bencao (659), beriberi entries",
+  "Deshpande, Indian J. Hist. Sci. 43.2 (2008)"
+ ]
+}

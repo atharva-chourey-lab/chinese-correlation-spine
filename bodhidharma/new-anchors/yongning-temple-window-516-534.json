@@ -1,0 +1,27 @@
+{
+  "id": "yongning-temple-window-516-534",
+  "indian_entity": "Yongning Temple, Luoyang (Bodhidharma sighting window)",
+  "aliases": [
+    "Yongning Si"
+  ],
+  "entity_type": "event",
+  "chinese_source": "Yang Xuanzhi, Luoyang Qielan Ji (547)",
+  "source_type": "pilgrim",
+  "event": "Yongning Temple built 516 and destroyed by fire 534; Yang Xuanzhi's notice places Bodhidharma admiring its stupa in the intact temple, bounding his Luoyang presence to 516-526 on Broughton's reading",
+  "date_raw": "Northern Wei, Xiping 1 (516) to Yongxi 3 (534)",
+  "date_ce": [
+    516,
+    526
+  ],
+  "constraint_type": "floruit",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "probable",
+  "firmness_reason": "Temple construction/destruction are court-record dates; the sighting window is an inference from the gazetteer's description of the intact temple",
+  "notes": "The hardest single terminus in the Bodhidharma dossier: falsifies the 527 Liang-arrival tradition, which postdates this entire window.",
+  "references": [
+    "Yang Xuanzhi, Luoyang Qielan Ji",
+    "Broughton, The Bodhidharma Anthology (1999)"
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "aliases": [
+      "Harsha",
+      "Harsavardhana"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "harsa-embassy-tang-641",
+    "indian_entity": "Harsavardhana (embassy to Tang)",
+    "entity_type": "person",
+    "chinese_source": "Jiu Tang shu / Xin Tang shu, Tianzhu accounts",
+    "source_type": "annals",
+    "event": "Harsha ('king of Magadha') sends an embassy to Taizong; the Tang reply mission under Li Yibiao with Wang Xuance is in India 643-645; Xuanzang received at Harsha's court, Kannauj assembly 643",
+    "date_raw": "Zhenguan 15 (641); reply mission Zhenguan 17-19",
+    "date_ce": [
+      641,
+      645
+    ],
+    "constraint_type": "synchronism",
+    "firmness": "firm",
+    "firmness_reason": "Court annal record of received embassies, reign-era dated at every step",
+    "notes": "Cf. spine C19/C21.",
+    "references": [
+      "Jiu Tang shu / Xin Tang shu, Tianzhu zhuan",
+      "Campaign CORRECTIONS.md case 8"
+    ]
+  },
+  {
+    "aliases": [
+      "Harsha's death"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "harsa-death-wang-xuance-647",
+    "indian_entity": "Harsavardhana (death)",
+    "entity_type": "person",
+    "chinese_source": "Tang annals and the excerpted remains of Wang Xuance's account",
+    "source_type": "annals",
+    "event": "Wang Xuance's second mission (dispatched 647) finds Harsha dead and a usurper (Arunasva) enthroned; Wang defeats and captures the usurper in 648 with Tibetan and Nepalese troops",
+    "date_raw": "Zhenguan 21-22 (647-648)",
+    "date_ce": [
+      647,
+      648
+    ],
+    "constraint_type": "TAQ",
+    "firmness": "firm",
+    "firmness_reason": "Annalistic sequence; only the usurper's name/identity is Probable. No Indian source dates Harsha's death at all",
+    "notes": "Campaign case 8 (calibration) verdict CORRECTED: death 647; with the Indian accession (606) gives the two-sided reign bracket [606, 647]. Cf. spine C22.",
+    "references": [
+      "Tang annals, Tianzhu zhuan",
+      "Levi, Les missions de Wang Hiuan-ts'e",
+      "Campaign CORRECTIONS.md case 8"
+    ]
+  }
+]

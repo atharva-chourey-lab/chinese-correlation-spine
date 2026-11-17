@@ -1,0 +1,29 @@
+{
+ "id": "bower-manuscript-navanitaka-450-550",
+ "indian_entity": "Early Ayurvedic formulary tradition (Navanitaka; Caraka/Susruta/Bhela-line material)",
+ "aliases": [
+  "Bower Manuscript",
+  "Navanitakam"
+ ],
+ "entity_type": "text",
+ "chinese_source": "EXTERNAL physical anchor (non-Chinese record): birch-bark manuscript in Gupta script, excavated from a stupa near Kucha (Xinjiang), now Bodleian MS Sansk. c.17",
+ "source_type": "inscription",
+ "event": "Three of the Bower Manuscript's seven treatises are medical; the Navanitaka formulary opens with a recipe that also stands in the Caraka Samhita and excerpts Caraka-, Susruta- and Bhela-line material",
+ "date_raw": "Palaeographic dating (Gupta script; letter ya forms); no radiocarbon published",
+ "date_ce": [
+  450,
+  550
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Palaeographic range (Sander 500-550; Callewaert c. 450; Hoernle's final view 4th-5th c.); a published radiocarbon date would make it firm",
+ "notes": "A TAQ for the formulary SYSTEM behind the samhitas, not for any one samhita's final form: by c. 500 the eight-branch corpus was mature and excerptable on the Silk Road.",
+ "references": [
+  "Hoernle (ed.), The Bower Manuscript (1893-1912)",
+  "Lore Sander (1986), palaeographic analysis",
+  "Wujastyk, The Roots of Ayurveda (2003)"
+ ]
+}

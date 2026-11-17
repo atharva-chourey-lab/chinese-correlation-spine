@@ -1,0 +1,29 @@
+{
+  "id": "bodhidharma-floruit-luoyang-516-526",
+  "indian_entity": "Bodhidharma",
+  "aliases": [
+    "Bodhidharma",
+    "Damo"
+  ],
+  "entity_type": "person",
+  "chinese_source": "Luoyang Qielan Ji notice (547); Xu Gaoseng Zhuan biography (645-667)",
+  "source_type": "catalogue",
+  "event": "Bodhidharma's defensible floruit: present in Luoyang 516-526, dead before 534; arrival best supported under the Liu Song (by the 470s) per Daoxuan",
+  "date_raw": "Northern Wei, c. 516-534 (death before 534)",
+  "date_ce": [
+    516,
+    526
+  ],
+  "constraint_type": "floruit",
+  "lag": null,
+  "lag_basis": null,
+  "lag_solid": false,
+  "firmness": "probable",
+  "firmness_reason": "Two independent near-contemporary witnesses; the window rests on the Yongning Temple inference and Daoxuan's pre-534 death horizon",
+  "notes": "Refines and bounds the contested seed record bodhidharma-arrival-c520: the 520/527 arrival dates are later traditional assignments; 527 is falsified by this window.",
+  "references": [
+    "Yang Xuanzhi, Luoyang Qielan Ji",
+    "Daoxuan, Xu Gaoseng Zhuan, T.2060",
+    "Bodhidharma Case 16 build, BODHIDHARMA.md sections 1-2"
+  ]
+}

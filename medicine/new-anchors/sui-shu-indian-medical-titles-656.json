@@ -1,0 +1,29 @@
+{
+ "id": "sui-shu-indian-medical-titles-656",
+ "indian_entity": "Indian medical literature in Chinese translation (Brahmin pharmacopoeias, Nagarjuna pharmacopoeia, Jivaka formulas)",
+ "aliases": [
+  "Poluomen yaofang",
+  "Longshu pusa yaofang",
+  "Sui shu jingji zhi medicine"
+ ],
+ "entity_type": "text",
+ "chinese_source": "Sui shu, Jingji zhi (bibliographic treatise), medical section",
+ "source_type": "catalogue",
+ "event": "The Sui imperial bibliography lists eleven Indian medical titles in Chinese dress, incl. Pharmacopeia of the Brahmin Rsis (20 juan), Brahmin Pharmacopeia (5 juan), Pharmacopeia of Nagarjuna Bodhisattva (4 juan), Essential Formulas of Famous Physicians of the Western Regions (4 juan), Jivaka's Formulas (2 juan) — most inherited from the Liang imperial catalogue",
+ "date_raw": "Sui shu treatises compiled 641-656 (presented 656)",
+ "date_ce": [
+  641,
+  656
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "A dated imperial catalogue entry is the spine's standard firm existence proof; the titles themselves are lost, so it dates a transmission, not contents",
+ "notes": "What it does NOT list matters equally: no Caraka and no Susruta translation is recorded here or in any Chinese bibliography — the great samhitas never entered China as books. The Nagarjuna of the pharmacopoeia is the medical/alchemical namesake, not evidence about the Madhyamika.",
+ "references": [
+  "Sui shu, juan 34 (Jingji zhi 3)",
+  "Deshpande, 'Glimpses of Ayurveda in Medieval Chinese Medicine', Indian J. Hist. Sci. 43.2 (2008)"
+ ]
+}

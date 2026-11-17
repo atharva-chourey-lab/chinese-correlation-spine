@@ -1,0 +1,29 @@
+{
+ "id": "fihrist-indian-medical-books-987",
+ "indian_entity": "Indian medical books in Arabic (Sharaka, Susrud, Ashtankar)",
+ "aliases": [
+  "Fihrist Indian medicine list",
+  "Kitab Sharaka",
+  "Ashtankar"
+ ],
+ "entity_type": "text",
+ "chinese_source": "EXTERNAL Arabic anchor: Ibn al-Nadim, Kitab al-Fihrist, compiled 987-988, discourse on the ancient sciences",
+ "source_type": "catalogue",
+ "event": "The Fihrist catalogues the Indian medical books available in Arabic — Sharaka (Caraka), Susrud (Susruta, tr. Mankha), the Nidana, a book on poisons by Shanaq, and the Ashtankar — most plausibly Vagbhata's Astanga work in Arabic dress",
+ "date_raw": "Baghdad, 987-988",
+ "date_ce": [
+  987,
+  988
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "firm",
+ "firmness_reason": "A dated catalogue of books its compiler handled; the Ashtankar identification is the one debated element and is corroborative only, the Firdaws (850) attestation of the Hrdaya being earlier and firmer",
+ "notes": "The bibliographic terminus of the Barmakid translation movement: by 987 the Ayurvedic canon was a catalogued section of Arabic medicine.",
+ "references": [
+  "Ibn al-Nadim, Fihrist, tr. Dodge (1970)",
+  "Ullmann, Islamic Medicine (1978)"
+ ]
+}

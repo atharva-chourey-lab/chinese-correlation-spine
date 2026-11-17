@@ -1,0 +1,88 @@
+[
+  {
+    "aliases": [
+      "Life of Vasubandhu",
+      "Posoupandou fashi zhuan",
+      "T.2049"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "vasubandhu-life-paramartha-563",
+    "indian_entity": "Vasubandhu (Paramartha's Life)",
+    "entity_type": "author",
+    "chinese_source": "Paramartha, Life of Vasubandhu (T.2049), composed c. 563-569, preserved only in Chinese",
+    "source_type": "catalogue",
+    "event": "Paramartha composes/transmits the Life of Vasubandhu: Purusapura origin, brother Asanga, death at Ayodhya aged 80; its internal nirvana-interval figures are tradition arithmetic, not record",
+    "date_raw": "Chen dynasty, c. 563-569",
+    "date_ce": [
+      563,
+      569
+    ],
+    "constraint_type": "floruit",
+    "firmness": "probable",
+    "firmness_reason": "Author's own dates are Chinese-recorded and the text survives only in Chinese; its factual content is one inferential step from record and its interval numbers are demonstrably unreliable",
+    "notes": "Campaign case 5: primary biographical source for the pair; use its facts, refuse its numbers.",
+    "references": [
+      "Paramartha, T.2049",
+      "Takakusu, JRAS 1905",
+      "Campaign CORRECTIONS.md case 5"
+    ]
+  },
+  {
+    "aliases": [
+      "Dasabhumikasutra-sastra",
+      "T.1522"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "vasubandhu-dasabhumika-bodhiruci-510",
+    "indian_entity": "Vasubandhu, Dasabhumika commentary",
+    "entity_type": "text",
+    "chinese_source": "Bodhiruci translation record, Luoyang (T.1522)",
+    "source_type": "colophon",
+    "event": "Bodhiruci translates Vasubandhu's Dasabhumika commentary, c. 508-512 CE",
+    "date_raw": "Northern Wei, c. 508-512",
+    "date_ce": [
+      508,
+      512
+    ],
+    "constraint_type": "TAQ",
+    "firmness": "probable",
+    "firmness_reason": "Standard catalogue dating for Bodhiruci's Luoyang activity",
+    "notes": "Earliest firm TAQ in the Vasubandhu stack; pushes his floruit no later than the later 5th century on any plausible lag. Cf. spine C18.",
+    "references": [
+      "Catalogue records for T.1522",
+      "Campaign CORRECTIONS.md case 5"
+    ]
+  },
+  {
+    "aliases": [
+      "Abhidharmakosa",
+      "T.1559"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "vasubandhu-kosha-paramartha-563-567",
+    "indian_entity": "Vasubandhu, Abhidharmakosa-bhasya",
+    "entity_type": "text",
+    "chinese_source": "Paramartha translation record (T.1559)",
+    "source_type": "colophon",
+    "event": "Paramartha translates the Abhidharmakosa-bhasya, 563-567 CE",
+    "date_raw": "Chen dynasty, 563-567",
+    "date_ce": [
+      563,
+      567
+    ],
+    "constraint_type": "TAQ",
+    "firmness": "firm",
+    "firmness_reason": "Translator's activity is independently dated (Paramartha 499-569, in China from 546)",
+    "notes": "Cf. spine C16. Xuanzang's retranslation 651-654 (T.1558) is a catalogue cross-check, not a tighter bound.",
+    "references": [
+      "Catalogue records for T.1559",
+      "Campaign CORRECTIONS.md case 5"
+    ]
+  }
+]

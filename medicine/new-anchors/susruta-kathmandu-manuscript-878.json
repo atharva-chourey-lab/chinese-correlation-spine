@@ -1,0 +1,28 @@
+{
+ "id": "susruta-kathmandu-manuscript-878",
+ "indian_entity": "Susruta Samhita, complete six-book text (oldest dated manuscript)",
+ "aliases": [
+  "KL 699",
+  "Kathmandu Susruta manuscript"
+ ],
+ "entity_type": "text",
+ "chinese_source": "EXTERNAL physical anchor (non-Chinese record): palm-leaf manuscript, Kaiser Library, Kathmandu, MS KL 699",
+ "source_type": "inscription",
+ "event": "The oldest surviving manuscript of the Susruta Samhita, dated by its colophon era to 878 CE, already contains the complete text including the Uttaratantra",
+ "date_raw": "Manuscript colophon date, = 878 CE",
+ "date_ce": [
+  878,
+  878
+ ],
+ "constraint_type": "TAQ",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "The 878 date rests on the reading of the manuscript's colophon era; the manuscript's completeness is directly inspectable",
+ "notes": "A physical TAQ for the FINISHED Susruta: whatever the layers' dates, the six-book whole existed in this form by 878 — comfortably after the internal c. 500 closure and before Dalhana's commentary (c. 1200).",
+ "references": [
+  "Wujastyk, The Roots of Ayurveda (2003)",
+  "Meulenbeld, HIML IA (1999), on the Susruta manuscript tradition"
+ ]
+}

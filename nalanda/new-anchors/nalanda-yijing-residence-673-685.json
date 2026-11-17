@@ -1,0 +1,28 @@
+{
+ "id": "nalanda-yijing-residence-673-685",
+ "indian_entity": "Nalanda mahavihara (Yijing's residence)",
+ "aliases": [
+  "Yijing at Nalanda",
+  "I-tsing Nalanda 3000 monks"
+ ],
+ "entity_type": "event",
+ "chinese_source": "Yijing, Nanhai Jigui Neifa Zhuan (Record of Buddhist Practices, sent home 691) and his Memoir of eminent monks",
+ "source_type": "pilgrim",
+ "event": "Yijing resides ten years at Nalanda and reports, as an administrator of monastic routine: more than 3,000 resident monks (Memoir: 3,500), eight halls, more than 300 apartments, and landed endowment of more than 200 villages accumulated from successive kings",
+ "date_raw": "Tang, Xianheng to Chuigong eras; residence 673-685, Record sent home Tianshou 2 (691)",
+ "date_ce": [
+  673,
+  685
+ ],
+ "constraint_type": "floruit",
+ "lag": null,
+ "lag_basis": null,
+ "lag_solid": false,
+ "firmness": "probable",
+ "firmness_reason": "Eyewitness with an administrative (not panegyric) register; his 300 apartments match the excavated ground-floor cell estimate (~250-320) and his 15 monks-per-village ratio is internally consistent with the Devapala plate's endowment rate — the dataset's anchor population witness",
+ "notes": "Some manuscripts of the Record read 5,000 for the resident count; Takakusu judged 3,000 the correct reading. Even 3,000 exceeds the excavated core's design capacity (~450-650 cells), so his figure implies the unexcavated remainder of the walled complex and/or shared occupancy — see the capacity test.",
+ "references": [
+  "Takakusu, A Record of the Buddhist Religion as Practised in India and the Malay Archipelago (1896)",
+  "Yijing, Nanhai Jigui Neifa Zhuan, T.2125"
+ ]
+}

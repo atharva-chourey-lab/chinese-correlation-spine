@@ -1,0 +1,62 @@
+[
+  {
+    "aliases": [
+      "Ashvaghosha",
+      "Maming"
+    ],
+    "lag": null,
+    "lag_basis": null,
+    "lag_solid": false,
+    "id": "asvaghosa-biography-translation-405",
+    "indian_entity": "Asvaghosa (biographical tradition)",
+    "entity_type": "author",
+    "chinese_source": "Kumarajiva bureau translation records (Biography of Asvaghosa, T.2046)",
+    "source_type": "colophon",
+    "event": "Kumarajiva's Chang'an bureau translates the Biography of Asvaghosa, c. 405 CE - by then he is a legendary, biographised figure",
+    "date_raw": "Hongshi era (Later Qin), c. 405",
+    "date_ce": [
+      405,
+      405
+    ],
+    "constraint_type": "TAQ",
+    "firmness": "probable",
+    "firmness_reason": "Bureau attribution and period are standard; the biography's legendary maturity is an inference about floruit, not a date",
+    "notes": "Campaign case 3: supports a floruit well before 400; working floruit c. 100-200 with the Kaniska relation (era-dependent).",
+    "references": [
+      "Chu Sanzang Ji Ji / Kaiyuan Shijiao Lu records for T.2046",
+      "Campaign CORRECTIONS.md case 3"
+    ]
+  },
+  {
+    "aliases": [
+      "Buddhacarita",
+      "Fo suoxing zan",
+      "T.192"
+    ],
+    "lag": [
+      212,
+      321
+    ],
+    "lag_basis": "Composition c. 100-200 CE on the Kanishka-relation placement; the window is era-dependent, not independent of the synchronism tradition",
+    "lag_solid": false,
+    "id": "buddhacarita-translation-dharmaksema-421",
+    "indian_entity": "Buddhacarita (Asvaghosa)",
+    "entity_type": "text",
+    "chinese_source": "Dharmaksema translation record (Fo suoxing zan, T.192)",
+    "source_type": "colophon",
+    "event": "Dharmaksema translates the Buddhacarita into Chinese, c. 412-421 CE (Northern Liang)",
+    "date_raw": "Northern Liang, c. 412-421",
+    "date_ce": [
+      412,
+      421
+    ],
+    "constraint_type": "TAQ",
+    "firmness": "probable",
+    "firmness_reason": "Translation window is the standard catalogue dating for Dharmaksema's Northern Liang activity",
+    "notes": "Hard late bound for Asvaghosa; cf. spine C10.",
+    "references": [
+      "Catalogue records for T.192",
+      "Campaign CORRECTIONS.md case 3"
+    ]
+  }
+]
